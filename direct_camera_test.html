@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Direct Camera Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .camera-test {
+            margin: 20px 0;
+            padding: 20px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            background: #f9f9f9;
+        }
+        .video-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        #cameraVideo {
+            width: 640px;
+            height: 480px;
+            border: 3px solid #333;
+            border-radius: 8px;
+            background: #000;
+        }
+        .button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px;
+        }
+        .button:hover {
+            background: #0056b3;
+        }
+        .button:disabled {
+            background: #6c757d;
+            cursor: not-allowed;
+        }
+        .status {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+        .console-output {
+            background: #1e1e1e;
+            color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: monospace;
+            font-size: 12px;
+            max-height: 200px;
+            overflow-y: auto;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📷 Direct Camera Test</h1>
+        <p>This test bypasses React to check if camera works directly in browser.</p>
+        
+        <div class="camera-test">
+            <h3>Camera Test</h3>
+            <button id="startBtn" class="button">Start Camera</button>
+            <button id="stopBtn" class="button" disabled>Stop Camera</button>
+            <button id="testBtn" class="button">Test Again</button>
+            
+            <div id="status" class="status info">Click "Start Camera" to begin test</div>
+            
+            <div class="video-container">
+                <video id="cameraVideo" autoplay muted playsinline></video>
+            </div>
+        </div>
+        
+        <div class="camera-test">
+            <h3>Console Output</h3>
+            <div id="console" class="console-output">
+                Console messages will appear here...
+            </div>
+        </div>
+        
+        <div class="camera-test">
+            <h3>Browser Information</h3>
+            <div id="browserInfo" class="status info">
+                Detecting browser capabilities...
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let stream = null;
+        const startBtn = document.getElementById('startBtn');
+        const stopBtn = document.getElementById('stopBtn');
+        const testBtn = document.getElementById('testBtn');
+        const video = document.getElementById('cameraVideo');
+        const status = document.getElementById('status');
+        const consoleDiv = document.getElementById('console');
+        const browserInfo = document.getElementById('browserInfo');
+        
+        // Logging function
+        function log(message, type = 'info') {
+            const timestamp = new Date().toLocaleTimeString();
+            const logEntry = `[${timestamp}] ${message}`;
+            consoleDiv.innerHTML += logEntry + '<br>';
+            consoleDiv.scrollTop = consoleDiv.scrollHeight;
+            console.log(message);
+        }
+        
+        // Update status
+        function updateStatus(message, type = 'info') {
+            status.textContent = message;
+            status.className = `status ${type}`;
+        }
+        
+        // Check browser capabilities
+        function checkBrowser() {
+            const info = [];
+            
+            if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+                info.push('✅ getUserMedia supported');
+            } else {
+                info.push('❌ getUserMedia NOT supported');
+            }
+            
+            if (navigator.mediaDevices && navigator.mediaDevices.enumerateDevices) {
+                info.push('✅ enumerateDevices supported');
+            } else {
+                info.push('❌ enumerateDevices NOT supported');
+            }
+            
+            const isSecure = location.protocol === 'https:' || location.hostname === 'localhost';
+            info.push(isSecure ? '✅ Secure context (HTTPS/localhost)' : '⚠️ Insecure context (HTTP)');
+            
+            browserInfo.innerHTML = info.join('<br>');
+        }
+        
+        // Start camera
+        async function startCamera() {
+            try {
+                log('🎬 Starting camera...');
+                updateStatus('Requesting camera access...', 'info');
+                
+                // Check devices first
+                const devices = await navigator.mediaDevices.enumerateDevices();
+                const videoDevices = devices.filter(device => device.kind === 'videoinput');
+                log(`📹 Found ${videoDevices.length} video devices: ${JSON.stringify(videoDevices.map(d => d.label))}`);
+                
+                if (videoDevices.length === 0) {
+                    throw new Error('No camera devices found');
+                }
+                
+                // Get stream
+                stream = await navigator.mediaDevices.getUserMedia({ 
+                    video: true, 
+                    audio: false 
+                });
+                
+                log('✅ Camera stream obtained successfully');
+                updateStatus('Camera stream obtained - setting up video...', 'success');
+                
+                // Set video source
+                video.srcObject = stream;
+                
+                video.onloadedmetadata = () => {
+                    log(`🎥 Video metadata loaded - ${video.videoWidth}x${video.videoHeight}`);
+                    updateStatus('Camera working - video should be visible', 'success');
+                };
+                
+                video.onplay = () => {
+                    log('▶️ Video started playing');
+                };
+                
+                video.onerror = (e) => {
+                    log(`❌ Video error: ${e}`, 'error');
+                    updateStatus('Video error - check console', 'error');
+                };
+                
+                startBtn.disabled = true;
+                stopBtn.disabled = false;
+                
+            } catch (error) {
+                log(`❌ Camera error: ${error.message}`, 'error');
+                updateStatus(`Camera failed: ${error.message}`, 'error');
+                
+                if (error.name === 'NotAllowedError') {
+                    log('🔒 Permission denied - please allow camera access');
+                } else if (error.name === 'NotFoundError') {
+                    log('📷 No camera device found');
+                } else if (error.name === 'NotReadableError') {
+                    log('📷 Camera already in use');
+                }
+            }
+        }
+        
+        // Stop camera
+        function stopCamera() {
+            if (stream) {
+                stream.getTracks().forEach(track => track.stop());
+                video.srcObject = null;
+                stream = null;
+                log('⏹️ Camera stopped');
+                updateStatus('Camera stopped', 'info');
+            }
+            
+            startBtn.disabled = false;
+            stopBtn.disabled = true;
+        }
+        
+        // Test again
+        function testAgain() {
+            stopCamera();
+            setTimeout(startCamera, 1000);
+        }
+        
+        // Event listeners
+        startBtn.addEventListener('click', startCamera);
+        stopBtn.addEventListener('click', stopCamera);
+        testBtn.addEventListener('click', testAgain);
+        
+        // Initialize
+        checkBrowser();
+        log('🌐 Direct camera test loaded');
+        log('📝 This bypasses React to test camera directly');
+        log('🔍 Click "Start Camera" to begin test');
+    </script>
+</body>
+</html>

@@ -1,0 +1,605 @@
+{
+    "role": "Big Data Developer",
+    "questions": [
+        {
+            "question": "What are the 3 Vs of Big Data?",
+            "options": [
+                "Volume, Velocity, Variety",
+                "Value, Vision, Victory",
+                "Volume, Video, Voice",
+                "Virtual, Visual, Varying"
+            ],
+            "correctAnswer": "Volume, Velocity, Variety",
+            "difficulty": "easy",
+            "topic": "Fundamentals"
+        },
+        {
+            "question": "What is Hadoop?",
+            "options": [
+                "An open-source framework for distributed storage and processing of big data",
+                "A database",
+                "A programming language",
+                "A visualization tool"
+            ],
+            "correctAnswer": "An open-source framework for distributed storage and processing of big data",
+            "difficulty": "easy",
+            "topic": "Hadoop"
+        },
+        {
+            "question": "What does HDFS stand for?",
+            "options": [
+                "Hadoop Distributed File System",
+                "High Data File System",
+                "Hyper Data File Storage",
+                "Hard Drive File System"
+            ],
+            "correctAnswer": "Hadoop Distributed File System",
+            "difficulty": "easy",
+            "topic": "Hadoop"
+        },
+        {
+            "question": "What is 'MapReduce'?",
+            "options": [
+                "A programming model for processing large data sets with a parallel, distributed algorithm",
+                "A map app",
+                "Reducing file size",
+                "Zooming out"
+            ],
+            "correctAnswer": "A programming model for processing large data sets with a parallel, distributed algorithm",
+            "difficulty": "easy",
+            "topic": "Hadoop"
+        },
+        {
+            "question": "What is Apache Spark?",
+            "options": [
+                "A unified analytics engine for large-scale data processing",
+                "A lighter",
+                "A database",
+                "A web server"
+            ],
+            "correctAnswer": "A unified analytics engine for large-scale data processing",
+            "difficulty": "easy",
+            "topic": "Spark"
+        },
+        {
+            "question": "What is a 'Data Lake'?",
+            "options": [
+                "A centralized repository that allows you to store all your structured and unstructured data at any scale",
+                "A pool of water",
+                "A database table",
+                "A spreadsheet"
+            ],
+            "correctAnswer": "A centralized repository that allows you to store all your structured and unstructured data at any scale",
+            "difficulty": "easy",
+            "topic": "Architecture"
+        },
+        {
+            "question": "What is 'ETL'?",
+            "options": [
+                "Extract, Transform, Load",
+                "Edit, Type, Load",
+                "Enter, Test, Log",
+                "Escape, Try, Leave"
+            ],
+            "correctAnswer": "Extract, Transform, Load",
+            "difficulty": "easy",
+            "topic": "Data Processing"
+        },
+        {
+            "question": "What is 'NoSQL'?",
+            "options": [
+                "Not Only SQL (non-relational databases)",
+                "No SQL allowed",
+                "New SQL",
+                "Null SQL"
+            ],
+            "correctAnswer": "Not Only SQL (non-relational databases)",
+            "difficulty": "easy",
+            "topic": "Databases"
+        },
+        {
+            "question": "Which of these is a streaming platform?",
+            "options": [
+                "Apache Kafka",
+                "MySQL",
+                "Excel",
+                "Notepad"
+            ],
+            "correctAnswer": "Apache Kafka",
+            "difficulty": "easy",
+            "topic": "Streaming"
+        },
+        {
+            "question": "What is 'Hive'?",
+            "options": [
+                "A data warehouse software project built on top of Hadoop",
+                "A bee house",
+                "A game",
+                "A social network"
+            ],
+            "correctAnswer": "A data warehouse software project built on top of Hadoop",
+            "difficulty": "easy",
+            "topic": "Hadoop Ecosystem"
+        },
+        {
+            "question": "What is functionality of 'Spark RDD'?",
+            "options": [
+                "Resilient Distributed Datasets - fundamental data structure of Spark",
+                "Rapid Data Distribution",
+                "Real Data Drive",
+                "Relational Data Definition"
+            ],
+            "correctAnswer": "Resilient Distributed Datasets - fundamental data structure of Spark",
+            "difficulty": "medium",
+            "topic": "Spark"
+        },
+        {
+            "question": "What is the difference between Batch and Stream processing?",
+            "options": [
+                "Batch processes stored data in chunks, Stream processes data in real-time as it arrives",
+                "Batch is faster",
+                "Stream is for videos",
+                "They are same"
+            ],
+            "correctAnswer": "Batch processes stored data in chunks, Stream processes data in real-time as it arrives",
+            "difficulty": "medium",
+            "topic": "Processing Types"
+        },
+        {
+            "question": "What is 'YARN'?",
+            "options": [
+                "Yet Another Resource Negotiator (Cluster resource management)",
+                "A thread",
+                "A fabric",
+                "A story"
+            ],
+            "correctAnswer": "Yet Another Resource Negotiator (Cluster resource management)",
+            "difficulty": "medium",
+            "topic": "Hadoop"
+        },
+        {
+            "question": "What is 'Cassandra' known for?",
+            "options": [
+                "Wide-column store, high availability, and scalability",
+                "Being slow",
+                "Relational queries",
+                "Desktop app"
+            ],
+            "correctAnswer": "Wide-column store, high availability, and scalability",
+            "difficulty": "medium",
+            "topic": "NoSQL"
+        },
+        {
+            "question": "What is 'Zookeeper' used for?",
+            "options": [
+                "Centralized service for maintaining configuration information, naming, providing distributed synchronization",
+                "Managing zoo",
+                "Keeping pets",
+                "Watching movies"
+            ],
+            "correctAnswer": "Centralized service for maintaining configuration information, naming, providing distributed synchronization",
+            "difficulty": "medium",
+            "topic": "Coordination"
+        },
+        {
+            "question": "What is 'Data Warehousing'?",
+            "options": [
+                "Process of collecting and managing data from varied sources to provide meaningful business insights",
+                "Storing boxes",
+                "Hardware storage",
+                "Cloud hosting"
+            ],
+            "correctAnswer": "Process of collecting and managing data from varied sources to provide meaningful business insights",
+            "difficulty": "medium",
+            "topic": "Architecture"
+        },
+        {
+            "question": "What is a 'NameNode' in HDFS?",
+            "options": [
+                "Master node that manages the file system namespace and metadata",
+                "Data storage node",
+                "Worker node",
+                "Client node"
+            ],
+            "correctAnswer": "Master node that manages the file system namespace and metadata",
+            "difficulty": "medium",
+            "topic": "Hadoop"
+        },
+        {
+            "question": "What is 'Spark Dataframe'?",
+            "options": [
+                "Distributed collection of data organized into named columns",
+                "A picture frame",
+                "A database",
+                "A list"
+            ],
+            "correctAnswer": "Distributed collection of data organized into named columns",
+            "difficulty": "medium",
+            "topic": "Spark"
+        },
+        {
+            "question": "What is 'Lazy Evaluation' in Spark?",
+            "options": [
+                "Transformations are not computed immediately, but when an action is triggered",
+                "Spark is slow",
+                "Delayed startup",
+                "Lazy coding"
+            ],
+            "correctAnswer": "Transformations are not computed immediately, but when an action is triggered",
+            "difficulty": "medium",
+            "topic": "Spark"
+        },
+        {
+            "question": "What is 'Sharding'?",
+            "options": [
+                "Distributing data across multiple machines",
+                "Breaking glass",
+                "Sharing data",
+                "Compressing"
+            ],
+            "correctAnswer": "Distributing data across multiple machines",
+            "difficulty": "medium",
+            "topic": "Database Scaling"
+        },
+        {
+            "question": "What is 'HBase'?",
+            "options": [
+                "A scalable, distributed database that supports structured data storage for large tables (built on HDFS)",
+                "A base for homes",
+                "A SQL database",
+                "A web server"
+            ],
+            "correctAnswer": "A scalable, distributed database that supports structured data storage for large tables (built on HDFS)",
+            "difficulty": "medium",
+            "topic": "NoSQL"
+        },
+        {
+            "question": "What is 'Pig' (Apache Pig)?",
+            "options": [
+                "A high-level platform for creating MapReduce programs used with Hadoop",
+                "An animal",
+                "A game",
+                "A cleaning tool"
+            ],
+            "correctAnswer": "A high-level platform for creating MapReduce programs used with Hadoop",
+            "difficulty": "medium",
+            "topic": "Hadoop Ecosystem"
+        },
+        {
+            "question": "What is 'Sqoop'?",
+            "options": [
+                "A tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores",
+                "A scoop of ice cream",
+                "A searching tool",
+                "A messaging app"
+            ],
+            "correctAnswer": "A tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores",
+            "difficulty": "medium",
+            "topic": "ETL"
+        },
+        {
+            "question": "What is 'Oozie'?",
+            "options": [
+                "A workflow scheduler system to manage Hadoop jobs",
+                "A weapon",
+                "A chat app",
+                "A database"
+            ],
+            "correctAnswer": "A workflow scheduler system to manage Hadoop jobs",
+            "difficulty": "medium",
+            "topic": "Scheduling"
+        },
+        {
+            "question": "What is 'Flume'?",
+            "options": [
+                "A distributed service for collecting, aggregating, and moving large amounts of log data",
+                "A water slide",
+                "A musical instrument",
+                "A flame"
+            ],
+            "correctAnswer": "A distributed service for collecting, aggregating, and moving large amounts of log data",
+            "difficulty": "medium",
+            "topic": "Data Ingestion"
+        },
+        {
+            "question": "What is the CAP Theorem?",
+            "options": [
+                "Consistency, Availability, Partition Tolerance - pick two",
+                "Captain America",
+                "Computer And Processor",
+                "None"
+            ],
+            "correctAnswer": "Consistency, Availability, Partition Tolerance - pick two",
+            "difficulty": "hard",
+            "topic": "Theory"
+        },
+        {
+            "question": "What is 'Broadcast Variable' in Spark?",
+            "options": [
+                "A read-only variable cached on each machine rather than shipping a copy with tasks",
+                "Global variable",
+                "Radio broadcast",
+                "TV signal"
+            ],
+            "correctAnswer": "A read-only variable cached on each machine rather than shipping a copy with tasks",
+            "difficulty": "hard",
+            "topic": "Spark"
+        },
+        {
+            "question": "What is 'Accumulator' in Spark?",
+            "options": [
+                "Variables that are only added to through an associative and commutative operation",
+                "Battery",
+                "Calculator",
+                "Storage"
+            ],
+            "correctAnswer": "Variables that are only added to through an associative and commutative operation",
+            "difficulty": "hard",
+            "topic": "Spark"
+        },
+        {
+            "question": "What is 'Replication Factor' in HDFS?",
+            "options": [
+                "The number of times a block is replicated (default 3)",
+                "Copy speed",
+                "Backup time",
+                "Factor of 2"
+            ],
+            "correctAnswer": "The number of times a block is replicated (default 3)",
+            "difficulty": "hard",
+            "topic": "Hadoop"
+        },
+        {
+            "question": "What is 'Lambda Architecture'?",
+            "options": [
+                "A data-processing architecture designed to handle massive quantities of data by taking advantage of both batch and stream-processing methods",
+                "Greek letter",
+                "AWS Lambda",
+                "Python Lambda"
+            ],
+            "correctAnswer": "A data-processing architecture designed to handle massive quantities of data by taking advantage of both batch and stream-processing methods",
+            "difficulty": "hard",
+            "topic": "Architecture"
+        },
+        {
+            "question": "What is 'Kappa Architecture'?",
+            "options": [
+                "An architecture that processes data in real-time, removing the batch layer",
+                "Clothing brand",
+                "Greek letter",
+                "Only batch processing"
+            ],
+            "correctAnswer": "An architecture that processes data in real-time, removing the batch layer",
+            "difficulty": "hard",
+            "topic": "Architecture"
+        },
+        {
+            "question": "What is 'Parquet'?",
+            "options": [
+                "A columnar storage file format",
+                "Flooring",
+                "A document",
+                "A compression tool"
+            ],
+            "correctAnswer": "A columnar storage file format",
+            "difficulty": "hard",
+            "topic": "File Formats"
+        },
+        {
+            "question": "What is 'Avro'?",
+            "options": [
+                "A row-oriented remote procedure call and data serialization framework",
+                "An airplane",
+                "A database",
+                "A graph"
+            ],
+            "correctAnswer": "A row-oriented remote procedure call and data serialization framework",
+            "difficulty": "hard",
+            "topic": "File Formats"
+        },
+        {
+            "question": "What is 'Dag' in Spark?",
+            "options": [
+                "Directed Acyclic Graph",
+                "Database Access Group",
+                "Digital Analog Generator",
+                "Day"
+            ],
+            "correctAnswer": "Directed Acyclic Graph",
+            "difficulty": "hard",
+            "topic": "Spark Theory"
+        },
+        {
+            "question": "What is 'Skewed Data'?",
+            "options": [
+                "Data that is not evenly distributed across partitions",
+                "Corrupt data",
+                "Wrong data",
+                "Encrypted data"
+            ],
+            "correctAnswer": "Data that is not evenly distributed across partitions",
+            "difficulty": "hard",
+            "topic": "Performance"
+        },
+        {
+            "question": "What is 'Shuffle' operation?",
+            "options": [
+                "Redistributing data across partitions (expensive)",
+                "Playing cards",
+                "Randomizing list",
+                "Music mode"
+            ],
+            "correctAnswer": "Redistributing data across partitions (expensive)",
+            "difficulty": "hard",
+            "topic": "Spark/MapReduce"
+        },
+        {
+            "question": "What is 'Bloom Filter'?",
+            "options": [
+                "A probabilistic data structure to test whether an element is a member of a set",
+                "Filtering flowers",
+                "Photo filter",
+                "Water filter"
+            ],
+            "correctAnswer": "A probabilistic data structure to test whether an element is a member of a set",
+            "difficulty": "hard",
+            "topic": "Algorithms"
+        },
+        {
+            "question": "What is 'Exactly-Once Semantics'?",
+            "options": [
+                "Guaranteeing that each message is processed exactly once",
+                "Processing once a day",
+                "Rare processing",
+                "No guarantee"
+            ],
+            "correctAnswer": "Guaranteeing that each message is processed exactly once",
+            "difficulty": "hard",
+            "topic": "Streaming"
+        },
+        {
+            "question": "What is 'Block Size' in HDFS?",
+            "options": [
+                "The size of data chunks stored (default 128MB)",
+                "Size of lego",
+                "Size of hard drive",
+                "Size of RAM"
+            ],
+            "correctAnswer": "The size of data chunks stored (default 128MB)",
+            "difficulty": "hard",
+            "topic": "Hadoop"
+        },
+        {
+            "question": "What is 'Catalyst Optimizer'?",
+            "options": [
+                "Spark SQL's query optimizer",
+                "Chemical reaction",
+                "Car part",
+                "Search engine"
+            ],
+            "correctAnswer": "Spark SQL's query optimizer",
+            "difficulty": "hard",
+            "topic": "Spark"
+        },
+        {
+            "question": "What is 'Tungsten' project?",
+            "options": [
+                "Spark initiative to improve memory and CPU efficiency",
+                "A metal",
+                "A lightbulb",
+                "A database"
+            ],
+            "correctAnswer": "Spark initiative to improve memory and CPU efficiency",
+            "difficulty": "hard",
+            "topic": "Spark"
+        },
+        {
+            "question": "What is 'Secondary NameNode'?",
+            "options": [
+                "It checkpoints the filesystem state (fsimage and edit logs) to prevent long startup times",
+                "Backup NameNode",
+                "Slave node",
+                "Worker node"
+            ],
+            "correctAnswer": "It checkpoints the filesystem state (fsimage and edit logs) to prevent long startup times",
+            "difficulty": "hard",
+            "topic": "Hadoop"
+        },
+        {
+            "question": "What is 'Speculative Execution'?",
+            "options": [
+                "Running a backup task on another node if one task is running slowly",
+                "Guessing result",
+                "Gambling",
+                "Planning"
+            ],
+            "correctAnswer": "Running a backup task on another node if one task is running slowly",
+            "difficulty": "hard",
+            "topic": "Optimization"
+        },
+        {
+            "question": "What is 'Kerberos'?",
+            "options": [
+                "A network authentication protocol",
+                "A 3-headed dog",
+                "A database",
+                "A firewall"
+            ],
+            "correctAnswer": "A network authentication protocol",
+            "difficulty": "hard",
+            "topic": "Security"
+        },
+        {
+            "question": "What is 'Ranger'?",
+            "options": [
+                "A framework for security/access control",
+                "Park ranger",
+                "Power Ranger",
+                "Search tool"
+            ],
+            "correctAnswer": "A framework for security/access control",
+            "difficulty": "hard",
+            "topic": "Security"
+        },
+        {
+            "question": "What is 'Atlas'?",
+            "options": [
+                "Data governance and metadata framework",
+                "World map",
+                "Cloud provider",
+                "Book"
+            ],
+            "correctAnswer": "Data governance and metadata framework",
+            "difficulty": "hard",
+            "topic": "Governance"
+        },
+        {
+            "question": "What is 'Impala'?",
+            "options": [
+                "Open source, native analytic database for Apache Hadoop",
+                "An animal",
+                "A car",
+                "A website"
+            ],
+            "correctAnswer": "Open source, native analytic database for Apache Hadoop",
+            "difficulty": "hard",
+            "topic": "SQL on Hadoop"
+        },
+        {
+            "question": "What is 'Phoenix'?",
+            "options": [
+                "SQL skin database engine for HBase",
+                "A bird",
+                "A city",
+                "A framework"
+            ],
+            "correctAnswer": "SQL skin database engine for HBase",
+            "difficulty": "hard",
+            "topic": "NoSQL"
+        },
+        {
+            "question": "What is 'Nifi'?",
+            "options": [
+                "An easy to use, powerful, and reliable system to process and distribute data",
+                "WiFi",
+                "A router",
+                "A switch"
+            ],
+            "correctAnswer": "An easy to use, powerful, and reliable system to process and distribute data",
+            "difficulty": "hard",
+            "topic": "Data Flow"
+        },
+        {
+            "question": "What is 'Zeppelin'?",
+            "options": [
+                "Web-based notebook that enables data-driven, interactive data analytics",
+                "Airship",
+                "Band",
+                "Code editor"
+            ],
+            "correctAnswer": "Web-based notebook that enables data-driven, interactive data analytics",
+            "difficulty": "hard",
+            "topic": "Visualization"
+        }
+    ]
+}

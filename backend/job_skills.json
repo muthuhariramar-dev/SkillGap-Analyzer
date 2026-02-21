@@ -1,0 +1,29 @@
+
+{
+    "Senior Business Intelligence Analyst": {
+        "role": "Senior Business Intelligence Analyst",
+        "skills": [
+            "SQL",
+            "Python",
+            "dbt"
+        ],
+        "certifications": [
+            "Epic Cogito",
+            "Caboodle",
+            "and Clarity",
+            "Clinical Data Model"
+        ],
+        "years_of_experience": "5+"
+    },
+    "Business Intelligence Analyst": {
+        "role": "Business Intelligence Analyst",
+        "skills": [
+            "data analysis",
+            "sql",
+            "data visualization"
+        ],
+        "certifications": [],
+        "years_of_experience": "0"
+    }
+}
+

@@ -1,0 +1,545 @@
+{
+    "role": "Full Stack Developer",
+    "questions": [
+        {
+            "question": "What is the primary difference between a 'relational' and 'non-relational' database?",
+            "options": [
+                "Relational databases use tables, non-relational use documents/key-pairs",
+                "Relational are faster",
+                "Non-relational are for small data",
+                "There is no difference"
+            ],
+            "correctAnswer": "Relational databases use tables, non-relational use documents/key-pairs",
+            "difficulty": "easy",
+            "topic": "Databases"
+        },
+        {
+            "question": "Which of these is a popular stack for Full Stack Development?",
+            "options": [
+                "LAMP",
+                "MERN",
+                "MEAN",
+                "All of the above"
+            ],
+            "correctAnswer": "All of the above",
+            "difficulty": "easy",
+            "topic": "Architecture"
+        },
+        {
+            "question": "What does CORS stand for?",
+            "options": [
+                "Cross-Origin Resource Sharing",
+                "Computer Oriented Resource System",
+                "Cross-Origin Request Security",
+                "Centralized Object Request Service"
+            ],
+            "correctAnswer": "Cross-Origin Resource Sharing",
+            "difficulty": "easy",
+            "topic": "Security"
+        },
+        {
+            "question": "In a MERN stack, what does 'E' stand for?",
+            "options": [
+                "Express",
+                "Ember",
+                "ElephantSQL",
+                "Elasticsearch"
+            ],
+            "correctAnswer": "Express",
+            "difficulty": "easy",
+            "topic": "Architecture"
+        },
+        {
+            "question": "Which HTTP method is typically used to create a new resource?",
+            "options": [
+                "GET",
+                "POST",
+                "PUT",
+                "DELETE"
+            ],
+            "correctAnswer": "POST",
+            "difficulty": "easy",
+            "topic": "APIs"
+        },
+        {
+            "question": "What is usage of 'npm'?",
+            "options": [
+                "Node Package Manager",
+                "New Project Maker",
+                "Network Protocol Manager",
+                "Node Process Manager"
+            ],
+            "correctAnswer": "Node Package Manager",
+            "difficulty": "easy",
+            "topic": "Tools"
+        },
+        {
+            "question": "Which of these is a frontend framework?",
+            "options": [
+                "Django",
+                "Flask",
+                "React",
+                "Spring Boot"
+            ],
+            "correctAnswer": "React",
+            "difficulty": "easy",
+            "topic": "Frontend"
+        },
+        {
+            "question": "What is the purpose of Git?",
+            "options": [
+                "Version Control",
+                "Database Management",
+                "Hosting",
+                "Testing"
+            ],
+            "correctAnswer": "Version Control",
+            "difficulty": "easy",
+            "topic": "Tools"
+        },
+        {
+            "question": "What is 'State' in React?",
+            "options": [
+                "An object that determines how that component renders & behaves",
+                "A database",
+                "A global variable",
+                "A style object"
+            ],
+            "correctAnswer": "An object that determines how that component renders & behaves",
+            "difficulty": "easy",
+            "topic": "Frontend"
+        },
+        {
+            "question": "What protects passwords in a database?",
+            "options": [
+                "Encryption/Hashing",
+                "Saving logically",
+                "Hiding columns",
+                "Compression"
+            ],
+            "correctAnswer": "Encryption/Hashing",
+            "difficulty": "easy",
+            "topic": "Security"
+        },
+        {
+            "question": "Where is the best place to store JWT tokens in the browser?",
+            "options": [
+                "LocalStorage",
+                "SessionStorage",
+                "HttpOnly Cookie",
+                "Global Variable"
+            ],
+            "correctAnswer": "HttpOnly Cookie",
+            "difficulty": "medium",
+            "topic": "Security"
+        },
+        {
+            "question": "What is 'Server-Side Rendering' (SSR)?",
+            "options": [
+                "Rendering HTML on the server and sending it to the client",
+                "Rendering only CSS",
+                "Rendering on the client browser",
+                "Rendering database queries"
+            ],
+            "correctAnswer": "Rendering HTML on the server and sending it to the client",
+            "difficulty": "medium",
+            "topic": "Architecture"
+        },
+        {
+            "question": "How do you prevent SQL Injection?",
+            "options": [
+                "Using Parameterized Queries / Prepared Statements",
+                "Sanitizing input manually",
+                "Using NoSQL",
+                "Restricting admin access"
+            ],
+            "correctAnswer": "Using Parameterized Queries / Prepared Statements",
+            "difficulty": "medium",
+            "topic": "Security"
+        },
+        {
+            "question": "What is a 'RESTful' API?",
+            "options": [
+                "An API that adheres to REST architectural constraints",
+                "A slow API",
+                "A database API",
+                "An internal API"
+            ],
+            "correctAnswer": "An API that adheres to REST architectural constraints",
+            "difficulty": "medium",
+            "topic": "APIs"
+        },
+        {
+            "question": "Explain 'Continuous Integration' (CI).",
+            "options": [
+                "Automating the integration of code changes from multiple contributors",
+                "Writing code continuously",
+                "Integrating database",
+                "Deploying manually"
+            ],
+            "correctAnswer": "Automating the integration of code changes from multiple contributors",
+            "difficulty": "medium",
+            "topic": "DevOps"
+        },
+        {
+            "question": "What is the difference between 'Authentication' and 'Authorization'?",
+            "options": [
+                "AuthN verifies identity, AuthZ verifies permissions",
+                "AuthN verifies permissions, AuthZ verifies identity",
+                "They are the same",
+                "AuthN is for users, AuthZ for servers"
+            ],
+            "correctAnswer": "AuthN verifies identity, AuthZ verifies permissions",
+            "difficulty": "medium",
+            "topic": "Security"
+        },
+        {
+            "question": "Which command initializes a new Node.js project?",
+            "options": [
+                "npm init",
+                "node start",
+                "npm install",
+                "git init"
+            ],
+            "correctAnswer": "npm init",
+            "difficulty": "medium",
+            "topic": "Tools"
+        },
+        {
+            "question": "In a 3-tier architecture, what are the tiers?",
+            "options": [
+                "Presentation, Logic, Data",
+                "Frontend, Backend, Admin",
+                "Client, Server, Internet",
+                "HTML, CSS, JS"
+            ],
+            "correctAnswer": "Presentation, Logic, Data",
+            "difficulty": "medium",
+            "topic": "Architecture"
+        },
+        {
+            "question": "What is Docker used for?",
+            "options": [
+                "Containerization",
+                "Virtualization",
+                "Orchestration",
+                "Monitoring"
+            ],
+            "correctAnswer": "Containerization",
+            "difficulty": "medium",
+            "topic": "DevOps"
+        },
+        {
+            "question": "What is the purpose of 'middleware'?",
+            "options": [
+                "To handle requests between client and server logic",
+                "To middle alignment",
+                "To store data",
+                "To manage files"
+            ],
+            "correctAnswer": "To handle requests between client and server logic",
+            "difficulty": "medium",
+            "topic": "Backend"
+        },
+        {
+            "question": "How does GraphQL differ from REST?",
+            "options": [
+                "GraphQL allows clients to request exactly the data they need",
+                "GraphQL uses multiple endpoints",
+                "REST uses a single endpoint",
+                "GraphQL is older"
+            ],
+            "correctAnswer": "GraphQL allows clients to request exactly the data they need",
+            "difficulty": "medium",
+            "topic": "APIs"
+        },
+        {
+            "question": "What is WebSockets used for?",
+            "options": [
+                "Real-time, two-way communication",
+                "Static file serving",
+                "Database querying",
+                "Email sending"
+            ],
+            "correctAnswer": "Real-time, two-way communication",
+            "difficulty": "medium",
+            "topic": "APIs"
+        },
+        {
+            "question": "What is 'Prop Drilling'?",
+            "options": [
+                "Passing props through multiple levels of components",
+                "Drilling holes in props",
+                "Validating props",
+                "Creating props"
+            ],
+            "correctAnswer": "Passing props through multiple levels of components",
+            "difficulty": "medium",
+            "topic": "Frontend"
+        },
+        {
+            "question": "Which hook manages state in functional components?",
+            "options": [
+                "useState",
+                "useEffect",
+                "useContext",
+                "useReducer"
+            ],
+            "correctAnswer": "useState",
+            "difficulty": "medium",
+            "topic": "Frontend"
+        },
+        {
+            "question": "What is 'Lazy Loading'?",
+            "options": [
+                "Loading resources only when they are needed",
+                "Loading everything at start",
+                "Lazy coding",
+                "Slow internet loading"
+            ],
+            "correctAnswer": "Loading resources only when they are needed",
+            "difficulty": "medium",
+            "topic": "Performance"
+        },
+        {
+            "question": "What is a 'Single Page Application' (SPA)?",
+            "options": [
+                "A web app that loads a single HTML page and dynamically updates",
+                "A one page website",
+                "A simple app",
+                "An app with one user"
+            ],
+            "correctAnswer": "A web app that loads a single HTML page and dynamically updates",
+            "difficulty": "medium",
+            "topic": "Architecture"
+        },
+        {
+            "question": "What is the use of 'async/await'?",
+            "options": [
+                "To handle asynchronous code in a clearer way",
+                "To make code synchronous",
+                "To wait for user input",
+                "To pause execution"
+            ],
+            "correctAnswer": "To handle asynchronous code in a clearer way",
+            "difficulty": "medium",
+            "topic": "JavaScript"
+        },
+        {
+            "question": "What is 'Responsive Design'?",
+            "options": [
+                "Design that adapts to different screen sizes",
+                "Design that responds to voice",
+                "Fast design",
+                "Interactive design"
+            ],
+            "correctAnswer": "Design that adapts to different screen sizes",
+            "difficulty": "medium",
+            "topic": "Frontend"
+        },
+        {
+            "question": "Which database is Key-Value store?",
+            "options": [
+                "Redis",
+                "PostgreSQL",
+                "MongoDB",
+                "MySQL"
+            ],
+            "correctAnswer": "Redis",
+            "difficulty": "medium",
+            "topic": "Databases"
+        },
+        {
+            "question": "What is 'Horizontal Scaling'?",
+            "options": [
+                "Adding more machines to the pool of resources",
+                "Adding more power to a single machine",
+                "Scaling the monitor",
+                "Scanning hard drives"
+            ],
+            "correctAnswer": "Adding more machines to the pool of resources",
+            "difficulty": "medium",
+            "topic": "DevOps"
+        },
+        {
+            "question": "What is the CAP Theorem?",
+            "options": [
+                "It is impossible for a distributed data store to simultaneously provide more than two out of Consistency, Availability, and Partition tolerance",
+                "Consistency, Accuracy, Performance",
+                "Computers Always Process",
+                "None of the above"
+            ],
+            "correctAnswer": "It is impossible for a distributed data store to simultaneously provide more than two out of Consistency, Availability, and Partition tolerance",
+            "difficulty": "hard",
+            "topic": "Architecture"
+        },
+        {
+            "question": "Explain 'Event Loop' in Node.js.",
+            "options": [
+                "Single-threaded loop that handles async callbacks",
+                "Multi-threaded processor",
+                "Event listener",
+                "A bug in loops"
+            ],
+            "correctAnswer": "Single-threaded loop that handles async callbacks",
+            "difficulty": "hard",
+            "topic": "Backend"
+        },
+        {
+            "question": "What is 'Optimistic UI'?",
+            "options": [
+                "Updating the UI immediately before the server responds",
+                "Happy design",
+                "Bright colors",
+                "Waiting for server to confirm"
+            ],
+            "correctAnswer": "Updating the UI immediately before the server responds",
+            "difficulty": "hard",
+            "topic": "Frontend"
+        },
+        {
+            "question": "What is 'Database Normalization'?",
+            "options": [
+                "Organizing data to reduce redundancy and improve integrity",
+                "Making data normal",
+                "Deleting data",
+                "Backing up data"
+            ],
+            "correctAnswer": "Organizing data to reduce redundancy and improve integrity",
+            "difficulty": "hard",
+            "topic": "Databases"
+        },
+        {
+            "question": "What is 'Microservices' vs 'Monolith'?",
+            "options": [
+                "Microservices split app into small services, Monolith is one codebase",
+                "Microservices are smaller code",
+                "Monolith is faster",
+                "Microservices used for frontend only"
+            ],
+            "correctAnswer": "Microservices split app into small services, Monolith is one codebase",
+            "difficulty": "hard",
+            "topic": "Architecture"
+        },
+        {
+            "question": "What is 'CSRF'?",
+            "options": [
+                "Cross-Site Request Forgery",
+                "Common Server Risk Factor",
+                "Cascading Style Risk File",
+                "Client Side Request Format"
+            ],
+            "correctAnswer": "Cross-Site Request Forgery",
+            "difficulty": "hard",
+            "topic": "Security"
+        },
+        {
+            "question": "What is 'XSS'?",
+            "options": [
+                "Cross-Site Scripting",
+                "XML Shell Script",
+                "Extra Secure Socket",
+                "X-ray Server Scan"
+            ],
+            "correctAnswer": "Cross-Site Scripting",
+            "difficulty": "hard",
+            "topic": "Security"
+        },
+        {
+            "question": "What is a 'Race Condition'?",
+            "options": [
+                "When system behavior depends on the sequence or timing of uncontrollable events",
+                "A fast algorithm",
+                "A competition code",
+                "Network speed test"
+            ],
+            "correctAnswer": "When system behavior depends on the sequence or timing of uncontrollable events",
+            "difficulty": "hard",
+            "topic": "Architecture"
+        },
+        {
+            "question": "What is 'BFF' pattern?",
+            "options": [
+                "Backend For Frontend",
+                "Best Possible Format",
+                "Binary File Format",
+                "Basic Frontend Framework"
+            ],
+            "correctAnswer": "Backend For Frontend",
+            "difficulty": "hard",
+            "topic": "Architecture"
+        },
+        {
+            "question": "How to handle 'Backpressure' in streams?",
+            "options": [
+                "Pause the producer or buffer data",
+                "Stop the server",
+                "Delete data",
+                "Ignore it"
+            ],
+            "correctAnswer": "Pause the producer or buffer data",
+            "difficulty": "hard",
+            "topic": "Backend"
+        },
+        {
+            "question": "What is 'Idempotency'?",
+            "options": [
+                "Operation applied multiple times has the same effect as once",
+                "Operation never fails",
+                "Operation is fast",
+                "Operation caches result"
+            ],
+            "correctAnswer": "Operation applied multiple times has the same effect as once",
+            "difficulty": "hard",
+            "topic": "APIs"
+        },
+        {
+            "question": "What is 'Tree Shaking'?",
+            "options": [
+                "Removing unused code during build",
+                "Shaking the monitor",
+                "Refreshing DOM",
+                "Randomizing trees"
+            ],
+            "correctAnswer": "Removing unused code during build",
+            "difficulty": "hard",
+            "topic": "Frontend"
+        },
+        {
+            "question": "What is 'Content Security Policy' (CSP)?",
+            "options": [
+                "Security layer to detect and mitigate attacks like XSS",
+                "Copyright policy",
+                "Content management",
+                "Styling policy"
+            ],
+            "correctAnswer": "Security layer to detect and mitigate attacks like XSS",
+            "difficulty": "hard",
+            "topic": "Security"
+        },
+        {
+            "question": "What is 'ACID' properties?",
+            "options": [
+                "Atomicity, Consistency, Isolation, Durability",
+                "Access, Code, ID, Data",
+                "Auth, Credential, Identity, Domain",
+                "None"
+            ],
+            "correctAnswer": "Atomicity, Consistency, Isolation, Durability",
+            "difficulty": "hard",
+            "topic": "Databases"
+        },
+        {
+            "question": "What is 'Blue-Green Deployment'?",
+            "options": [
+                "Running two identical production environments",
+                "Colorful deployment",
+                "Deploying to water and land",
+                "Testing on blue screens"
+            ],
+            "correctAnswer": "Running two identical production environments",
+            "difficulty": "hard",
+            "topic": "DevOps"
+        }
+    ]
+}

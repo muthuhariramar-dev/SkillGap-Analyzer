@@ -1,0 +1,485 @@
+{
+    "role": "UI/UX Designer",
+    "questions": [
+        {
+            "question": "What does UI stand for?",
+            "options": [
+                "User Interface",
+                "User Interaction",
+                "Unified Integration",
+                "Universal Information"
+            ],
+            "correctAnswer": "User Interface",
+            "difficulty": "easy",
+            "topic": "Fundamentals"
+        },
+        {
+            "question": "Which tool is primarily used for interface design and prototyping?",
+            "options": [
+                "Figma",
+                "Excel",
+                "Notepad",
+                "VS Code"
+            ],
+            "correctAnswer": "Figma",
+            "difficulty": "easy",
+            "topic": "Tools"
+        },
+        {
+            "question": "What is vital for good accessibility?",
+            "options": [
+                "High contrast",
+                "Small text",
+                "Hidden links",
+                "No alt text"
+            ],
+            "correctAnswer": "High contrast",
+            "difficulty": "easy",
+            "topic": "Accessibility"
+        },
+        {
+            "question": "What is a 'Wireframe'?",
+            "options": [
+                "A low-fidelity visual guide that represents the skeletal framework",
+                "A finished design",
+                "A code snippet",
+                "A database model"
+            ],
+            "correctAnswer": "A low-fidelity visual guide that represents the skeletal framework",
+            "difficulty": "easy",
+            "topic": "Process"
+        },
+        {
+            "question": "What is the 'Golden Ratio' used for?",
+            "options": [
+                "To create aesthetically pleasing proportions",
+                "To calculate font size",
+                "To mix colors",
+                "To price projects"
+            ],
+            "correctAnswer": "To create aesthetically pleasing proportions",
+            "difficulty": "easy",
+            "topic": "Visual Design"
+        },
+        {
+            "question": "Which color space is primarily used for digital screens?",
+            "options": [
+                "RGB",
+                "CMYK",
+                "Pantone",
+                "RAL"
+            ],
+            "correctAnswer": "RGB",
+            "difficulty": "easy",
+            "topic": "Visual Design"
+        },
+        {
+            "question": "What is 'White Space'?",
+            "options": [
+                "The empty space between design elements",
+                "A white background",
+                "A glitch",
+                "Missing content"
+            ],
+            "correctAnswer": "The empty space between design elements",
+            "difficulty": "easy",
+            "topic": "Visual Design"
+        },
+        {
+            "question": "What is 'Kerning'?",
+            "options": [
+                "Adjusting the spacing between individual characters",
+                "Adjusting line height",
+                "Choosing a font",
+                "Making text bold"
+            ],
+            "correctAnswer": "Adjusting the spacing between individual characters",
+            "difficulty": "easy",
+            "topic": "Typography"
+        },
+        {
+            "question": "What is a 'User Persona'?",
+            "options": [
+                "A fictional character representing a user type",
+                "A real person",
+                "The client",
+                "Your boss"
+            ],
+            "correctAnswer": "A fictional character representing a user type",
+            "difficulty": "easy",
+            "topic": "User Research"
+        },
+        {
+            "question": "What is 'Responsive Design'?",
+            "options": [
+                "Design that adapts to different screen sizes",
+                "Design that is fast",
+                "Design that talks back",
+                "Design for mobile only"
+            ],
+            "correctAnswer": "Design that adapts to different screen sizes",
+            "difficulty": "easy",
+            "topic": "Responsive Design"
+        },
+        {
+            "question": "What is 'Information Architecture'?",
+            "options": [
+                "Structuring and organizing content effectively",
+                "Building server rooms",
+                "Designing logos",
+                "Writing code"
+            ],
+            "correctAnswer": "Structuring and organizing content effectively",
+            "difficulty": "medium",
+            "topic": "UX Design"
+        },
+        {
+            "question": "What is the difference between Serif and Sans Serif fonts?",
+            "options": [
+                "Serifs have small strokes at the ends of letters, Sans Serifs do not",
+                "Serifs are bold",
+                "Sans Serifs are old",
+                "There is no difference"
+            ],
+            "correctAnswer": "Serifs have small strokes at the ends of letters, Sans Serifs do not",
+            "difficulty": "medium",
+            "topic": "Typography"
+        },
+        {
+            "question": "What is 'Affordance' in design?",
+            "options": [
+                "Clues about how an object should be used (e.g., a button looking clickable)",
+                "The cost of design",
+                "Affordable software",
+                "Color theory"
+            ],
+            "correctAnswer": "Clues about how an object should be used (e.g., a button looking clickable)",
+            "difficulty": "medium",
+            "topic": "UX Principles"
+        },
+        {
+            "question": "What is 'A/B Testing'?",
+            "options": [
+                "Comparing two versions of a design to see which performs better",
+                "Testing bugs",
+                "Testing code",
+                "Testing with 2 users"
+            ],
+            "correctAnswer": "Comparing two versions of a design to see which performs better",
+            "difficulty": "medium",
+            "topic": "Research"
+        },
+        {
+            "question": "What is a 'User Journey Map'?",
+            "options": [
+                "A visualization of the process a user goes through to accomplish a goal",
+                "A map of the office",
+                "A travel plan",
+                "A site map"
+            ],
+            "correctAnswer": "A visualization of the process a user goes through to accomplish a goal",
+            "difficulty": "medium",
+            "topic": "UX Design"
+        },
+        {
+            "question": "What is 'Heuristic Evaluation'?",
+            "options": [
+                "Evaluating a user interface against a set of usability principles",
+                "Guessing",
+                "User testing",
+                "Code review"
+            ],
+            "correctAnswer": "Evaluating a user interface against a set of usability principles",
+            "difficulty": "medium",
+            "topic": "Usability"
+        },
+        {
+            "question": "What is the 'Rule of Thirds'?",
+            "options": [
+                "Dividing an image into nine equal parts to create balanced compositions",
+                "Using 3 colors",
+                "3 fonts max",
+                "3 users testing"
+            ],
+            "correctAnswer": "Dividing an image into nine equal parts to create balanced compositions",
+            "difficulty": "medium",
+            "topic": "Visual Design"
+        },
+        {
+            "question": "What is 'Microcopy'?",
+            "options": [
+                "Small bits of text that guide users (e.g., error messages, button labels)",
+                "Small fonts",
+                "Copyright",
+                "Legal text"
+            ],
+            "correctAnswer": "Small bits of text that guide users (e.g., error messages, button labels)",
+            "difficulty": "medium",
+            "topic": "Content Strategy"
+        },
+        {
+            "question": "What is 'Cognitive Load'?",
+            "options": [
+                "The amount of mental effort required to use an interface",
+                "Brain size",
+                "CPU usage",
+                "Memory capacity"
+            ],
+            "correctAnswer": "The amount of mental effort required to use an interface",
+            "difficulty": "medium",
+            "topic": "Psychology"
+        },
+        {
+            "question": "What is 'Mobile First' design?",
+            "options": [
+                "Designing for mobile screens before larger screens",
+                "Designing only for mobile",
+                "Ignoring desktop",
+                "Using phones for design"
+            ],
+            "correctAnswer": "Designing for mobile screens before larger screens",
+            "difficulty": "medium",
+            "topic": "Strategy"
+        },
+        {
+            "question": "What is a 'Breadcrumb'?",
+            "options": [
+                "A secondary navigation scheme that reveals users' location",
+                "Food",
+                "A loading icon",
+                "A footer link"
+            ],
+            "correctAnswer": "A secondary navigation scheme that reveals users' location",
+            "difficulty": "medium",
+            "topic": "UI Patterns"
+        },
+        {
+            "question": "What is 'Card Sorting'?",
+            "options": [
+                "A method used to help design or evaluate the information architecture",
+                "Playing cards",
+                "Sorting files",
+                "Organizing Trello"
+            ],
+            "correctAnswer": "A method used to help design or evaluate the information architecture",
+            "difficulty": "medium",
+            "topic": "Research"
+        },
+        {
+            "question": "What is 'Fitts's Law'?",
+            "options": [
+                "Time to acquire a target is a function of the distance to and size of the target",
+                "Fit elements on screen",
+                "Fitness app design",
+                "Law of attraction"
+            ],
+            "correctAnswer": "Time to acquire a target is a function of the distance to and size of the target",
+            "difficulty": "medium",
+            "topic": "UX Principles"
+        },
+        {
+            "question": "What is 'Color Theory'?",
+            "options": [
+                "The science and art of using color",
+                "Mixing paint",
+                "Rainbows",
+                "Black and white"
+            ],
+            "correctAnswer": "The science and art of using color",
+            "difficulty": "medium",
+            "topic": "Visual Design"
+        },
+        {
+            "question": "What is 'Leading' in typography?",
+            "options": [
+                "The vertical space between lines of text",
+                "The first letter",
+                "Bold text",
+                "Font weight"
+            ],
+            "correctAnswer": "The vertical space between lines of text",
+            "difficulty": "medium",
+            "topic": "Typography"
+        },
+        {
+            "question": "What is 'Hick's Law'?",
+            "options": [
+                "The time it takes to make a decision increases with the number and complexity of choices",
+                "Hiding elements",
+                "Fast decisions",
+                "Simple design"
+            ],
+            "correctAnswer": "The time it takes to make a decision increases with the number and complexity of choices",
+            "difficulty": "hard",
+            "topic": "Psychology"
+        },
+        {
+            "question": "What is 'Gestalt Principles'?",
+            "options": [
+                "Principles describing how humans group similar elements, cherish patterns and simplify complex images",
+                "German design",
+                "Grid systems",
+                "Color rules"
+            ],
+            "correctAnswer": "Principles describing how humans group similar elements, cherish patterns and simplify complex images",
+            "difficulty": "hard",
+            "topic": "Psychology"
+        },
+        {
+            "question": "What is 'Skeuomorphism'?",
+            "options": [
+                "Design concept of making items represented resemble their real-world counterparts",
+                "Flat design",
+                "Minimalism",
+                "Futuristic design"
+            ],
+            "correctAnswer": "Design concept of making items represented resemble their real-world counterparts",
+            "difficulty": "hard",
+            "topic": "Design Trends"
+        },
+        {
+            "question": "What is 'Accessibility (a11y)' concerned with?",
+            "options": [
+                "Making websites usable by people of all abilities and disabilities",
+                "Accessing the internet",
+                "Login screens",
+                "Admin access"
+            ],
+            "correctAnswer": "Making websites usable by people of all abilities and disabilities",
+            "difficulty": "hard",
+            "topic": "Accessibility"
+        },
+        {
+            "question": "What is 'Progressive Disclosure'?",
+            "options": [
+                "Maintaining the focus of a user's attention by reducing clutter, confusion, and cognitive workload",
+                "Showing everything at once",
+                "Hiding important info",
+                "Loading bars"
+            ],
+            "correctAnswer": "Maintaining the focus of a user's attention by reducing clutter, confusion, and cognitive workload",
+            "difficulty": "hard",
+            "topic": "Interaction Design"
+        },
+        {
+            "question": "What is 'Designing for the Fold' status today?",
+            "options": [
+                "Still relevant but users are used to scrolling; content above fold is for engagement",
+                "Strict rule",
+                "Irrelevant",
+                "Only for newspapers"
+            ],
+            "correctAnswer": "Still relevant but users are used to scrolling; content above fold is for engagement",
+            "difficulty": "hard",
+            "topic": "Concepts"
+        },
+        {
+            "question": "What is the 'Von Restorff Effect'?",
+            "options": [
+                "Also known as The Isolation Effect, predicts that when multiple similar objects are present, the one that differs from the rest is most likely to be remembered",
+                "Blue colors are best",
+                "Red is warning",
+                "Fonts matter"
+            ],
+            "correctAnswer": "Also known as The Isolation Effect, predicts that when multiple similar objects are present, the one that differs from the rest is most likely to be remembered",
+            "difficulty": "hard",
+            "topic": "Psychology"
+        },
+        {
+            "question": "What is 'Dark Pattern'?",
+            "options": [
+                "A user interface that has been carefully crafted to trick users into doing things",
+                "Dark mode",
+                "Black background",
+                "Night shift"
+            ],
+            "correctAnswer": "A user interface that has been carefully crafted to trick users into doing things",
+            "difficulty": "hard",
+            "topic": "Ethics"
+        },
+        {
+            "question": "What is 'Gamification' in UX?",
+            "options": [
+                "Applying game-design elements and game principles in non-game contexts",
+                "Making video games",
+                "Playing games at work",
+                "Using joysticks"
+            ],
+            "correctAnswer": "Applying game-design elements and game principles in non-game contexts",
+            "difficulty": "hard",
+            "topic": "Engagement"
+        },
+        {
+            "question": "What is 'Grid System'?",
+            "options": [
+                "A structure (usually two-dimensional) made up of a series of intersecting straight (vertical, horizontal) lines used to structure content",
+                "Excel sheets",
+                "Graph paper",
+                "Map"
+            ],
+            "correctAnswer": "A structure (usually two-dimensional) made up of a series of intersecting straight (vertical, horizontal) lines used to structure content",
+            "difficulty": "hard",
+            "topic": "Layout"
+        },
+        {
+            "question": "What is 'Atomic Design'?",
+            "options": [
+                "A methodology for creating design systems (Atoms, Molecules, Organisms, Templates, Pages)",
+                "Nuclear design",
+                "Small design",
+                "Physics"
+            ],
+            "correctAnswer": "A methodology for creating design systems (Atoms, Molecules, Organisms, Templates, Pages)",
+            "difficulty": "hard",
+            "topic": "Design Systems"
+        },
+        {
+            "question": "What is 'Material Design'?",
+            "options": [
+                "A design language developed by Google",
+                "Designing with fabric",
+                "Apple's design",
+                "Microsoft's design"
+            ],
+            "correctAnswer": "A design language developed by Google",
+            "difficulty": "hard",
+            "topic": "Design Systems"
+        },
+        {
+            "question": "What is 'Flat Design'?",
+            "options": [
+                "A style of interface design emphasizing minimum use of stylistic elements that give the illusion of three dimensions",
+                "2D design",
+                "Paper design",
+                "Boring design"
+            ],
+            "correctAnswer": "A style of interface design emphasizing minimum use of stylistic elements that give the illusion of three dimensions",
+            "difficulty": "hard",
+            "topic": "Design Trends"
+        },
+        {
+            "question": "What is 'Double Diamond' process?",
+            "options": [
+                "Discover, Define, Develop, Deliver",
+                "Two diamonds",
+                "Expensive design",
+                "Gemstone cutting"
+            ],
+            "correctAnswer": "Discover, Define, Develop, Deliver",
+            "difficulty": "hard",
+            "topic": "Process"
+        },
+        {
+            "question": "What is 'Eye Tracking' used for?",
+            "options": [
+                "To measure where the user is looking",
+                "To unlock phone",
+                "To control mouse",
+                "To take photos"
+            ],
+            "correctAnswer": "To measure where the user is looking",
+            "difficulty": "hard",
+            "topic": "Research"
+        }
+    ]
+}

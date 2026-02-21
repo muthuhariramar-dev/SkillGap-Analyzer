@@ -1,0 +1,605 @@
+{
+    "role": "Frontend Developer",
+    "questions": [
+        {
+            "question": "Which CSS property is used to create a flex container?",
+            "options": [
+                "display: block",
+                "display: flex",
+                "display: grid",
+                "display: inline"
+            ],
+            "correctAnswer": "display: flex",
+            "difficulty": "easy",
+            "topic": "CSS"
+        },
+        {
+            "question": "What is the purpose of the 'z-index' property in CSS?",
+            "options": [
+                "To control the transparency of an element",
+                "To control the stacking order of elements",
+                "To zoom into an element",
+                "To set the width of an element"
+            ],
+            "correctAnswer": "To control the stacking order of elements",
+            "difficulty": "easy",
+            "topic": "CSS"
+        },
+        {
+            "question": "Which HTML tag is used to adhere to accessibility standards for navigation menus?",
+            "options": [
+                "<div class='nav'>",
+                "<navigation>",
+                "<nav>",
+                "<menu>"
+            ],
+            "correctAnswer": "<nav>",
+            "difficulty": "easy",
+            "topic": "Accessibility"
+        },
+        {
+            "question": "In React, what is the correct way to pass data from parent to child component?",
+            "options": [
+                "State",
+                "Props",
+                "Context",
+                "Redux"
+            ],
+            "correctAnswer": "Props",
+            "difficulty": "easy",
+            "topic": "React"
+        },
+        {
+            "question": "Which JavaScript method is used to select an element by its ID?",
+            "options": [
+                "querySelector",
+                "getElementById",
+                "getElementsByClassName",
+                "querySelectorAll"
+            ],
+            "correctAnswer": "getElementById",
+            "difficulty": "easy",
+            "topic": "JavaScript"
+        },
+        {
+            "question": "What does semantic HTML mean?",
+            "options": [
+                "Using HTML tags that convey meaning about the content",
+                "Using only div and span tags",
+                "Minifying HTML code",
+                "Writing HTML inside JavaScript"
+            ],
+            "correctAnswer": "Using HTML tags that convey meaning about the content",
+            "difficulty": "easy",
+            "topic": "HTML"
+        },
+        {
+            "question": "Which of the following is NOT a valid color value in CSS?",
+            "options": [
+                "#FF0000",
+                "rgb(255, 0, 0)",
+                "color: red",
+                "hsl(0, 100%, 50%)"
+            ],
+            "correctAnswer": "color: red",
+            "difficulty": "easy",
+            "topic": "CSS"
+        },
+        {
+            "question": "In JavaScript, what is the output of '2' + 2?",
+            "options": [
+                "4",
+                "22",
+                "NaN",
+                "Error"
+            ],
+            "correctAnswer": "22",
+            "difficulty": "easy",
+            "topic": "JavaScript"
+        },
+        {
+            "question": "Which hook is used to manage side effects in functional React components?",
+            "options": [
+                "useState",
+                "useEffect",
+                "useContext",
+                "useReducer"
+            ],
+            "correctAnswer": "useEffect",
+            "difficulty": "easy",
+            "topic": "React"
+        },
+        {
+            "question": "What attribute is required on <img> tags for accessibility?",
+            "options": [
+                "title",
+                "src",
+                "alt",
+                "aria-label"
+            ],
+            "correctAnswer": "alt",
+            "difficulty": "easy",
+            "topic": "Accessibility"
+        },
+        {
+            "question": "Which CSS unit is relative to the font-size of the root element?",
+            "options": [
+                "em",
+                "rem",
+                "px",
+                "%"
+            ],
+            "correctAnswer": "rem",
+            "difficulty": "easy",
+            "topic": "CSS"
+        },
+        {
+            "question": "What is the default display value of a <div> element?",
+            "options": [
+                "inline",
+                "block",
+                "inline-block",
+                "flex"
+            ],
+            "correctAnswer": "block",
+            "difficulty": "easy",
+            "topic": "CSS"
+        },
+        {
+            "question": "Which HTML5 element is used to specify a footer for a document or section?",
+            "options": [
+                "<bottom>",
+                "<footer>",
+                "<section>",
+                "<end>"
+            ],
+            "correctAnswer": "<footer>",
+            "difficulty": "easy",
+            "topic": "HTML"
+        },
+        {
+            "question": "What does DOM stand for?",
+            "options": [
+                "Document Object Model",
+                "Data Object Mode",
+                "Digital Ordinance Model",
+                "Document Oriented Model"
+            ],
+            "correctAnswer": "Document Object Model",
+            "difficulty": "easy",
+            "topic": "JavaScript"
+        },
+        {
+            "question": "How do you declare a variable in JavaScript that cannot be reassigned?",
+            "options": [
+                "var",
+                "let",
+                "const",
+                "static"
+            ],
+            "correctAnswer": "const",
+            "difficulty": "easy",
+            "topic": "JavaScript"
+        },
+        {
+            "question": "Which React hook would you use to optimize performance by memoizing complex calculations?",
+            "options": [
+                "useMemo",
+                "useCallback",
+                "useEffect",
+                "useRef"
+            ],
+            "correctAnswer": "useMemo",
+            "difficulty": "medium",
+            "topic": "React"
+        },
+        {
+            "question": "What is the difference between specificy of ID selector vs Class selector?",
+            "options": [
+                "Class is higher",
+                "ID is higher",
+                "They are equal",
+                "Depends on order"
+            ],
+            "correctAnswer": "ID is higher",
+            "difficulty": "medium",
+            "topic": "CSS"
+        },
+        {
+            "question": "How can you improve website performance regarding images?",
+            "options": [
+                "Use only PNGs",
+                "Serve images in next-gen formats like WebP",
+                "Increase image resolution",
+                "Use CSS sprites for all images"
+            ],
+            "correctAnswer": "Serve images in next-gen formats like WebP",
+            "difficulty": "medium",
+            "topic": "Performance"
+        },
+        {
+            "question": "Which array method returns a new array with elements that pass a test?",
+            "options": [
+                "map()",
+                "forEach()",
+                "filter()",
+                "reduce()"
+            ],
+            "correctAnswer": "filter()",
+            "difficulty": "medium",
+            "topic": "JavaScript"
+        },
+        {
+            "question": "What is 'prop drilling' in React?",
+            "options": [
+                "Passing data deep down the component tree manually",
+                "Using Context API",
+                "A new React feature",
+                "Validating props types"
+            ],
+            "correctAnswer": "Passing data deep down the component tree manually",
+            "difficulty": "medium",
+            "topic": "React"
+        },
+        {
+            "question": "Which technique renders content only when it becomes visible in the viewport?",
+            "options": [
+                "Lazy Loading",
+                "Code Splitting",
+                "Minification",
+                "Caching"
+            ],
+            "correctAnswer": "Lazy Loading",
+            "difficulty": "medium",
+            "topic": "Performance"
+        },
+        {
+            "question": "What does 'aria-live' attribute do?",
+            "options": [
+                "Plays a sound",
+                "Announces dynamic content updates to screen readers",
+                "Hides content",
+                "Highlights live video"
+            ],
+            "correctAnswer": "Announces dynamic content updates to screen readers",
+            "difficulty": "medium",
+            "topic": "Accessibility"
+        },
+        {
+            "question": "What is the 'Virtual DOM'?",
+            "options": [
+                "A direct copy of the real DOM",
+                "A lightweight representation of the real DOM used by React",
+                "A browser extension",
+                "A virtual machine"
+            ],
+            "correctAnswer": "A lightweight representation of the real DOM used by React",
+            "difficulty": "medium",
+            "topic": "React"
+        },
+        {
+            "question": "Which CSS feature allows you to define variables?",
+            "options": [
+                "Custom Properties (--variable)",
+                "Sass Variables ($variable)",
+                "Less Variables (@variable)",
+                "CSS Modules"
+            ],
+            "correctAnswer": "Custom Properties (--variable)",
+            "difficulty": "medium",
+            "topic": "CSS"
+        },
+        {
+            "question": "In JavaScript, what is the value of 'this' inside an arrow function?",
+            "options": [
+                "The global object",
+                "The object that called the function",
+                "Legally undefined",
+                "It is lexically scoped from the surrounding context"
+            ],
+            "correctAnswer": "It is lexically scoped from the surrounding context",
+            "difficulty": "medium",
+            "topic": "JavaScript"
+        },
+        {
+            "question": "Which HTTP status code indicates a successful request?",
+            "options": [
+                "200",
+                "201",
+                "400",
+                "500"
+            ],
+            "correctAnswer": "200",
+            "difficulty": "medium",
+            "topic": "Performance"
+        },
+        {
+            "question": "What is the purpose of 'useCallback' hook?",
+            "options": [
+                "To memoize a function definition",
+                "To memoize a value",
+                "To handle side effects",
+                "To access context"
+            ],
+            "correctAnswer": "To memoize a function definition",
+            "difficulty": "medium",
+            "topic": "React"
+        },
+        {
+            "question": "Which is a way to handle asynchronous operations in JavaScript?",
+            "options": [
+                "Promises",
+                "Callbacks",
+                "Async/Await",
+                "All of the above"
+            ],
+            "correctAnswer": "All of the above",
+            "difficulty": "medium",
+            "topic": "JavaScript"
+        },
+        {
+            "question": "What does the 'defer' attribute on a script tag do?",
+            "options": [
+                "Stops the script from running",
+                "Executes the script after HTML parsing is complete",
+                "Runs the script immediately",
+                "Loads the script in parallel but runs immediately"
+            ],
+            "correctAnswer": "Executes the script after HTML parsing is complete",
+            "difficulty": "medium",
+            "topic": "Performance"
+        },
+        {
+            "question": "What is the Box Model in CSS?",
+            "options": [
+                "Content, Padding, Border, Margin",
+                "Content, Margin, Border, Padding",
+                "Header, Main, Footer",
+                "Flex, Grid, Block, Inline"
+            ],
+            "correctAnswer": "Content, Padding, Border, Margin",
+            "difficulty": "medium",
+            "topic": "CSS"
+        },
+        {
+            "question": "In Redux, what is the only way to change the state?",
+            "options": [
+                "Direct mutation",
+                "Emitting an action",
+                "Calling setState",
+                "Using Context"
+            ],
+            "correctAnswer": "Emitting an action",
+            "difficulty": "medium",
+            "topic": "React"
+        },
+        {
+            "question": "What is 'Event Bubbling'?",
+            "options": [
+                "Event triggers on target then propagates up the DOM tree",
+                "Event triggers on root then propagates down",
+                "Event cancels itself",
+                "Event triggers only on target"
+            ],
+            "correctAnswer": "Event triggers on target then propagates up the DOM tree",
+            "difficulty": "medium",
+            "topic": "JavaScript"
+        },
+        {
+            "question": "Which metatag is crucial for responsive design?",
+            "options": [
+                "viewport",
+                "keywords",
+                "description",
+                "author"
+            ],
+            "correctAnswer": "viewport",
+            "difficulty": "medium",
+            "topic": "HTML"
+        },
+        {
+            "question": "What is the purpose of Webpack?",
+            "options": [
+                "Database management",
+                "Module bundling",
+                "Server-side rendering",
+                "Testing framework"
+            ],
+            "correctAnswer": "Module bundling",
+            "difficulty": "medium",
+            "topic": "Build Tools"
+        },
+        {
+            "question": "Which status code represents 'Not Found'?",
+            "options": [
+                "500",
+                "403",
+                "404",
+                "301"
+            ],
+            "correctAnswer": "404",
+            "difficulty": "medium",
+            "topic": "Performance"
+        },
+        {
+            "question": "Explain the Concept of 'Closure' in JavaScript.",
+            "options": [
+                "A function having access to its own scope only",
+                "A function having access to the parent scope, even after the parent function has closed",
+                "Closing a browser window",
+                "A variable that cannot be changed"
+            ],
+            "correctAnswer": "A function having access to the parent scope, even after the parent function has closed",
+            "difficulty": "hard",
+            "topic": "JavaScript"
+        },
+        {
+            "question": "What is the Critical Rendering Path?",
+            "options": [
+                "The sequence of steps the browser takes to render the page",
+                "The path to the CSS file",
+                "The main JavaScript execution thread",
+                "The network request path"
+            ],
+            "correctAnswer": "The sequence of steps the browser takes to render the page",
+            "difficulty": "hard",
+            "topic": "Performance"
+        },
+        {
+            "question": "How does React Fiber improve performance?",
+            "options": [
+                "By removing the Virtual DOM",
+                "By determining which updates are more important (incremental rendering)",
+                "By caching components",
+                "By compiling to WebAssembly"
+            ],
+            "correctAnswer": "By determining which updates are more important (incremental rendering)",
+            "difficulty": "hard",
+            "topic": "React"
+        },
+        {
+            "question": "What is the difference between 'localStorage' and 'sessionStorage'?",
+            "options": [
+                "localStorage persists across sessions, sessionStorage clears when page session ends",
+                "sessionStorage persists forever",
+                "localStorage is secure, sessionStorage is not",
+                "No difference"
+            ],
+            "correctAnswer": "localStorage persists across sessions, sessionStorage clears when page session ends",
+            "difficulty": "hard",
+            "topic": "JavaScript"
+        },
+        {
+            "question": "What is a 'Race Condition' in frontend development?",
+            "options": [
+                "Two threads accessing memory",
+                "When async operations complete in an unexpected order, causing bugs",
+                "Competing for bandwidth",
+                "Fast animations"
+            ],
+            "correctAnswer": "When async operations complete in an unexpected order, causing bugs",
+            "difficulty": "hard",
+            "topic": "JavaScript"
+        },
+        {
+            "question": "Which WCAG compliance level is generally the legal standard?",
+            "options": [
+                "A",
+                "AA",
+                "AAA",
+                "None"
+            ],
+            "correctAnswer": "AA",
+            "difficulty": "hard",
+            "topic": "Accessibility"
+        },
+        {
+            "question": "What is 'Tree Shaking'?",
+            "options": [
+                "Removing unused code during the build process",
+                "Refreshing the DOM",
+                "Updating state rapidly",
+                "Testing React components"
+            ],
+            "correctAnswer": "Removing unused code during the build process",
+            "difficulty": "hard",
+            "topic": "Build Tools"
+        },
+        {
+            "question": "How do Service Workers enable PWA features?",
+            "options": [
+                "By modifying the DOM",
+                "By acting as a proxy between browser and network",
+                "By storing data in cookies",
+                "By rendering UI components"
+            ],
+            "correctAnswer": "By acting as a proxy between browser and network",
+            "difficulty": "hard",
+            "topic": "Performance"
+        },
+        {
+            "question": "What is the main benefit of Server-Side Rendering (SSR)?",
+            "options": [
+                "Better SEO and faster initial load",
+                "Easier development",
+                "Less server load",
+                "No need for JavaScript"
+            ],
+            "correctAnswer": "Better SEO and faster initial load",
+            "difficulty": "hard",
+            "topic": "Architecture"
+        },
+        {
+            "question": "What is 'Hydration' in the context of SSR?",
+            "options": [
+                "Loading images",
+                "Attaching event listeners to server-rendered HTML",
+                "Fetching data from API",
+                "Rendering CSS"
+            ],
+            "correctAnswer": "Attaching event listeners to server-rendered HTML",
+            "difficulty": "hard",
+            "topic": "React"
+        },
+        {
+            "question": "What does 'Layout Thrashing' refer to?",
+            "options": [
+                "Forcing the browser to reflow the layout multiple times synchronously",
+                "Deleting layout files",
+                "Using too many divs",
+                "CSS animation lag"
+            ],
+            "correctAnswer": "Forcing the browser to reflow the layout multiple times synchronously",
+            "difficulty": "hard",
+            "topic": "Performance"
+        },
+        {
+            "question": "Which HTTP header protects against Clickjacking?",
+            "options": [
+                "X-XSS-Protection",
+                "X-Frame-Options",
+                "Content-Security-Policy",
+                "Strict-Transport-Security"
+            ],
+            "correctAnswer": "X-Frame-Options",
+            "difficulty": "hard",
+            "topic": "Security"
+        },
+        {
+            "question": "Explain the 'Event Loop' in JavaScript.",
+            "options": [
+                "It handles call stack, callback queue, and microtask queue execution",
+                "It loops through events in the DOM",
+                "It's a for loop for events",
+                "It prevents memory leaks"
+            ],
+            "correctAnswer": "It handles call stack, callback queue, and microtask queue execution",
+            "difficulty": "hard",
+            "topic": "JavaScript"
+        },
+        {
+            "question": "What is the purpose of 'Content Security Policy' (CSP)?",
+            "options": [
+                "To style the content",
+                "To prevent XSS attacks by restricting resource sources",
+                "To speed up loading",
+                "To encrypt data"
+            ],
+            "correctAnswer": "To prevent XSS attacks by restricting resource sources",
+            "difficulty": "hard",
+            "topic": "Security"
+        },
+        {
+            "question": "In CSS Grid, what does 'minmax()' do?",
+            "options": [
+                "Sets a minimum and maximum size for a track",
+                " Finds min and max values",
+                "Sets font size",
+                "Controls opacity"
+            ],
+            "correctAnswer": "Sets a minimum and maximum size for a track",
+            "difficulty": "hard",
+            "topic": "CSS"
+        }
+    ]
+}

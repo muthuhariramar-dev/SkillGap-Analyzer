@@ -1,0 +1,545 @@
+{
+    "role": "WordPress Developer",
+    "questions": [
+        {
+            "question": "What is the core programming language of WordPress?",
+            "options": [
+                "PHP",
+                "Python",
+                "Ruby",
+                "Java"
+            ],
+            "correctAnswer": "PHP",
+            "difficulty": "easy",
+            "topic": "Fundamentals"
+        },
+        {
+            "question": "Which database management system does WordPress use by default?",
+            "options": [
+                "MySQL",
+                "PostgreSQL",
+                "MongoDB",
+                "SQLite"
+            ],
+            "correctAnswer": "MySQL",
+            "difficulty": "easy",
+            "topic": "Fundamentals"
+        },
+        {
+            "question": "What is 'The Loop' in WordPress?",
+            "options": [
+                "PHP code used to display posts",
+                "A plugin",
+                "A theme function",
+                "An infinite loop error"
+            ],
+            "correctAnswer": "PHP code used to display posts",
+            "difficulty": "easy",
+            "topic": "Theme Development"
+        },
+        {
+            "question": "Which file is essential for a WordPress theme to be recognized?",
+            "options": [
+                "style.css",
+                "index.php",
+                "functions.php",
+                "header.php"
+            ],
+            "correctAnswer": "style.css",
+            "difficulty": "easy",
+            "topic": "Theme Development"
+        },
+        {
+            "question": "What is a 'Shortcode'?",
+            "options": [
+                "A small code specifically used to perform a specific function on the site",
+                "A short password",
+                "Minified CSS",
+                "A bug"
+            ],
+            "correctAnswer": "A small code specifically used to perform a specific function on the site",
+            "difficulty": "easy",
+            "topic": "Functionality"
+        },
+        {
+            "question": "How do you install a plugin in WordPress?",
+            "options": [
+                "Via the Dashboard > Plugins > Add New",
+                "By writing PHP",
+                "By editing database",
+                "By restarting server"
+            ],
+            "correctAnswer": "Via the Dashboard > Plugins > Add New",
+            "difficulty": "easy",
+            "topic": "Administration"
+        },
+        {
+            "question": "What is the name of the configuration file in WordPress?",
+            "options": [
+                "wp-config.php",
+                "config.xml",
+                "settings.json",
+                ".env"
+            ],
+            "correctAnswer": "wp-config.php",
+            "difficulty": "easy",
+            "topic": "Configuration"
+        },
+        {
+            "question": "What is a 'Child Theme'?",
+            "options": [
+                "A theme that inherits functionality from another theme",
+                "A theme for kids",
+                "A small theme",
+                "A plugin"
+            ],
+            "correctAnswer": "A theme that inherits functionality from another theme",
+            "difficulty": "easy",
+            "topic": "Theme Development"
+        },
+        {
+            "question": "What is the default table prefix for WordPress?",
+            "options": [
+                "wp_",
+                "wordpress_",
+                "db_",
+                "table_"
+            ],
+            "correctAnswer": "wp_",
+            "difficulty": "easy",
+            "topic": "Database"
+        },
+        {
+            "question": "Which hook is used to enqueue scripts and styles?",
+            "options": [
+                "wp_enqueue_scripts",
+                "wp_head",
+                "wp_footer",
+                "init"
+            ],
+            "correctAnswer": "wp_enqueue_scripts",
+            "difficulty": "medium",
+            "topic": "Theme Development"
+        },
+        {
+            "question": "What is a 'Custom Post Type'?",
+            "options": [
+                "New content types created by users/plugins",
+                "A blog post",
+                "A page",
+                "A comment"
+            ],
+            "correctAnswer": "New content types created by users/plugins",
+            "difficulty": "medium",
+            "topic": "Content Management"
+        },
+        {
+            "question": "What is the difference between actions and filters?",
+            "options": [
+                "Actions do stuff, Filters change data",
+                "Filters do stuff, Actions change data",
+                "They are the same",
+                "One is for plugins, one for themes"
+            ],
+            "correctAnswer": "Actions do stuff, Filters change data",
+            "difficulty": "medium",
+            "topic": "Plugin Development"
+        },
+        {
+            "question": "What is the 'Template Hierarchy'?",
+            "options": [
+                "The logic WordPress uses to decide which template file(s) to use to render a page",
+                "Folder structure",
+                "Menu order",
+                "User roles"
+            ],
+            "correctAnswer": "The logic WordPress uses to decide which template file(s) to use to render a page",
+            "difficulty": "medium",
+            "topic": "Theme Development"
+        },
+        {
+            "question": "How to secure a WordPress site?",
+            "options": [
+                "Keep core/plugins updated, use strong passwords, limit login attempts",
+                "Make it private",
+                "Delete admin",
+                "Use FTP"
+            ],
+            "correctAnswer": "Keep core/plugins updated, use strong passwords, limit login attempts",
+            "difficulty": "medium",
+            "topic": "Security"
+        },
+        {
+            "question": "What is 'WP-CLI'?",
+            "options": [
+                "Command line interface for WordPress",
+                "A plugin",
+                "A theme",
+                "A hosting service"
+            ],
+            "correctAnswer": "Command line interface for WordPress",
+            "difficulty": "medium",
+            "topic": "Tools"
+        },
+        {
+            "question": "What function is used to get the title of a post?",
+            "options": [
+                "get_the_title()",
+                "the_title()",
+                "post_title()",
+                "title()"
+            ],
+            "correctAnswer": "get_the_title()",
+            "difficulty": "medium",
+            "topic": "Theme Development"
+        },
+        {
+            "question": "What is 'Gutenberg'?",
+            "options": [
+                "The block editor introduced in WordPress 5.0",
+                "A theme",
+                "A plugin",
+                "A hosting provider"
+            ],
+            "correctAnswer": "The block editor introduced in WordPress 5.0",
+            "difficulty": "medium",
+            "topic": "Editor"
+        },
+        {
+            "question": "What is the purpose of 'functions.php'?",
+            "options": [
+                "To add features and functionality to a WordPress site",
+                "To style the site",
+                "To store database credentials",
+                "To list pages"
+            ],
+            "correctAnswer": "To add features and functionality to a WordPress site",
+            "difficulty": "medium",
+            "topic": "Theme Development"
+        },
+        {
+            "question": "How do you create a custom taxonomy?",
+            "options": [
+                "register_taxonomy()",
+                "create_taxonomy()",
+                "add_taxonomy()",
+                "new_taxonomy()"
+            ],
+            "correctAnswer": "register_taxonomy()",
+            "difficulty": "medium",
+            "topic": "Content Management"
+        },
+        {
+            "question": "What is a 'Nonce' in WordPress?",
+            "options": [
+                "Number used once to protect URLs and forms from misuse",
+                "A nonsense word",
+                "A user role",
+                "A status code"
+            ],
+            "correctAnswer": "Number used once to protect URLs and forms from misuse",
+            "difficulty": "medium",
+            "topic": "Security"
+        },
+        {
+            "question": "What function outputs the footer?",
+            "options": [
+                "wp_footer()",
+                "get_footer()",
+                "the_footer()",
+                "footer()"
+            ],
+            "correctAnswer": "wp_footer()",
+            "difficulty": "medium",
+            "topic": "Theme Development"
+        },
+        {
+            "question": "Where does WordPress store media files?",
+            "options": [
+                "wp-content/uploads",
+                "wp-content/media",
+                "wp-images",
+                "public/images"
+            ],
+            "correctAnswer": "wp-content/uploads",
+            "difficulty": "easy",
+            "topic": "File Structure"
+        },
+        {
+            "question": "What is 'Multisite'?",
+            "options": [
+                "A feature that allows you to create a network of sites on a single WordPress installation",
+                "Multiple servers",
+                "Multiple admins",
+                "Multiple databases"
+            ],
+            "correctAnswer": "A feature that allows you to create a network of sites on a single WordPress installation",
+            "difficulty": "medium",
+            "topic": "Advanced Features"
+        },
+        {
+            "question": "What is the Rest API in WordPress?",
+            "options": [
+                "An interface that allows applications to interact with your WordPress site using JSON",
+                "A fast plugin",
+                "A calm API",
+                "A database query"
+            ],
+            "correctAnswer": "An interface that allows applications to interact with your WordPress site using JSON",
+            "difficulty": "medium",
+            "topic": "API"
+        },
+        {
+            "question": "Which constant enables debug mode?",
+            "options": [
+                "WP_DEBUG",
+                "DEBUG_MODE",
+                "WP_ERROR",
+                "SHOW_ERRORS"
+            ],
+            "correctAnswer": "WP_DEBUG",
+            "difficulty": "medium",
+            "topic": "Debugging"
+        },
+        {
+            "question": "What is the 'Transients API'?",
+            "options": [
+                "A way to store cached data in the database with an expiration time",
+                "Transient workers",
+                "Temporary files",
+                "Transport API"
+            ],
+            "correctAnswer": "A way to store cached data in the database with an expiration time",
+            "difficulty": "hard",
+            "topic": "Performance"
+        },
+        {
+            "question": "How does WordPress handle Cron jobs?",
+            "options": [
+                "WP-Cron is a virtual cron that only runs when a page is visited",
+                "Real system cron",
+                "Javascript interval",
+                "External service"
+            ],
+            "correctAnswer": "WP-Cron is a virtual cron that only runs when a page is visited",
+            "difficulty": "hard",
+            "topic": "Architecture"
+        },
+        {
+            "question": "What is the difference between 'get_template_part()' and 'include'?",
+            "options": [
+                "get_template_part maintains context and allows child theme overrides",
+                "include is faster",
+                "include is safer",
+                "No difference"
+            ],
+            "correctAnswer": "get_template_part maintains context and allows child theme overrides",
+            "difficulty": "hard",
+            "topic": "Theme Development"
+        },
+        {
+            "question": "How to optimize WordPress query performance?",
+            "options": [
+                "Use WP_Query properly and cache results",
+                "Query all data",
+                "Avoid PHP",
+                "Use more plugins"
+            ],
+            "correctAnswer": "Use WP_Query properly and cache results",
+            "difficulty": "hard",
+            "topic": "Performance"
+        },
+        {
+            "question": "What is 'Object Cache'?",
+            "options": [
+                "Caching data from the database in memory to reduce SQL queries",
+                "Caching files",
+                "Caching images",
+                "Caching objects"
+            ],
+            "correctAnswer": "Caching data from the database in memory to reduce SQL queries",
+            "difficulty": "hard",
+            "topic": "Performance"
+        },
+        {
+            "question": "Explain 'Headless WordPress'.",
+            "options": [
+                "Using WordPress as a backend API and a separate technology (like React) for the frontend",
+                "WordPress without a header",
+                "WordPress without admin",
+                "WordPress on a phone"
+            ],
+            "correctAnswer": "Using WordPress as a backend API and a separate technology (like React) for the frontend",
+            "difficulty": "hard",
+            "topic": "Advanced Architecture"
+        },
+        {
+            "question": "What is the purpose of 'dbDelta'?",
+            "options": [
+                "A function to modify the database schema (create/update tables)",
+                "A database error",
+                "A delta plugin",
+                "A backup tool"
+            ],
+            "correctAnswer": "A function to modify the database schema (create/update tables)",
+            "difficulty": "hard",
+            "topic": "Plugin Development"
+        },
+        {
+            "question": "What is the difference between 'site_url' and 'home_url'?",
+            "options": [
+                "site_url is where files are, home_url is where visitors go",
+                "They are same",
+                "site_url is for admin",
+                "home_url is for images"
+            ],
+            "correctAnswer": "site_url is where files are, home_url is where visitors go",
+            "difficulty": "hard",
+            "topic": "Configuration"
+        },
+        {
+            "question": "How to sanitise user input before saving to database?",
+            "options": [
+                "Use sanitization functions like sanitize_text_field()",
+                "Use CSS",
+                "Trust the user",
+                "Delete it"
+            ],
+            "correctAnswer": "Use sanitization functions like sanitize_text_field()",
+            "difficulty": "hard",
+            "topic": "Security"
+        },
+        {
+            "question": "How to escape output before printing to screen?",
+            "options": [
+                "Use escaping functions like esc_html(), esc_attr()",
+                "Use echo directly",
+                "Use print_r",
+                "Use CSS"
+            ],
+            "correctAnswer": "Use escaping functions like esc_html(), esc_attr()",
+            "difficulty": "hard",
+            "topic": "Security"
+        },
+        {
+            "question": "What is the 'Heartbeat API'?",
+            "options": [
+                "A simple server polling API for near-real-time frontend updates (autosave, locking)",
+                "A health monitor",
+                "A pulse checker",
+                "A love plugin"
+            ],
+            "correctAnswer": "A simple server polling API for near-real-time frontend updates (autosave, locking)",
+            "difficulty": "hard",
+            "topic": "API"
+        },
+        {
+            "question": "How to create a custom database table in a plugin?",
+            "options": [
+                "Use $wpdb class and SQL",
+                "Manually in PHPMyAdmin",
+                "Ask host",
+                "Not possible"
+            ],
+            "correctAnswer": "Use $wpdb class and SQL",
+            "difficulty": "hard",
+            "topic": "Plugin Development"
+        },
+        {
+            "question": "What is a 'Must-Use Plugin' (mu-plugin)?",
+            "options": [
+                "Plugins installed in a special directory that are automatically enabled and cannot be disabled by users",
+                "A popular plugin",
+                "A required plugin",
+                "A paid plugin"
+            ],
+            "correctAnswer": "Plugins installed in a special directory that are automatically enabled and cannot be disabled by users",
+            "difficulty": "hard",
+            "topic": "Advanced Administration"
+        },
+        {
+            "question": "What is the role of '$wp_rewrite'?",
+            "options": [
+                "Manages WordPress rewrite rules for permalinks",
+                "Rewrites content",
+                "Rewrites database",
+                "Rewrites CSS"
+            ],
+            "correctAnswer": "Manages WordPress rewrite rules for permalinks",
+            "difficulty": "hard",
+            "topic": "Core"
+        },
+        {
+            "question": "What does 'wp_localize_script' do?",
+            "options": [
+                "Passes PHP data to a JavaScript file",
+                "Translates script",
+                "Locates script",
+                "Runs script locally"
+            ],
+            "correctAnswer": "Passes PHP data to a JavaScript file",
+            "difficulty": "hard",
+            "topic": "Theme Development"
+        },
+        {
+            "question": "What is 'XML-RPC' used for (historically)?",
+            "options": [
+                "Remote publishing and interaction with WordPress",
+                "XML parsing",
+                "RPC server",
+                "Database backup"
+            ],
+            "correctAnswer": "Remote publishing and interaction with WordPress",
+            "difficulty": "hard",
+            "topic": "Legacy API"
+        },
+        {
+            "question": "How to disable the Gutenberg editor?",
+            "options": [
+                "Install 'Classic Editor' plugin or use a filter",
+                "Delete core files",
+                "Change CSS",
+                "Not possible"
+            ],
+            "correctAnswer": "Install 'Classic Editor' plugin or use a filter",
+            "difficulty": "easy",
+            "topic": "Administration"
+        },
+        {
+            "question": "What is 'Lazy Loading' in WordPress 5.5+?",
+            "options": [
+                "Native lazy loading for images via 'loading' attribute",
+                "Slow loading",
+                "Plugin feature",
+                "Lazy developers"
+            ],
+            "correctAnswer": "Native lazy loading for images via 'loading' attribute",
+            "difficulty": "medium",
+            "topic": "Performance"
+        },
+        {
+            "question": "What is 'Maintenance Mode'?",
+            "options": [
+                "A mode that displays a temporary page while updates are installed",
+                "Broken site",
+                "Admin only",
+                "Sleep mode"
+            ],
+            "correctAnswer": "A mode that displays a temporary page while updates are installed",
+            "difficulty": "easy",
+            "topic": "Administration"
+        },
+        {
+            "question": "How to verify a nonce?",
+            "options": [
+                "wp_verify_nonce()",
+                "check_nonce()",
+                "is_nonce()",
+                "validate_nonce()"
+            ],
+            "correctAnswer": "wp_verify_nonce()",
+            "difficulty": "hard",
+            "topic": "Security"
+        }
+    ]
+}

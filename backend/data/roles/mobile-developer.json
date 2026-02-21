@@ -1,0 +1,605 @@
+{
+    "role": "Mobile Developer",
+    "questions": [
+        {
+            "question": "What is the primary language for native Android development?",
+            "options": [
+                "Kotlin/Java",
+                "Swift",
+                "C#",
+                "Python"
+            ],
+            "correctAnswer": "Kotlin/Java",
+            "difficulty": "easy",
+            "topic": "Android"
+        },
+        {
+            "question": "What is the primary language for native iOS development?",
+            "options": [
+                "Swift/Objective-C",
+                "Java",
+                "Kotlin",
+                "C++"
+            ],
+            "correctAnswer": "Swift/Objective-C",
+            "difficulty": "easy",
+            "topic": "iOS"
+        },
+        {
+            "question": "What is a 'hybrid' mobile app?",
+            "options": [
+                "An app built with web technologies that runs in a native container",
+                "A hybrid car app",
+                "A native app",
+                "A website"
+            ],
+            "correctAnswer": "An app built with web technologies that runs in a native container",
+            "difficulty": "easy",
+            "topic": "Architecture"
+        },
+        {
+            "question": "Which framework is used for cross-platform development by Facebook?",
+            "options": [
+                "React Native",
+                "Flutter",
+                "Ionic",
+                "Xamarin"
+            ],
+            "correctAnswer": "React Native",
+            "difficulty": "easy",
+            "topic": "Cross-Platform"
+        },
+        {
+            "question": "Which framework is used for cross-platform development by Google?",
+            "options": [
+                "Flutter",
+                "React Native",
+                "SwiftUI",
+                "Jetpack Compose"
+            ],
+            "correctAnswer": "Flutter",
+            "difficulty": "easy",
+            "topic": "Cross-Platform"
+        },
+        {
+            "question": "What is the purpose of the 'AndroidManifest.xml' file?",
+            "options": [
+                "It describes essential information about the app to the Android build tools and OS",
+                "It stores code",
+                "It holds images",
+                "It is for styling"
+            ],
+            "correctAnswer": "It describes essential information about the app to the Android build tools and OS",
+            "difficulty": "easy",
+            "topic": "Android"
+        },
+        {
+            "question": "What is an 'Activity' in Android?",
+            "options": [
+                "A single, focused thing that the user can do (usually a single screen)",
+                "A workout",
+                "A background process",
+                "A database"
+            ],
+            "correctAnswer": "A single, focused thing that the user can do (usually a single screen)",
+            "difficulty": "easy",
+            "topic": "Android"
+        },
+        {
+            "question": "What is a 'ViewController' in iOS?",
+            "options": [
+                "Manages a view hierarchy for a UIKit app",
+                "Controls volume",
+                "Views images",
+                "Controls database"
+            ],
+            "correctAnswer": "Manages a view hierarchy for a UIKit app",
+            "difficulty": "easy",
+            "topic": "iOS"
+        },
+        {
+            "question": "What is 'APK'?",
+            "options": [
+                "Android Package Kit",
+                "Apple Package Kit",
+                "Application Private Key",
+                "Auth Public Key"
+            ],
+            "correctAnswer": "Android Package Kit",
+            "difficulty": "easy",
+            "topic": "Building"
+        },
+        {
+            "question": "What is 'IPA'?",
+            "options": [
+                "iOS App Store Package",
+                "India Pale Ale",
+                "Internet Private Access",
+                "Intel Processing Unit"
+            ],
+            "correctAnswer": "iOS App Store Package",
+            "difficulty": "easy",
+            "topic": "Building"
+        },
+        {
+            "question": "What is the App Store Review Guidelines?",
+            "options": [
+                "Rules apps must follow to be published on the Apple App Store",
+                "Suggestions",
+                "Code style guide",
+                "Pricing guide"
+            ],
+            "correctAnswer": "Rules apps must follow to be published on the Apple App Store",
+            "difficulty": "easy",
+            "topic": "Distribution"
+        },
+        {
+            "question": "What is 'dp' in Android?",
+            "options": [
+                "Density-independent Pixel",
+                "Display Pixel",
+                "Digital Photo",
+                "Direct Point"
+            ],
+            "correctAnswer": "Density-independent Pixel",
+            "difficulty": "easy",
+            "topic": "UI Design"
+        },
+        {
+            "question": "What is 'Core Data'?",
+            "options": [
+                "A framework for managing the model layer objects in an application on iOS",
+                "Core processor",
+                "Cloud storage",
+                "Big data"
+            ],
+            "correctAnswer": "A framework for managing the model layer objects in an application on iOS",
+            "difficulty": "medium",
+            "topic": "iOS"
+        },
+        {
+            "question": "What is 'Fragment' in Android?",
+            "options": [
+                "A modular section of an activity, which has its own lifecycle",
+                "A broken code",
+                "A small app",
+                "A database shard"
+            ],
+            "correctAnswer": "A modular section of an activity, which has its own lifecycle",
+            "difficulty": "medium",
+            "topic": "Android"
+        },
+        {
+            "question": "What is 'Auto Layout'?",
+            "options": [
+                "A constraint-based layout system for iOS",
+                "Automatic coding",
+                "Car layout",
+                "Android layout"
+            ],
+            "correctAnswer": "A constraint-based layout system for iOS",
+            "difficulty": "medium",
+            "topic": "iOS"
+        },
+        {
+            "question": "What is 'Gradle'?",
+            "options": [
+                "A build automation tool used in Android Studio",
+                "A color gradient",
+                "A testing tool",
+                "A version control"
+            ],
+            "correctAnswer": "A build automation tool used in Android Studio",
+            "difficulty": "medium",
+            "topic": "Tools"
+        },
+        {
+            "question": "What is 'SwiftUI'?",
+            "options": [
+                "Apple's declarative framework for building user interfaces",
+                "A faster UI",
+                "Swift version 2",
+                "A database"
+            ],
+            "correctAnswer": "Apple's declarative framework for building user interfaces",
+            "difficulty": "medium",
+            "topic": "iOS"
+        },
+        {
+            "question": "What is 'Jetpack Compose'?",
+            "options": [
+                "Android's modern toolkit for building native UI",
+                "Jetpack game",
+                "Coding fast",
+                "Music composer"
+            ],
+            "correctAnswer": "Android's modern toolkit for building native UI",
+            "difficulty": "medium",
+            "topic": "Android"
+        },
+        {
+            "question": "What is 'CocoaPods'?",
+            "options": [
+                "A dependency manager for Swift and Objective-C projects",
+                "Chocolate",
+                "Coffee pods",
+                "Apple store"
+            ],
+            "correctAnswer": "A dependency manager for Swift and Objective-C projects",
+            "difficulty": "medium",
+            "topic": "Tools"
+        },
+        {
+            "question": "What is 'ANR'?",
+            "options": [
+                "Application Not Responding",
+                "Android Native Runtime",
+                "Apple New Release",
+                "App Needs Restart"
+            ],
+            "correctAnswer": "Application Not Responding",
+            "difficulty": "medium",
+            "topic": "Performance"
+        },
+        {
+            "question": "What is 'ARC'?",
+            "options": [
+                "Automatic Reference Counting",
+                "Apple Release Center",
+                "Application Runtime Core",
+                "Archive Resource Code"
+            ],
+            "correctAnswer": "Automatic Reference Counting",
+            "difficulty": "medium",
+            "topic": "Memory Management"
+        },
+        {
+            "question": "What is a 'Service' in Android?",
+            "options": [
+                "An application component that can perform long-running operations in the background",
+                "Customer service",
+                "A function",
+                "A server"
+            ],
+            "correctAnswer": "An application component that can perform long-running operations in the background",
+            "difficulty": "medium",
+            "topic": "Android"
+        },
+        {
+            "question": "What is the 'Keychain'?",
+            "options": [
+                "Secure storage for passwords and certificates in iOS/macOS",
+                "Key holder",
+                "Database",
+                "File system"
+            ],
+            "correctAnswer": "Secure storage for passwords and certificates in iOS/macOS",
+            "difficulty": "medium",
+            "topic": "Security"
+        },
+        {
+            "question": "What is 'Intent' in Android?",
+            "options": [
+                "A messaging object you can use to request an action from another app component",
+                "Goal",
+                "Purpose",
+                "Database query"
+            ],
+            "correctAnswer": "A messaging object you can use to request an action from another app component",
+            "difficulty": "medium",
+            "topic": "Android"
+        },
+        {
+            "question": "How to persist data locally in mobile apps?",
+            "options": [
+                "SQLite / Core Data / Shared Preferences",
+                "In RAM only",
+                "On server only",
+                "Text files"
+            ],
+            "correctAnswer": "SQLite / Core Data / Shared Preferences",
+            "difficulty": "medium",
+            "topic": "Data Persistence"
+        },
+        {
+            "question": "What is 'Code Signing'?",
+            "options": [
+                "Digitally signing executables to confirm author and guarantee code has not been altered",
+                "Writing signature on screen",
+                "Signing contract",
+                "Coding conventions"
+            ],
+            "correctAnswer": "Digitally signing executables to confirm author and guarantee code has not been altered",
+            "difficulty": "hard",
+            "topic": "Security"
+        },
+        {
+            "question": "What is 'ProGuard' / 'R8'?",
+            "options": [
+                "Tools for code shrinking, obfuscation, and optimization",
+                "Security guards",
+                "Professional grade tools",
+                "Testing tools"
+            ],
+            "correctAnswer": "Tools for code shrinking, obfuscation, and optimization",
+            "difficulty": "hard",
+            "topic": "Security"
+        },
+        {
+            "question": "What is the difference between 'Frame' and 'Bounds' in iOS?",
+            "options": [
+                "Frame is relative to superview, Bounds is relative to its own coordinate system",
+                "They are same",
+                "Frame is bigger",
+                "Bounds is bigger"
+            ],
+            "correctAnswer": "Frame is relative to superview, Bounds is relative to its own coordinate system",
+            "difficulty": "hard",
+            "topic": "iOS"
+        },
+        {
+            "question": "What is 'Deep Linking'?",
+            "options": [
+                "Using a URI to link to a specific location within a mobile app",
+                "Linking to deep web",
+                "Linking to bottom of page",
+                "Linking to database"
+            ],
+            "correctAnswer": "Using a URI to link to a specific location within a mobile app",
+            "difficulty": "hard",
+            "topic": "Navigation"
+        },
+        {
+            "question": "What is 'Dependency Injection'?",
+            "options": [
+                "A design pattern in which a class requests dependencies from external sources rather than creating them",
+                "Injecting bugs",
+                "Injecting medicine",
+                "Installing dependencies"
+            ],
+            "correctAnswer": "A design pattern in which a class requests dependencies from external sources rather than creating them",
+            "difficulty": "hard",
+            "topic": "Architecture"
+        },
+        {
+            "question": "What is 'MVVM'?",
+            "options": [
+                "Model-View-ViewModel architecture",
+                "Mobile View Virtual Memory",
+                "Multiple View Visual Mode",
+                "Make Views Very Modern"
+            ],
+            "correctAnswer": "Model-View-ViewModel architecture",
+            "difficulty": "hard",
+            "topic": "Architecture"
+        },
+        {
+            "question": "What is 'Coroutines' in Kotlin?",
+            "options": [
+                "A design pattern for simplifying code that executes asynchronously",
+                "Routing",
+                "Core routines",
+                "Loops"
+            ],
+            "correctAnswer": "A design pattern for simplifying code that executes asynchronously",
+            "difficulty": "hard",
+            "topic": "Android"
+        },
+        {
+            "question": "What is 'GCD' in iOS?",
+            "options": [
+                "Grand Central Dispatch (low-level API for managing concurrent operations)",
+                "Great Code Design",
+                "Good Coder Developer",
+                "Global Content Delivery"
+            ],
+            "correctAnswer": "Grand Central Dispatch (low-level API for managing concurrent operations)",
+            "difficulty": "hard",
+            "topic": "iOS"
+        },
+        {
+            "question": "How does React Native bridge work?",
+            "options": [
+                "It asynchronously serializes messages between JS thread and Native thread",
+                "It connects to internet",
+                "It bridges 2 phones",
+                "It compiles to C++"
+            ],
+            "correctAnswer": "It asynchronously serializes messages between JS thread and Native thread",
+            "difficulty": "hard",
+            "topic": "React Native"
+        },
+        {
+            "question": "What is 'Widget' in Flutter?",
+            "options": [
+                "The basic building block of the user interface (Everything is a widget)",
+                "A small tool",
+                "A spinner",
+                "A database"
+            ],
+            "correctAnswer": "The basic building block of the user interface (Everything is a widget)",
+            "difficulty": "hard",
+            "topic": "Flutter"
+        },
+        {
+            "question": "What is 'KeyStore' in Android?",
+            "options": [
+                "Storage system for cryptographic keys",
+                "Store for keys",
+                "Play Store",
+                "Database"
+            ],
+            "correctAnswer": "Storage system for cryptographic keys",
+            "difficulty": "hard",
+            "topic": "Security"
+        },
+        {
+            "question": "What is 'App Thinning'?",
+            "options": [
+                "Apple mechanism to deliver only the parts of the app needed for the specific device",
+                "Making app look thin",
+                "Deleting features",
+                "Compressing images only"
+            ],
+            "correctAnswer": "Apple mechanism to deliver only the parts of the app needed for the specific device",
+            "difficulty": "hard",
+            "topic": "Optimization"
+        },
+        {
+            "question": "What is 'LeakCanary'?",
+            "options": [
+                "A memory leak detection library for Android",
+                "A bird",
+                "A game",
+                "A testing tool"
+            ],
+            "correctAnswer": "A memory leak detection library for Android",
+            "difficulty": "hard",
+            "topic": "Tools"
+        },
+        {
+            "question": "What is 'Combine' framework?",
+            "options": [
+                "Apple's framework for processing values over time (Reactive programming)",
+                "Combining files",
+                "Merging code",
+                "Harvesting"
+            ],
+            "correctAnswer": "Apple's framework for processing values over time (Reactive programming)",
+            "difficulty": "hard",
+            "topic": "iOS"
+        },
+        {
+            "question": "What is 'TestFlight'?",
+            "options": [
+                "Online service for over-the-air installation and testing of mobile applications",
+                "Flight simulator",
+                "Testing planes",
+                "Google Play console"
+            ],
+            "correctAnswer": "Online service for over-the-air installation and testing of mobile applications",
+            "difficulty": "hard",
+            "topic": "Distribution"
+        },
+        {
+            "question": "What is 'Proguard' rules?",
+            "options": [
+                "Configuration for code obfuscation and keeping necessary classes",
+                "Security rules",
+                "Firewall rules",
+                "Game rules"
+            ],
+            "correctAnswer": "Configuration for code obfuscation and keeping necessary classes",
+            "difficulty": "hard",
+            "topic": "Android"
+        },
+        {
+            "question": "What is 'SceneDelegate'?",
+            "options": [
+                "Manages the life cycle of scenes (windows) in an iOS app",
+                "Manages movie scenes",
+                "Manages database",
+                "Manages network"
+            ],
+            "correctAnswer": "Manages the life cycle of scenes (windows) in an iOS app",
+            "difficulty": "hard",
+            "topic": "iOS"
+        },
+        {
+            "question": "What is 'Android Jetpack'?",
+            "options": [
+                "A suite of libraries to help developers follow best practices and write boilerplate code",
+                "A game",
+                "A phone",
+                "A rocket"
+            ],
+            "correctAnswer": "A suite of libraries to help developers follow best practices and write boilerplate code",
+            "difficulty": "hard",
+            "topic": "Android"
+        },
+        {
+            "question": "What is 'Hot Reload'?",
+            "options": [
+                "Injecting updated source code files into the running Dart Virtual Machine without losing state",
+                "Reloading page",
+                "Restarting phone",
+                "Heating up"
+            ],
+            "correctAnswer": "Injecting updated source code files into the running Dart Virtual Machine without losing state",
+            "difficulty": "hard",
+            "topic": "Flutter/React Native"
+        },
+        {
+            "question": "What is 'Push Notification'?",
+            "options": [
+                "A message that pops up on a mobile device",
+                "Pushing a button",
+                "Email",
+                "SMS"
+            ],
+            "correctAnswer": "A message that pops up on a mobile device",
+            "difficulty": "easy",
+            "topic": "Features"
+        },
+        {
+            "question": "What is 'WebView'?",
+            "options": [
+                "A view that displays web pages inside an app",
+                "Reviewing web",
+                "A browser",
+                "A spider web"
+            ],
+            "correctAnswer": "A view that displays web pages inside an app",
+            "difficulty": "easy",
+            "topic": "Components"
+        },
+        {
+            "question": "What is 'Sideloading'?",
+            "options": [
+                "Installing an app without using the official app store",
+                "Loading sideways",
+                "Downloading slow",
+                "Uploading"
+            ],
+            "correctAnswer": "Installing an app without using the official app store",
+            "difficulty": "medium",
+            "topic": "Distribution"
+        },
+        {
+            "question": "What is 'Sandboxing'?",
+            "options": [
+                "Restricting an app's access to the system and other apps",
+                "Playing in sand",
+                "Beach app",
+                "Open access"
+            ],
+            "correctAnswer": "Restricting an app's access to the system and other apps",
+            "difficulty": "hard",
+            "topic": "Security"
+        },
+        {
+            "question": "What is 'OOM'?",
+            "options": [
+                "Out of Memory",
+                "Out of Money",
+                "Object Oriented Model",
+                "Only One Monitor"
+            ],
+            "correctAnswer": "Out of Memory",
+            "difficulty": "medium",
+            "topic": "Performance"
+        },
+        {
+            "question": "What is 'Firebase'?",
+            "options": [
+                "A platform developed by Google for creating mobile and web applications",
+                "A fire truck",
+                "A database only",
+                "A hosting provider"
+            ],
+            "correctAnswer": "A platform developed by Google for creating mobile and web applications",
+            "difficulty": "medium",
+            "topic": "Backend as a Service"
+        }
+    ]
+}

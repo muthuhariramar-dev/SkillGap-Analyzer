@@ -1,0 +1,605 @@
+{
+    "role": "Developmental Operations Engineer",
+    "questions": [
+        {
+            "question": "What does DevOps stand for?",
+            "options": [
+                "Development and Operations",
+                "Developer Options",
+                "Device Operations",
+                "Develop Operating System"
+            ],
+            "correctAnswer": "Development and Operations",
+            "difficulty": "easy",
+            "topic": "Fundamentals"
+        },
+        {
+            "question": "What is CI/CD?",
+            "options": [
+                "Continuous Integration / Continuous Deployment",
+                "Code Integration / Code Delivery",
+                "Cloud Integration / Cloud Domain",
+                "Compute Input / Compute Data"
+            ],
+            "correctAnswer": "Continuous Integration / Continuous Deployment",
+            "difficulty": "easy",
+            "topic": "CI/CD"
+        },
+        {
+            "question": "What is Git?",
+            "options": [
+                "A distributed version control system",
+                "A cloud provider",
+                "A container tool",
+                "A database"
+            ],
+            "correctAnswer": "A distributed version control system",
+            "difficulty": "easy",
+            "topic": "VCS"
+        },
+        {
+            "question": "What is Docker?",
+            "options": [
+                "A platform for developing, shipping, and running applications in containers",
+                "A ship",
+                "A virtual machine",
+                "A file server"
+            ],
+            "correctAnswer": "A platform for developing, shipping, and running applications in containers",
+            "difficulty": "easy",
+            "topic": "Containerization"
+        },
+        {
+            "question": "What is Kubernetes?",
+            "options": [
+                "An open-source container orchestration system",
+                "A greek god",
+                "A web server",
+                "A database"
+            ],
+            "correctAnswer": "An open-source container orchestration system",
+            "difficulty": "easy",
+            "topic": "Orchestration"
+        },
+        {
+            "question": "What is Jenkins?",
+            "options": [
+                "An open source automation server",
+                "A butler",
+                "A code editor",
+                "A database"
+            ],
+            "correctAnswer": "An open source automation server",
+            "difficulty": "easy",
+            "topic": "CI/CD"
+        },
+        {
+            "question": "What is Infrastructure as Code (IaC)?",
+            "options": [
+                "Managing and provisioning computer data centers through machine-readable definition files",
+                "Writing code on servers",
+                "Building hardware",
+                "Coding infrastructure"
+            ],
+            "correctAnswer": "Managing and provisioning computer data centers through machine-readable definition files",
+            "difficulty": "easy",
+            "topic": "IaC"
+        },
+        {
+            "question": "Which of these is a cloud provider?",
+            "options": [
+                "AWS",
+                "VLC",
+                "MP3",
+                "PNG"
+            ],
+            "correctAnswer": "AWS",
+            "difficulty": "easy",
+            "topic": "Cloud"
+        },
+        {
+            "question": "What is 'sudo'?",
+            "options": [
+                "super user do (execute command as administrator)",
+                "pseudo",
+                "sudoku",
+                "speed up"
+            ],
+            "correctAnswer": "super user do (execute command as administrator)",
+            "difficulty": "easy",
+            "topic": "Linux"
+        },
+        {
+            "question": "What is SSH?",
+            "options": [
+                "Secure Shell",
+                "Super Shell",
+                "Secure Socket Hub",
+                "Simple Shell"
+            ],
+            "correctAnswer": "Secure Shell",
+            "difficulty": "easy",
+            "topic": "Networking"
+        },
+        {
+            "question": "What is Ansible?",
+            "options": [
+                "An open-source software provisioning, configuration management, and application-deployment tool",
+                "Answer able",
+                "A database",
+                "A testing tool"
+            ],
+            "correctAnswer": "An open-source software provisioning, configuration management, and application-deployment tool",
+            "difficulty": "medium",
+            "topic": "Configuration Management"
+        },
+        {
+            "question": "What is Terraform?",
+            "options": [
+                "An open-source infrastructure as code software tool",
+                "Terra forming",
+                "Earthquake tool",
+                "Building hardware"
+            ],
+            "correctAnswer": "An open-source infrastructure as code software tool",
+            "difficulty": "medium",
+            "topic": "IaC"
+        },
+        {
+            "question": "What is a 'Container'?",
+            "options": [
+                "A standard unit of software that packages up code and all its dependencies",
+                "A box",
+                "A VM",
+                "A heavy object"
+            ],
+            "correctAnswer": "A standard unit of software that packages up code and all its dependencies",
+            "difficulty": "medium",
+            "topic": "Containerization"
+        },
+        {
+            "question": "What is 'The Cloud'?",
+            "options": [
+                "Servers that are accessed over the Internet",
+                "Water vapor",
+                "Wireless magic",
+                "A single computer"
+            ],
+            "correctAnswer": "Servers that are accessed over the Internet",
+            "difficulty": "medium",
+            "topic": "Cloud"
+        },
+        {
+            "question": "What is 'Nagios'?",
+            "options": [
+                "A monitoring system",
+                "A greek city",
+                "A database",
+                "A firewall"
+            ],
+            "correctAnswer": "A monitoring system",
+            "difficulty": "medium",
+            "topic": "Monitoring"
+        },
+        {
+            "question": "What is 'ELK Stack'?",
+            "options": [
+                "Elasticsearch, Logstash, Kibana",
+                "Elephant Lion Kangaroo",
+                "Error Log Kernel",
+                "Enterprise Linux Kernel"
+            ],
+            "correctAnswer": "Elasticsearch, Logstash, Kibana",
+            "difficulty": "medium",
+            "topic": "Logging"
+        },
+        {
+            "question": "What is 'Blue-Green Deployment'?",
+            "options": [
+                "A technique that reduces downtime and risk by running two identical production environments",
+                "Painting servers",
+                "Deploying underwater",
+                "Deploying in forest"
+            ],
+            "correctAnswer": "A technique that reduces downtime and risk by running two identical production environments",
+            "difficulty": "medium",
+            "topic": "Deployment"
+        },
+        {
+            "question": "What is 'Canary Release'?",
+            "options": [
+                "Rolling out a change to a small subset of users before everyone else",
+                "Releasing a bird",
+                "Mining coal",
+                "Singing"
+            ],
+            "correctAnswer": "Rolling out a change to a small subset of users before everyone else",
+            "difficulty": "medium",
+            "topic": "Deployment"
+        },
+        {
+            "question": "What is 'Microservices'?",
+            "options": [
+                "Architectural style that structures an application as a collection of services",
+                "Small code",
+                "Micro controllers",
+                "One big app"
+            ],
+            "correctAnswer": "Architectural style that structures an application as a collection of services",
+            "difficulty": "medium",
+            "topic": "Architecture"
+        },
+        {
+            "question": "What is 'Load Balancer'?",
+            "options": [
+                "Device that acts as a reverse proxy and distributes network or application traffic across a number of servers",
+                "Weighing scale",
+                "Heavy truck",
+                "Power supply"
+            ],
+            "correctAnswer": "Device that acts as a reverse proxy and distributes network or application traffic across a number of servers",
+            "difficulty": "medium",
+            "topic": "Networking"
+        },
+        {
+            "question": "What is 'Nginx'?",
+            "options": [
+                "Web server / reverse proxy / load balancer",
+                "Engine X",
+                "A browser",
+                "A database"
+            ],
+            "correctAnswer": "Web server / reverse proxy / load balancer",
+            "difficulty": "medium",
+            "topic": "Web Servers"
+        },
+        {
+            "question": "What is 'Cron'?",
+            "options": [
+                "Time-based job scheduler",
+                "A futuristic movie",
+                "A virus",
+                "A database"
+            ],
+            "correctAnswer": "Time-based job scheduler",
+            "difficulty": "medium",
+            "topic": "Linux"
+        },
+        {
+            "question": "What is 'S3'?",
+            "options": [
+                "Amazon Simple Storage Service",
+                "Super Speed Storage",
+                "Simple Server Setup",
+                "South Side Server"
+            ],
+            "correctAnswer": "Amazon Simple Storage Service",
+            "difficulty": "medium",
+            "topic": "AWS"
+        },
+        {
+            "question": "What is 'EC2'?",
+            "options": [
+                "Amazon Elastic Compute Cloud",
+                "Easy Computer 2",
+                "Electronic Circuit 2",
+                "European Cloud 2"
+            ],
+            "correctAnswer": "Amazon Elastic Compute Cloud",
+            "difficulty": "medium",
+            "topic": "AWS"
+        },
+        {
+            "question": "What is 'GitOps'?",
+            "options": [
+                "Using Git repositories as a single source of truth for infrastructure and application code",
+                "Git operations",
+                "Github features",
+                "Coding style"
+            ],
+            "correctAnswer": "Using Git repositories as a single source of truth for infrastructure and application code",
+            "difficulty": "medium",
+            "topic": "Methodology"
+        },
+        {
+            "question": "What is 'Chaos Engineering'?",
+            "options": [
+                "The discipline of experimenting on a system in order to build confidence in the system's capability to withstand turbulent conditions",
+                "Creating chaos",
+                "Breaking things for fun",
+                "Bad engineering"
+            ],
+            "correctAnswer": "The discipline of experimenting on a system in order to build confidence in the system's capability to withstand turbulent conditions",
+            "difficulty": "hard",
+            "topic": "Testing"
+        },
+        {
+            "question": "What is 'Prometheus'?",
+            "options": [
+                "Open-source monitoring and alerting toolkit",
+                "A movie",
+                "Fire bringer",
+                "A database"
+            ],
+            "correctAnswer": "Open-source monitoring and alerting toolkit",
+            "difficulty": "hard",
+            "topic": "Monitoring"
+        },
+        {
+            "question": "What is 'Grafana'?",
+            "options": [
+                "Open source analytics & monitoring solution for every database",
+                "Graphic design tool",
+                "Graffiti",
+                "A game"
+            ],
+            "correctAnswer": "Open source analytics & monitoring solution for every database",
+            "difficulty": "hard",
+            "topic": "Monitoring"
+        },
+        {
+            "question": "What is 'Reverse Proxy'?",
+            "options": [
+                "A server that sits in front of one or more web servers, intercepting requests from clients",
+                "Going backwards",
+                "Hacking tool",
+                "VPN"
+            ],
+            "correctAnswer": "A server that sits in front of one or more web servers, intercepting requests from clients",
+            "difficulty": "hard",
+            "topic": "Networking"
+        },
+        {
+            "question": "What is 'Immutable Infrastructure'?",
+            "options": [
+                "Infrastructure that is replaced rather than modified",
+                "Sturdy servers",
+                "Unbreakable code",
+                "Legacy systems"
+            ],
+            "correctAnswer": "Infrastructure that is replaced rather than modified",
+            "difficulty": "hard",
+            "topic": "Methodology"
+        },
+        {
+            "question": "What is 'Service Mesh' (e.g., Istio)?",
+            "options": [
+                "A dedicated infrastructure layer for facilitating service-to-service communications",
+                "Internet mesh",
+                "Wifi extender",
+                "Services list"
+            ],
+            "correctAnswer": "A dedicated infrastructure layer for facilitating service-to-service communications",
+            "difficulty": "hard",
+            "topic": "Networking"
+        },
+        {
+            "question": "What is 'Serverless'?",
+            "options": [
+                "A cloud execution model where the cloud provider runs the server, and dynamically manages the allocation of machine resources",
+                "No servers exist",
+                "Peer to peer",
+                "Offline app"
+            ],
+            "correctAnswer": "A cloud execution model where the cloud provider runs the server, and dynamically manages the allocation of machine resources",
+            "difficulty": "hard",
+            "topic": "Cloud"
+        },
+        {
+            "question": "What is 'Sidecar Pattern'?",
+            "options": [
+                "Attaching a supporting process/container to a main application container",
+                "Motorcycle sidecar",
+                "Driving pattern",
+                "Design pattern"
+            ],
+            "correctAnswer": "Attaching a supporting process/container to a main application container",
+            "difficulty": "hard",
+            "topic": "Design Pattern"
+        },
+        {
+            "question": "What is 'Pod' in Kubernetes?",
+            "options": [
+                " The smallest deployable units of computing that you can create and manage in Kubernetes",
+                "Pea pod",
+                "MP3 player",
+                "A container"
+            ],
+            "correctAnswer": " The smallest deployable units of computing that you can create and manage in Kubernetes",
+            "difficulty": "hard",
+            "topic": "Kubernetes"
+        },
+        {
+            "question": "What is 'Helm'?",
+            "options": [
+                "The package manager for Kubernetes",
+                "A ship wheel",
+                "A helmet",
+                "A knight"
+            ],
+            "correctAnswer": "The package manager for Kubernetes",
+            "difficulty": "hard",
+            "topic": "Kubernetes"
+        },
+        {
+            "question": "What is 'Scaling Up' vs 'Scaling Out'?",
+            "options": [
+                "Vertical (more power) vs Horizontal (more machines)",
+                "Out is cheaper",
+                "Up is cheaper",
+                "No difference"
+            ],
+            "correctAnswer": "Vertical (more power) vs Horizontal (more machines)",
+            "difficulty": "hard",
+            "topic": "Scaling"
+        },
+        {
+            "question": "What is 'Zero Downtime Deployment'?",
+            "options": [
+                "Updating the application without interrupting service",
+                "Deploying at midnight",
+                "Fast deployment",
+                "No deployment"
+            ],
+            "correctAnswer": "Updating the application without interrupting service",
+            "difficulty": "hard",
+            "topic": "Deployment"
+        },
+        {
+            "question": "What is 'Bash'?",
+            "options": [
+                "Bourne Again SHell",
+                "Hitting hard",
+                "Party",
+                "Command"
+            ],
+            "correctAnswer": "Bourne Again SHell",
+            "difficulty": "hard",
+            "topic": "Linux"
+        },
+        {
+            "question": "What is 'Sticky Session'?",
+            "options": [
+                "Directing all requests from a client to the same backend server",
+                "Cognitive load",
+                "Unclosed session",
+                "Gum"
+            ],
+            "correctAnswer": "Directing all requests from a client to the same backend server",
+            "difficulty": "hard",
+            "topic": "Load Balancing"
+        },
+        {
+            "question": "What is '502 Bad Gateway'?",
+            "options": [
+                "The server was acting as a gateway or proxy and received an invalid response from the upstream server",
+                "Server down",
+                "Not found",
+                "Unauthorized"
+            ],
+            "correctAnswer": "The server was acting as a gateway or proxy and received an invalid response from the upstream server",
+            "difficulty": "hard",
+            "topic": "Networking"
+        },
+        {
+            "question": "What is 'DevSecOps'?",
+            "options": [
+                "Integrating security practices into the DevOps process",
+                "Developing security",
+                "Secret ops",
+                "Security guards"
+            ],
+            "correctAnswer": "Integrating security practices into the DevOps process",
+            "difficulty": "hard",
+            "topic": "Methodology"
+        },
+        {
+            "question": "What is 'Artifact'?",
+            "options": [
+                "A file produced by a build process (e.g., JAR, WAR, EXE)",
+                "Ancient item",
+                "Documentation",
+                "Source code"
+            ],
+            "correctAnswer": "A file produced by a build process (e.g., JAR, WAR, EXE)",
+            "difficulty": "hard",
+            "topic": "CI/CD"
+        },
+        {
+            "question": "What is 'DaemonSet' in Kubernetes?",
+            "options": [
+                "Ensures that all (or some) Nodes run a copy of a Pod",
+                "Demon set",
+                "Background process",
+                "Virus"
+            ],
+            "correctAnswer": "Ensures that all (or some) Nodes run a copy of a Pod",
+            "difficulty": "hard",
+            "topic": "Kubernetes"
+        },
+        {
+            "question": "What is 'Overlay Network'?",
+            "options": [
+                "A virtual network that is built on top of another network",
+                "Layers",
+                "Covering network",
+                "Cable management"
+            ],
+            "correctAnswer": "A virtual network that is built on top of another network",
+            "difficulty": "hard",
+            "topic": "Networking"
+        },
+        {
+            "question": "What is 'Zombie Process'?",
+            "options": [
+                "A process that has completed execution but still has an entry in the process table",
+                "Undead virus",
+                "Hanging app",
+                "Slow computer"
+            ],
+            "correctAnswer": "A process that has completed execution but still has an entry in the process table",
+            "difficulty": "hard",
+            "topic": "Linux"
+        },
+        {
+            "question": "What is 'Idempotency' in Ansible?",
+            "options": [
+                "Running the same playbook multiple times should produce the same result",
+                "Running once",
+                "Running fast",
+                "Running parallel"
+            ],
+            "correctAnswer": "Running the same playbook multiple times should produce the same result",
+            "difficulty": "hard",
+            "topic": "Ansible"
+        },
+        {
+            "question": "What is 'Pipeline'?",
+            "options": [
+                "A set of automated processes that allow developers to compile, build, and deploy code",
+                "A tube",
+                "Oil transport",
+                "Surfing"
+            ],
+            "correctAnswer": "A set of automated processes that allow developers to compile, build, and deploy code",
+            "difficulty": "hard",
+            "topic": "CI/CD"
+        },
+        {
+            "question": "What is 'Elasticsearch'?",
+            "options": [
+                "A distributed, RESTful search and analytics engine",
+                "Rubber band",
+                "Database search",
+                "Web search"
+            ],
+            "correctAnswer": "A distributed, RESTful search and analytics engine",
+            "difficulty": "hard",
+            "topic": "Tools"
+        },
+        {
+            "question": "What is 'VPC'?",
+            "options": [
+                "Virtual Private Cloud",
+                "Very Personal Computer",
+                "Virtual Public Cloud",
+                "Video PC"
+            ],
+            "correctAnswer": "Virtual Private Cloud",
+            "difficulty": "medium",
+            "topic": "Cloud"
+        },
+        {
+            "question": "What is 'Chmod'?",
+            "options": [
+                "Command to change file mode bits (permissions)",
+                "Change mode",
+                "Change modulation",
+                "Character mod"
+            ],
+            "correctAnswer": "Command to change file mode bits (permissions)",
+            "difficulty": "hard",
+            "topic": "Linux"
+        }
+    ]
+}

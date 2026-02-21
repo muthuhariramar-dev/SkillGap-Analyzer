@@ -1,0 +1,605 @@
+{
+    "role": "Game Developer",
+    "questions": [
+        {
+            "question": "Which engine uses Blueprints for visual scripting?",
+            "options": [
+                "Unreal Engine",
+                "Unity",
+                "Godot",
+                "CryEngine"
+            ],
+            "correctAnswer": "Unreal Engine",
+            "difficulty": "easy",
+            "topic": "Engines"
+        },
+        {
+            "question": "What is the primary language used in Unity?",
+            "options": [
+                "C#",
+                "C++",
+                "Java",
+                "Python"
+            ],
+            "correctAnswer": "C#",
+            "difficulty": "easy",
+            "topic": "Unity"
+        },
+        {
+            "question": "What is a 'Sprite'?",
+            "options": [
+                "A 2D image or animation integrated into a larger scene",
+                "A soda",
+                "A 3D model",
+                "A sound effect"
+            ],
+            "correctAnswer": "A 2D image or animation integrated into a larger scene",
+            "difficulty": "easy",
+            "topic": "Graphics"
+        },
+        {
+            "question": "What does FPS stand for in gaming?",
+            "options": [
+                "Frames Per Second",
+                "First Person Shooter",
+                "Fast Player Speed",
+                "Both A and B depending on context"
+            ],
+            "correctAnswer": "Both A and B depending on context",
+            "difficulty": "easy",
+            "topic": "Terminology"
+        },
+        {
+            "question": "What is a 'Mesh'?",
+            "options": [
+                "A collection of vertices, edges, and faces that define the shape of a 3D object",
+                "A texture",
+                "A collision box",
+                "A light source"
+            ],
+            "correctAnswer": "A collection of vertices, edges, and faces that define the shape of a 3D object",
+            "difficulty": "easy",
+            "topic": "3D Graphics"
+        },
+        {
+            "question": "What is a 'collider' used for?",
+            "options": [
+                "To detect physical collisions between objects",
+                "To render graphics",
+                "To play sound",
+                "To load levels"
+            ],
+            "correctAnswer": "To detect physical collisions between objects",
+            "difficulty": "easy",
+            "topic": "Physics"
+        },
+        {
+            "question": "What is 'Raycasting'?",
+            "options": [
+                "Shooting an invisible line from a point in a direction to detect what it hits",
+                "Casting shadows",
+                "Rendering light",
+                "Playing animations"
+            ],
+            "correctAnswer": "Shooting an invisible line from a point in a direction to detect what it hits",
+            "difficulty": "easy",
+            "topic": "Physics"
+        },
+        {
+            "question": "What is a 'Prefab' in Unity?",
+            "options": [
+                "A reusable asset that contains a GameObject and its components",
+                "A pre-rendered image",
+                "A script",
+                "A sound file"
+            ],
+            "correctAnswer": "A reusable asset that contains a GameObject and its components",
+            "difficulty": "easy",
+            "topic": "Unity"
+        },
+        {
+            "question": "What is 'NavMesh' used for?",
+            "options": [
+                "Pathfinding for AI agents",
+                "Rendering water",
+                "Creating menus",
+                "Playing music"
+            ],
+            "correctAnswer": "Pathfinding for AI agents",
+            "difficulty": "easy",
+            "topic": "AI"
+        },
+        {
+            "question": "What is a 'Skybox'?",
+            "options": [
+                "A cube with textures on the inside faces to create a background environment",
+                "A flying box",
+                "A cloud generator",
+                "A light source"
+            ],
+            "correctAnswer": "A cube with textures on the inside faces to create a background environment",
+            "difficulty": "easy",
+            "topic": "Environment"
+        },
+        {
+            "question": "What is 'Delta Time'?",
+            "options": [
+                "The time difference between the last frame and the current frame",
+                "Total game time",
+                "Loading time",
+                "Physics time"
+            ],
+            "correctAnswer": "The time difference between the last frame and the current frame",
+            "difficulty": "medium",
+            "topic": "Game Loop"
+        },
+        {
+            "question": "What is the difference between 'Start' and 'Awake' in Unity?",
+            "options": [
+                "Awake is called when the script instance is being loaded, Start is called before the first frame update",
+                "Start is first",
+                "They are same",
+                "Awake is only for UI"
+            ],
+            "correctAnswer": "Awake is called when the script instance is being loaded, Start is called before the first frame update",
+            "difficulty": "medium",
+            "topic": "Unity Lifecycle"
+        },
+        {
+            "question": "What is 'Rigging'?",
+            "options": [
+                "Creating a skeleton for a 3D model so it can be moved/animated",
+                "Building a ship",
+                "Setting up lights",
+                "Writing code"
+            ],
+            "correctAnswer": "Creating a skeleton for a 3D model so it can be moved/animated",
+            "difficulty": "medium",
+            "topic": "Animation"
+        },
+        {
+            "question": "What is 'LOD'?",
+            "options": [
+                "Level of Detail",
+                "Load on Demand",
+                "Level of Department",
+                "Land of Dead"
+            ],
+            "correctAnswer": "Level of Detail",
+            "difficulty": "medium",
+            "topic": "Optimization"
+        },
+        {
+            "question": "What is 'Draw Call'?",
+            "options": [
+                "A command sent by the CPU to the GPU to render a mesh",
+                "Drawing a picture",
+                "Calling a function",
+                "Loading a texture"
+            ],
+            "correctAnswer": "A command sent by the CPU to the GPU to render a mesh",
+            "difficulty": "medium",
+            "topic": "Performance"
+        },
+        {
+            "question": "What is 'Normal Map'?",
+            "options": [
+                "A texture used to add surface detail without adding geometry",
+                "A regular map",
+                "A minimap",
+                "A light map"
+            ],
+            "correctAnswer": "A texture used to add surface detail without adding geometry",
+            "difficulty": "medium",
+            "topic": "Graphics"
+        },
+        {
+            "question": "What is 'Quaternion' used for?",
+            "options": [
+                "Representing rotations to avoid gimbal lock",
+                "Measuring distance",
+                "Calculating physics",
+                "AI decision making"
+            ],
+            "correctAnswer": "Representing rotations to avoid gimbal lock",
+            "difficulty": "medium",
+            "topic": "Math"
+        },
+        {
+            "question": "What is 'Occlusion Culling'?",
+            "options": [
+                "Not rendering objects that are hidden behind other objects",
+                "Hiding enemies",
+                "Deleting objects",
+                "Optimizing audio"
+            ],
+            "correctAnswer": "Not rendering objects that are hidden behind other objects",
+            "difficulty": "medium",
+            "topic": "Optimization"
+        },
+        {
+            "question": "What is a 'State Machine'?",
+            "options": [
+                "A behavioral model that consists of a finite number of states, transitions, and actions",
+                "A robot",
+                "A level editor",
+                "A save system"
+            ],
+            "correctAnswer": "A behavioral model that consists of a finite number of states, transitions, and actions",
+            "difficulty": "medium",
+            "topic": "AI"
+        },
+        {
+            "question": "What is 'Physics.Raycast' output?",
+            "options": [
+                "Information about what the ray hit (RaycastHit)",
+                "A boolean only",
+                "The object name only",
+                "Distance only"
+            ],
+            "correctAnswer": "Information about what the ray hit (RaycastHit)",
+            "difficulty": "medium",
+            "topic": "Unity Physics"
+        },
+        {
+            "question": "What is 'Object Pooling'?",
+            "options": [
+                "Reusing objects from a pool instead of destroying and instantiating them repeatedly",
+                "Grouping objects",
+                "Swimming pool",
+                "Deleting objects"
+            ],
+            "correctAnswer": "Reusing objects from a pool instead of destroying and instantiating them repeatedly",
+            "difficulty": "medium",
+            "topic": "Optimization"
+        },
+        {
+            "question": "What is 'Linear Interpolation' (Lerp)?",
+            "options": [
+                "Finding a value between two points based on a percentage",
+                "Drawing a line",
+                "Teleporting",
+                "Curving"
+            ],
+            "correctAnswer": "Finding a value between two points based on a percentage",
+            "difficulty": "medium",
+            "topic": "Math"
+        },
+        {
+            "question": "What is 'Anti-Aliasing'?",
+            "options": [
+                "Smoothing jagged edges on curved lines and diagonals",
+                "Making lines sharp",
+                "Blurring screen",
+                "Removing shadows"
+            ],
+            "correctAnswer": "Smoothing jagged edges on curved lines and diagonals",
+            "difficulty": "medium",
+            "topic": "Graphics"
+        },
+        {
+            "question": "What is a 'Shader'?",
+            "options": [
+                "A program that runs on the GPU to determine how to render graphics",
+                "A shadow",
+                "A light",
+                "A texture"
+            ],
+            "correctAnswer": "A program that runs on the GPU to determine how to render graphics",
+            "difficulty": "medium",
+            "topic": "Graphics"
+        },
+        {
+            "question": "What is the difference between Update and FixedUpdate?",
+            "options": [
+                "Update runs once per frame, FixedUpdate runs at a fixed interval (for physics)",
+                "Update is faster",
+                "FixedUpdate is for UI",
+                "No difference"
+            ],
+            "correctAnswer": "Update runs once per frame, FixedUpdate runs at a fixed interval (for physics)",
+            "difficulty": "medium",
+            "topic": "Game Loop"
+        },
+        {
+            "question": "What is 'Gimbal Lock'?",
+            "options": [
+                "Loss of one degree of freedom in a three-dimensional, three-gimbal mechanism",
+                "Locking a door",
+                "Freezing game",
+                "Camera shake"
+            ],
+            "correctAnswer": "Loss of one degree of freedom in a three-dimensional, three-gimbal mechanism",
+            "difficulty": "hard",
+            "topic": "Math"
+        },
+        {
+            "question": "What is 'Baked Lighting'?",
+            "options": [
+                "Pre-calculating lighting and storing it in lightmaps (textures)",
+                "Dynamic lighting",
+                "Cooking simulator",
+                "Sunlight"
+            ],
+            "correctAnswer": "Pre-calculating lighting and storing it in lightmaps (textures)",
+            "difficulty": "hard",
+            "topic": "Optimization"
+        },
+        {
+            "question": "Who created C++?",
+            "options": [
+                "Bjarne Stroustrup",
+                "James Gosling",
+                "Dennis Ritchie",
+                "Linus Torvalds"
+            ],
+            "correctAnswer": "Bjarne Stroustrup",
+            "difficulty": "hard",
+            "topic": "History"
+        },
+        {
+            "question": "What is 'Entity Component System' (ECS)?",
+            "options": [
+                "An architectural pattern where data (Components) is separated from logic (Systems) and identity (Entities)",
+                "A UI framework",
+                "A physics engine",
+                "A networking protocol"
+            ],
+            "correctAnswer": "An architectural pattern where data (Components) is separated from logic (Systems) and identity (Entities)",
+            "difficulty": "hard",
+            "topic": "Architecture"
+        },
+        {
+            "question": "What is 'Z-Fighting'?",
+            "options": [
+                "Flickering when two coplanar polygons overlap and the depth buffer cannot distinguish them",
+                "Fighting zombies",
+                "Fighting with swords",
+                "Shadow glitch"
+            ],
+            "correctAnswer": "Flickering when two coplanar polygons overlap and the depth buffer cannot distinguish them",
+            "difficulty": "hard",
+            "topic": "Graphics"
+        },
+        {
+            "question": "What is a 'Mipmap'?",
+            "options": [
+                "Pre-calculated, optimized sequences of textures at different resolutions",
+                "Mini map",
+                "Map editor",
+                "Texture atlas"
+            ],
+            "correctAnswer": "Pre-calculated, optimized sequences of textures at different resolutions",
+            "difficulty": "hard",
+            "topic": "Graphics"
+        },
+        {
+            "question": "What is 'Procedural Generation'?",
+            "options": [
+                "Creating data algorithmically rather than manually",
+                "Loading levels",
+                "Random numbers",
+                "AI generation"
+            ],
+            "correctAnswer": "Creating data algorithmically rather than manually",
+            "difficulty": "hard",
+            "topic": "Design"
+        },
+        {
+            "question": "What is 'Inverse Kinematics' (IK)?",
+            "options": [
+                "Calculating joint angles to reach a specific end effector position",
+                "Moving forward",
+                "Running animation",
+                "Ragdoll"
+            ],
+            "correctAnswer": "Calculating joint angles to reach a specific end effector position",
+            "difficulty": "hard",
+            "topic": "Animation"
+        },
+        {
+            "question": "What is 'Frustum Culling'?",
+            "options": [
+                "Culling objects outside the camera's view frustum",
+                "Cutting shapes",
+                "Camera zoom",
+                "Removing lights"
+            ],
+            "correctAnswer": "Culling objects outside the camera's view frustum",
+            "difficulty": "hard",
+            "topic": "Optimization"
+        },
+        {
+            "question": "What is 'Behavior Tree'?",
+            "options": [
+                "A mathematical model of plan execution used in AI (popular in robotics and games)",
+                "A tree asset",
+                "A logic gate",
+                "A dialogue system"
+            ],
+            "correctAnswer": "A mathematical model of plan execution used in AI (popular in robotics and games)",
+            "difficulty": "hard",
+            "topic": "AI"
+        },
+        {
+            "question": "What is 'Spatial Partitioning'?",
+            "options": [
+                "Dividing space into regions to optimize search/collision (e.g., Quadtree, Octree)",
+                "Partitioning hard drive",
+                "Splitting screen",
+                "Level design"
+            ],
+            "correctAnswer": "Dividing space into regions to optimize search/collision (e.g., Quadtree, Octree)",
+            "difficulty": "hard",
+            "topic": "Optimization"
+        },
+        {
+            "question": "What is 'Networking Prediction' (Client-side prediction)?",
+            "options": [
+                "Client simulating effects of inputs before server confirmation to reduce perceived lag",
+                "Predicting winner",
+                "Loading next level",
+                "Guessing password"
+            ],
+            "correctAnswer": "Client simulating effects of inputs before server confirmation to reduce perceived lag",
+            "difficulty": "hard",
+            "topic": "Networking"
+        },
+        {
+            "question": "What is 'Dead Reckoning'?",
+            "options": [
+                "Predicting the current position of an object based on its last known position and velocity",
+                "Killing enemies",
+                "Game over screen",
+                "Calculating score"
+            ],
+            "correctAnswer": "Predicting the current position of an object based on its last known position and velocity",
+            "difficulty": "hard",
+            "topic": "Networking"
+        },
+        {
+            "question": "What is 'Ambient Occlusion'?",
+            "options": [
+                "Shading method to approximate how exposed each point in a scene is to ambient lighting",
+                "Surround sound",
+                "Background noise",
+                "Fog"
+            ],
+            "correctAnswer": "Shading method to approximate how exposed each point in a scene is to ambient lighting",
+            "difficulty": "hard",
+            "topic": "Graphics"
+        },
+        {
+            "question": "What is 'Garbage Collection' impact on games?",
+            "options": [
+                "Can cause frame rate spikes (stutter) if it runs during gameplay",
+                "Cleans level",
+                "Deletes files",
+                "No impact"
+            ],
+            "correctAnswer": "Can cause frame rate spikes (stutter) if it runs during gameplay",
+            "difficulty": "hard",
+            "topic": "Performance"
+        },
+        {
+            "question": "What is 'Vertex Shader'?",
+            "options": [
+                "Shader stage that processes individual vertices",
+                "Processes pixels",
+                "Processes colors",
+                "Processes audio"
+            ],
+            "correctAnswer": "Shader stage that processes individual vertices",
+            "difficulty": "hard",
+            "topic": "Graphics"
+        },
+        {
+            "question": "What is 'Fragment (Pixel) Shader'?",
+            "options": [
+                "Shader stage that computes the color of individual pixels",
+                "Computes vertices",
+                "Computes physics",
+                "Computes AI"
+            ],
+            "correctAnswer": "Shader stage that computes the color of individual pixels",
+            "difficulty": "hard",
+            "topic": "Graphics"
+        },
+        {
+            "question": "What is 'TCP vs UDP' preference in fast-paced multiplayer games?",
+            "options": [
+                "UDP is preferred for speed and lower latency, even if some packets are lost",
+                "TCP is preferred",
+                "Both are same",
+                "HTTP is used"
+            ],
+            "correctAnswer": "UDP is preferred for speed and lower latency, even if some packets are lost",
+            "difficulty": "hard",
+            "topic": "Networking"
+        },
+        {
+            "question": "What is 'PBR'?",
+            "options": [
+                "Physically Based Rendering",
+                "Player Battle Royale",
+                "Physics Body Rigid",
+                "Point Based Rendering"
+            ],
+            "correctAnswer": "Physically Based Rendering",
+            "difficulty": "medium",
+            "topic": "Graphics"
+        },
+        {
+            "question": "What is a 'Texture Atlas'?",
+            "options": [
+                "A large image containing multiple smaller sub-images (sprites/textures)",
+                "A map of world",
+                "A book of textures",
+                "A 3D model"
+            ],
+            "correctAnswer": "A large image containing multiple smaller sub-images (sprites/textures)",
+            "difficulty": "medium",
+            "topic": "Optimization"
+        },
+        {
+            "question": "What is 'Lag Compensation'?",
+            "options": [
+                "Techniques to mitigate the effects of network latency",
+                "Refund for lag",
+                "Pausing game",
+                "Slow motion"
+            ],
+            "correctAnswer": "Techniques to mitigate the effects of network latency",
+            "difficulty": "hard",
+            "topic": "Networking"
+        },
+        {
+            "question": "What is 'Instancing'?",
+            "options": [
+                "Rendering multiple copies of the same mesh in a single draw call",
+                "Creating instances",
+                "Copying files",
+                "Loading game"
+            ],
+            "correctAnswer": "Rendering multiple copies of the same mesh in a single draw call",
+            "difficulty": "hard",
+            "topic": "Optimization"
+        },
+        {
+            "question": "What is 'Asset Bundle (Unity)' or 'DLC'?",
+            "options": [
+                "Archive files containing assets that can be loaded at runtime",
+                "Executable files",
+                "Source code",
+                "Save files"
+            ],
+            "correctAnswer": "Archive files containing assets that can be loaded at runtime",
+            "difficulty": "medium",
+            "topic": "Architecture"
+        },
+        {
+            "question": "What is 'Stencil Buffer'?",
+            "options": [
+                "A buffer used to limit the area of rendering (masking)",
+                "A pencil tool",
+                "A copy buffer",
+                "A color buffer"
+            ],
+            "correctAnswer": "A buffer used to limit the area of rendering (masking)",
+            "difficulty": "hard",
+            "topic": "Graphics"
+        },
+        {
+            "question": "What is 'DOTS' (Data-Oriented Technology Stack) in Unity?",
+            "options": [
+                "A stack designed for high performance using ECS, Job System, and Burst Compiler",
+                "Dots on screen",
+                "A UI system",
+                "A drawing tool"
+            ],
+            "correctAnswer": "A stack designed for high performance using ECS, Job System, and Burst Compiler",
+            "difficulty": "hard",
+            "topic": "Optimization"
+        }
+    ]
+}

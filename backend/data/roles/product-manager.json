@@ -1,0 +1,485 @@
+{
+    "role": "Product Manager",
+    "questions": [
+        {
+            "question": "What is the primary role of a Product Manager?",
+            "options": [
+                "To write code",
+                "To discover a product that is valuable, usable, and feasible",
+                "To manage the sales team",
+                "To design the UI"
+            ],
+            "correctAnswer": "To discover a product that is valuable, usable, and feasible",
+            "difficulty": "easy",
+            "topic": "Fundamentals"
+        },
+        {
+            "question": "What does MVP stand for?",
+            "options": [
+                "Most Valuable Player",
+                "Minimum Viable Product",
+                "Maximum Visual Potential",
+                "Minimum Value Proposition"
+            ],
+            "correctAnswer": "Minimum Viable Product",
+            "difficulty": "easy",
+            "topic": "Product Strategy"
+        },
+        {
+            "question": "Which framework is commonly used for prioritizing features?",
+            "options": [
+                "RICE",
+                "SLICE",
+                "DICE",
+                "MICE"
+            ],
+            "correctAnswer": "RICE",
+            "difficulty": "easy",
+            "topic": "Prioritization"
+        },
+        {
+            "question": "What is a User Persona?",
+            "options": [
+                "A fictional character created to represent a user type",
+                "A real user",
+                "The CEO of the company",
+                "A marketing slogan"
+            ],
+            "correctAnswer": "A fictional character created to represent a user type",
+            "difficulty": "easy",
+            "topic": "User Research"
+        },
+        {
+            "question": "What is A/B Testing?",
+            "options": [
+                "Testing two versions of a product to see which performs better",
+                "Testing bugs",
+                "Testing alpha and beta versions",
+                "Testing backend code"
+            ],
+            "correctAnswer": "Testing two versions of a product to see which performs better",
+            "difficulty": "easy",
+            "topic": "Analytics"
+        },
+        {
+            "question": "What is a 'User Story'?",
+            "options": [
+                "A technical specification",
+                "A short description of a feature from the perspective of the user",
+                "A marketing blog post",
+                "A bug report"
+            ],
+            "correctAnswer": "A short description of a feature from the perspective of the user",
+            "difficulty": "easy",
+            "topic": "Agile"
+        },
+        {
+            "question": "Which metric measures customer loyalty?",
+            "options": [
+                "NPS (Net Promoter Score)",
+                "CPU Usage",
+                "Code coverage",
+                "Server uptime"
+            ],
+            "correctAnswer": "NPS (Net Promoter Score)",
+            "difficulty": "easy",
+            "topic": "Metrics"
+        },
+        {
+            "question": "What is a 'Roadmap'?",
+            "options": [
+                "A strategic plan that defines a goal or desired outcome and includes the major steps to reach it",
+                "A map of roads",
+                "A list of bugs",
+                "A database schema"
+            ],
+            "correctAnswer": "A strategic plan that defines a goal or desired outcome and includes the major steps to reach it",
+            "difficulty": "easy",
+            "topic": "Product Strategy"
+        },
+        {
+            "question": "Who are the key stakeholders for a PM?",
+            "options": [
+                "Engineering, Design, Sales, Marketing, Customers",
+                "Only Engineers",
+                "Only CEO",
+                "Only Customers"
+            ],
+            "correctAnswer": "Engineering, Design, Sales, Marketing, Customers",
+            "difficulty": "easy",
+            "topic": "Communication"
+        },
+        {
+            "question": "What is 'Churn Rate'?",
+            "options": [
+                "The percentage of customers who stop using a product during a given time period",
+                "Speed of software",
+                "Rate of new hires",
+                "Rate of bugs"
+            ],
+            "correctAnswer": "The percentage of customers who stop using a product during a given time period",
+            "difficulty": "easy",
+            "topic": "Metrics"
+        },
+        {
+            "question": "What is the 'MoSCoW' method?",
+            "options": [
+                "Must have, Should have, Could have, Won't have",
+                "A city in Russia",
+                "Marketing, Sales, Coding, Web",
+                "Money, Strategy, Cost, Work"
+            ],
+            "correctAnswer": "Must have, Should have, Could have, Won't have",
+            "difficulty": "medium",
+            "topic": "Prioritization"
+        },
+        {
+            "question": "What is 'Product-Market Fit'?",
+            "options": [
+                "Being in a good market with a product that can satisfy that market",
+                "Fitting the product in a box",
+                "Marketing the product well",
+                "Selling to everyone"
+            ],
+            "correctAnswer": "Being in a good market with a product that can satisfy that market",
+            "difficulty": "medium",
+            "topic": "Product Strategy"
+        },
+        {
+            "question": "What is a 'Wireframe'?",
+            "options": [
+                "A visual guide that represents the skeletal framework of a website",
+                "A completed design",
+                "A code structure",
+                "A database diagram"
+            ],
+            "correctAnswer": "A visual guide that represents the skeletal framework of a website",
+            "difficulty": "medium",
+            "topic": "Design"
+        },
+        {
+            "question": "Difference between Waterfall and Agile?",
+            "options": [
+                "Waterfall is sequential/linear, Agile is iterative/incremental",
+                "Waterfall is faster",
+                "Agile has no planning",
+                "They are the same"
+            ],
+            "correctAnswer": "Waterfall is sequential/linear, Agile is iterative/incremental",
+            "difficulty": "medium",
+            "topic": "Agile"
+        },
+        {
+            "question": "What is 'CAC'?",
+            "options": [
+                "Customer Acquisition Cost",
+                "Customer Account Control",
+                "Cost Access Code",
+                "Create Account Control"
+            ],
+            "correctAnswer": "Customer Acquisition Cost",
+            "difficulty": "medium",
+            "topic": "Metrics"
+        },
+        {
+            "question": "What is 'LTV'?",
+            "options": [
+                "Lifetime Value",
+                "Long Term Vision",
+                "Low Tech Version",
+                "Limit To View"
+            ],
+            "correctAnswer": "Lifetime Value",
+            "difficulty": "medium",
+            "topic": "Metrics"
+        },
+        {
+            "question": "What is a 'Sprint' in Scrum?",
+            "options": [
+                "A set period of time during which specific work has to be completed",
+                "Checking emails",
+                "Running fast",
+                "A meeting"
+            ],
+            "correctAnswer": "A set period of time during which specific work has to be completed",
+            "difficulty": "medium",
+            "topic": "Agile"
+        },
+        {
+            "question": "What is 'Success Criteria'?",
+            "options": [
+                "The benchmarks that determine whether a product or project has been successful",
+                "Getting a promotion",
+                "Finishing early",
+                "Staying under budget"
+            ],
+            "correctAnswer": "The benchmarks that determine whether a product or project has been successful",
+            "difficulty": "medium",
+            "topic": "Product Strategy"
+        },
+        {
+            "question": "What is 'Technical Debt'?",
+            "options": [
+                "The implied cost of additional rework caused by choosing an easy solution now instead of using a better approach that would take longer",
+                "Money owed to bank",
+                "Paying developers",
+                "Buying servers"
+            ],
+            "correctAnswer": "The implied cost of additional rework caused by choosing an easy solution now instead of using a better approach that would take longer",
+            "difficulty": "medium",
+            "topic": "Engineering"
+        },
+        {
+            "question": "What is a 'KPI'?",
+            "options": [
+                "Key Performance Indicator",
+                "Key Product Idea",
+                "Keep Product Interactive",
+                "Knowledge Processing Interface"
+            ],
+            "correctAnswer": "Key Performance Indicator",
+            "difficulty": "medium",
+            "topic": "Metrics"
+        },
+        {
+            "question": "What is 'Scope Creep'?",
+            "options": [
+                "Uncontrolled growth in a project's scope",
+                "A scary feature",
+                "Planning ahead",
+                "Reducing features"
+            ],
+            "correctAnswer": "Uncontrolled growth in a project's scope",
+            "difficulty": "medium",
+            "topic": "Project Management"
+        },
+        {
+            "question": "What is 'Design Thinking'?",
+            "options": [
+                "A non-linear, iterative process used to understand users and solve problems",
+                "Thinking about colors",
+                "Designing logos",
+                "Using Photoshop"
+            ],
+            "correctAnswer": "A non-linear, iterative process used to understand users and solve problems",
+            "difficulty": "medium",
+            "topic": "Design"
+        },
+        {
+            "question": "What is a 'Backlog'?",
+            "options": [
+                "A list of tasks required to support a larger strategic plan",
+                "A log of errors",
+                "A backup drive",
+                "A meeting room"
+            ],
+            "correctAnswer": "A list of tasks required to support a larger strategic plan",
+            "difficulty": "medium",
+            "topic": "Agile"
+        },
+        {
+            "question": "What is 'Market Segmentation'?",
+            "options": [
+                "Dividing a target market into smaller, more defined categories",
+                "Selling in different countries",
+                "Merging markets",
+                "Creating new markets"
+            ],
+            "correctAnswer": "Dividing a target market into smaller, more defined categories",
+            "difficulty": "medium",
+            "topic": "Product Strategy"
+        },
+        {
+            "question": "What does 'DAU' stand for?",
+            "options": [
+                "Daily Active Users",
+                "Digital Access Unit",
+                "Data Analysis Utility",
+                "Direct Access User"
+            ],
+            "correctAnswer": "Daily Active Users",
+            "difficulty": "medium",
+            "topic": "Metrics"
+        },
+        {
+            "question": "What is the 'Kano Model'?",
+            "options": [
+                "A theory for product development and customer satisfaction",
+                "A martial art",
+                "A coding pattern",
+                "A pricing model"
+            ],
+            "correctAnswer": "A theory for product development and customer satisfaction",
+            "difficulty": "hard",
+            "topic": "Prioritization"
+        },
+        {
+            "question": "Calculate 'ROI'.",
+            "options": [
+                "(Net Profit / Cost of Investment) x 100",
+                "Revenue - Cost",
+                "Sales x Price",
+                "Profit + Loss"
+            ],
+            "correctAnswer": "(Net Profit / Cost of Investment) x 100",
+            "difficulty": "hard",
+            "topic": "Metrics"
+        },
+        {
+            "question": "What is 'Cohort Analysis'?",
+            "options": [
+                "Analyzing the behavior of a group of users who share a common characteristic over time",
+                "Analyzing code",
+                "Analyzing competitors",
+                "Analyzing server logs"
+            ],
+            "correctAnswer": "Analyzing the behavior of a group of users who share a common characteristic over time",
+            "difficulty": "hard",
+            "topic": "Analytics"
+        },
+        {
+            "question": "What is the difference between 'Output' vs 'Outcome'?",
+            "options": [
+                "Output is what you build (features), Outcome is the value created (behavior change)",
+                "They are the same",
+                "Output is money, Outcome is product",
+                "Output is code, Outcome is bugs"
+            ],
+            "correctAnswer": "Output is what you build (features), Outcome is the value created (behavior change)",
+            "difficulty": "hard",
+            "topic": "Product Strategy"
+        },
+        {
+            "question": "What is 'Opportunity Cost'?",
+            "options": [
+                "The loss of potential gain from other alternatives when one alternative is chosen",
+                "The cost of a product",
+                "The price of marketing",
+                "Zero cost"
+            ],
+            "correctAnswer": "The loss of potential gain from other alternatives when one alternative is chosen",
+            "difficulty": "hard",
+            "topic": "Strategy"
+        },
+        {
+            "question": "What is a 'North Star Metric'?",
+            "options": [
+                "The single metric that best captures the core value your product delivers to its customers",
+                "The most profitable metric",
+                "The number of stars on App Store",
+                "Employee satisfaction"
+            ],
+            "correctAnswer": "The single metric that best captures the core value your product delivers to its customers",
+            "difficulty": "hard",
+            "topic": "Metrics"
+        },
+        {
+            "question": "How do you calculate 'Viral Coefficient'?",
+            "options": [
+                "Number of invites sent per user * Conversion rate of invites",
+                "Total users / Marketing spend",
+                "Likes / Shares",
+                "Views / Clicks"
+            ],
+            "correctAnswer": "Number of invites sent per user * Conversion rate of invites",
+            "difficulty": "hard",
+            "topic": "Growth"
+        },
+        {
+            "question": "What is 'Dogfooding'?",
+            "options": [
+                "Using your own product internally",
+                "Creating pet food",
+                "Feeding bugs to testers",
+                "Using competitor products"
+            ],
+            "correctAnswer": "Using your own product internally",
+            "difficulty": "hard",
+            "topic": "Testing"
+        },
+        {
+            "question": "What is 'Cross-Functional Team'?",
+            "options": [
+                "A group of people with different functional expertise working toward a common goal",
+                "A team that is angry",
+                "A team of managers",
+                "A team in different offices"
+            ],
+            "correctAnswer": "A group of people with different functional expertise working toward a common goal",
+            "difficulty": "hard",
+            "topic": "Management"
+        },
+        {
+            "question": "What is 'GTM Strategy'?",
+            "options": [
+                "Go-to-Market Strategy",
+                "Global Tech Market",
+                "Get The Money",
+                "General Team Management"
+            ],
+            "correctAnswer": "Go-to-Market Strategy",
+            "difficulty": "hard",
+            "topic": "Marketing"
+        },
+        {
+            "question": "What is 'Jobs to be Done' (JTBD) framework?",
+            "options": [
+                "Focuses on the job the customer is hiring the product to do",
+                "Focuses on resumes",
+                "Focuses on hiring managers",
+                "Focuses on salary"
+            ],
+            "correctAnswer": "Focuses on the job the customer is hiring the product to do",
+            "difficulty": "hard",
+            "topic": "User Research"
+        },
+        {
+            "question": "What is 'Product Discovery'?",
+            "options": [
+                "The process of determining 'what' to build",
+                "Finding lost products",
+                "Marketing research",
+                "Sales calls"
+            ],
+            "correctAnswer": "The process of determining 'what' to build",
+            "difficulty": "hard",
+            "topic": "Product Strategy"
+        },
+        {
+            "question": "What is 'Total Addressable Market' (TAM)?",
+            "options": [
+                "The total market demand for a product or service",
+                "The number of addresses in a database",
+                "The total cost of marketing",
+                "Total profit"
+            ],
+            "correctAnswer": "The total market demand for a product or service",
+            "difficulty": "hard",
+            "topic": "Strategy"
+        },
+        {
+            "question": "What is 'Velocity' in Scrum?",
+            "options": [
+                "The amount of work a team can tackle during a single Sprint",
+                "Speed of the server",
+                "Speed of typing",
+                "Running speed"
+            ],
+            "correctAnswer": "The amount of work a team can tackle during a single Sprint",
+            "difficulty": "hard",
+            "topic": "Agile"
+        },
+        {
+            "question": "What is 'Feature Creep'?",
+            "options": [
+                "Continuous addition of new features beyond the original scope",
+                "Features that are scary",
+                "Slow features",
+                "Removing features"
+            ],
+            "correctAnswer": "Continuous addition of new features beyond the original scope",
+            "difficulty": "hard",
+            "topic": "Project Management"
+        }
+    ]
+}

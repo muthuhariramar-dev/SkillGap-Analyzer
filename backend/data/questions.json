@@ -1,0 +1,368 @@
+{
+    "frontend-developer": [
+        {
+            "id": "fe-q1",
+            "question": "What is the CSS Box Model component that clears the area outside the border?",
+            "options": [
+                "Padding",
+                "Margin",
+                "Content",
+                "Border"
+            ],
+            "correct": 1,
+            "skill": "HTML/CSS"
+        },
+        {
+            "id": "fe-q2",
+            "question": "Which React hook is used to perform side effects in function components?",
+            "options": [
+                "useState",
+                "useEffect",
+                "useContext",
+                "useReducer"
+            ],
+            "correct": 1,
+            "skill": "React/Vue"
+        },
+        {
+            "id": "fe-q3",
+            "question": "What does DOM stand for?",
+            "options": [
+                "Data Object Model",
+                "Document Object Model",
+                "Digital Ordinance Model",
+                "Desktop Oriented Mode"
+            ],
+            "correct": 1,
+            "skill": "JavaScript"
+        },
+        {
+            "id": "fe-q4",
+            "question": "Which unit is relative to the font-size of the root element (html)?",
+            "options": [
+                "em",
+                "rem",
+                "px",
+                "%"
+            ],
+            "correct": 1,
+            "skill": "Responsive Design"
+        },
+        {
+            "id": "fe-q5",
+            "question": "What is the purpose of the 'alt' attribute in an <img> tag?",
+            "options": [
+                "Tooltip text",
+                "Alternative text for screen readers",
+                "Image title",
+                "Image caption"
+            ],
+            "correct": 1,
+            "skill": "UI/UX"
+        },
+        {
+            "id": "fe-q6",
+            "question": "Which method cancels an event's default behavior?",
+            "options": [
+                "event.stopImmediatePropagation()",
+                "event.stopPropagation()",
+                "event.preventDefault()",
+                "event.cancel()"
+            ],
+            "correct": 2,
+            "skill": "JavaScript"
+        },
+        {
+            "id": "fe-q7",
+            "question": "In React, what is the correct way to update state derived from previous state?",
+            "options": [
+                "setState(newState)",
+                "setState(old => new)",
+                "state = newState",
+                "forceUpdate()"
+            ],
+            "correct": 1,
+            "skill": "React/Vue"
+        },
+        {
+            "id": "fe-q8",
+            "question": "What is 'Hoisting' in JavaScript?",
+            "options": [
+                "Moving declarations to the top",
+                "Raising an exception",
+                "Lifting state up",
+                "Increasing variable scope"
+            ],
+            "correct": 0,
+            "skill": "JavaScript"
+        },
+        {
+            "id": "fe-q9",
+            "question": "Which HTML5 tag is used to semantically define the main content?",
+            "options": [
+                "<content>",
+                "<main>",
+                "<section>",
+                "<div>"
+            ],
+            "correct": 1,
+            "skill": "HTML/CSS"
+        },
+        {
+            "id": "fe-q10",
+            "question": "What is the primary purpose of a 'key' prop in React lists?",
+            "options": [
+                "Style the element",
+                "Improve performance by identifying elements",
+                "Access the DOM element",
+                "Bind event listeners"
+            ],
+            "correct": 1,
+            "skill": "React/Vue"
+        }
+    ],
+    "backend-developer": [
+        {
+            "id": "be-q1",
+            "question": "What is the primary function of middleware in Express.js?",
+            "options": [
+                "Render HTML",
+                "Handle database connections",
+                "Access request/response objects",
+                "Compile code"
+            ],
+            "correct": 2,
+            "skill": "Node.js/Python"
+        },
+        {
+            "id": "be-q2",
+            "question": "Which HTTP method is idempotent and used for updating resources?",
+            "options": [
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+            ],
+            "correct": 1,
+            "skill": "APIs"
+        },
+        {
+            "id": "be-q3",
+            "question": "What is SQL Injection?",
+            "options": [
+                "A database optimization technique",
+                "A code injection technique used to attack data-driven applications",
+                "Injecting data into a table",
+                "A way to backup databases"
+            ],
+            "correct": 1,
+            "skill": "Security"
+        },
+        {
+            "id": "be-q4",
+            "question": "Which of these is a NoSQL database?",
+            "options": [
+                "PostgreSQL",
+                "MySQL",
+                "MongoDB",
+                "SQLite"
+            ],
+            "correct": 2,
+            "skill": "Databases"
+        },
+        {
+            "id": "be-q5",
+            "question": "What does REST stand for?",
+            "options": [
+                "Remote Execution State Transfer",
+                "Representational State Transfer",
+                "Reliable Server Technology",
+                "Real-time System Transfer"
+            ],
+            "correct": 1,
+            "skill": "APIs"
+        },
+        {
+            "id": "be-q6",
+            "question": "In Node.js, which module is used for file system operations?",
+            "options": [
+                "http",
+                "fs",
+                "path",
+                "os"
+            ],
+            "correct": 1,
+            "skill": "Node.js/Python"
+        },
+        {
+            "id": "be-q7",
+            "question": "What is the difference between vertical and horizontal scaling?",
+            "options": [
+                "Adding power vs Adding machines",
+                "Adding machines vs Adding power",
+                "Software vs Hardware",
+                "Local vs Cloud"
+            ],
+            "correct": 0,
+            "skill": "Cloud Services"
+        },
+        {
+            "id": "be-q8",
+            "question": "What is JWT used for?",
+            "options": [
+                "Encryption",
+                "Authentication and Authorization",
+                "Database indexing",
+                "File compression"
+            ],
+            "correct": 1,
+            "skill": "Security"
+        },
+        {
+            "id": "be-q9",
+            "question": "Which status code represents 'Internal Server Error'?",
+            "options": [
+                "404",
+                "500",
+                "200",
+                "403"
+            ],
+            "correct": 1,
+            "skill": "APIs"
+        },
+        {
+            "id": "be-q10",
+            "question": "What is ACID in database transactions?",
+            "options": [
+                "Atomicity, Consistency, Isolation, Durability",
+                "Access, Control, ID, Data",
+                "Auto, Check, Index, Delete",
+                "Authorization, Credential, ID, Domain"
+            ],
+            "correct": 0,
+            "skill": "Databases"
+        }
+    ],
+    "data-scientist": [
+        {
+            "id": "ds-q1",
+            "question": "What is Overfitting in Machine Learning?",
+            "options": [
+                "Model performs well on training data but poorly on test data",
+                "Model performs poorly on both",
+                "Model is too simple",
+                "Model has too few parameters"
+            ],
+            "correct": 0,
+            "skill": "Machine Learning"
+        },
+        {
+            "id": "ds-q2",
+            "question": "Which library is primarily used for data manipulation in Python?",
+            "options": [
+                "NumPy",
+                "Pandas",
+                "Matplotlib",
+                "Scikit-learn"
+            ],
+            "correct": 1,
+            "skill": "Python/R"
+        },
+        {
+            "id": "ds-q3",
+            "question": "What is a p-value?",
+            "options": [
+                "Probability of obtaining observed results assuming null hypothesis is true",
+                "Probability the null hypothesis is false",
+                "The power of the test",
+                "The prediction value"
+            ],
+            "correct": 0,
+            "skill": "Statistics"
+        },
+        {
+            "id": "ds-q4",
+            "question": "Which type of learning involves labeled data?",
+            "options": [
+                "Unsupervised Learning",
+                "Reinforcement Learning",
+                "Supervised Learning",
+                "Clustering"
+            ],
+            "correct": 2,
+            "skill": "Machine Learning"
+        },
+        {
+            "id": "ds-q5",
+            "question": "What is the purpose of regularization?",
+            "options": [
+                "Increase model complexity",
+                "Prevent overfitting",
+                "Speed up training",
+                "Normalize data"
+            ],
+            "correct": 1,
+            "skill": "Deep Learning"
+        },
+        {
+            "id": "ds-q6",
+            "question": "Which chart is best for showing distribution of a single variable?",
+            "options": [
+                "Scatter plot",
+                "Histogram",
+                "Line chart",
+                "Pie chart"
+            ],
+            "correct": 1,
+            "skill": "Data Visualization"
+        },
+        {
+            "id": "ds-q7",
+            "question": "What does a Confusion Matrix evaluate?",
+            "options": [
+                "Regression performance",
+                "Clustering performance",
+                "Classification performance",
+                "Reinforcement learning"
+            ],
+            "correct": 2,
+            "skill": "Machine Learning"
+        },
+        {
+            "id": "ds-q8",
+            "question": "Which of these is a dimensionality reduction technique?",
+            "options": [
+                "PCA",
+                "KNN",
+                "SVM",
+                "Random Forest"
+            ],
+            "correct": 0,
+            "skill": "Statistics"
+        },
+        {
+            "id": "ds-q9",
+            "question": "In Python, what does `lambda` create?",
+            "options": [
+                "A loop",
+                "A class",
+                "An anonymous function",
+                "A list"
+            ],
+            "correct": 2,
+            "skill": "Python/R"
+        },
+        {
+            "id": "ds-q10",
+            "question": "What activation function is commonly used for binary classification output?",
+            "options": [
+                "ReLU",
+                "Softmax",
+                "Sigmoid",
+                "Tanh"
+            ],
+            "correct": 2,
+            "skill": "Deep Learning"
+        }
+    ]
+}

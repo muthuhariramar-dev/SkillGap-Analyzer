@@ -1,0 +1,192 @@
+/* ── Difficulty Selection & Proctoring Upgrades ── */
+.difficulty-selection-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 5%;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+    color: #f1f5f9;
+}
+
+.section-subtitle {
+    color: #94a3b8;
+    margin-bottom: 32px;
+}
+
+.difficulty-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.difficulty-card {
+    background: rgba(30, 41, 59, 0.6);
+    border: 1px solid rgba(148, 163, 184, 0.15);
+    border-radius: 20px;
+    padding: 32px;
+    text-align: left;
+    cursor: pointer;
+    transition: all .3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.difficulty-card:hover {
+    border-color: #818cf8;
+    background: rgba(30, 41, 59, 0.8);
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.difficulty-card.selected {
+    border-color: #a855f7;
+    background: rgba(168, 85, 247, 0.1);
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.2);
+}
+
+.difficulty-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.difficulty-card h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #f1f5f9;
+}
+
+.difficulty-badge-inner {
+    font-size: 0.75rem;
+    background: rgba(51, 65, 85, 0.8);
+    color: #cbd5e1;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.difficulty-card.selected .difficulty-badge-inner {
+    background: #a855f7;
+    color: #fff;
+}
+
+.difficulty-subtitle {
+    font-weight: 700;
+    color: #818cf8;
+    margin-bottom: 8px;
+}
+
+.difficulty-desc {
+    font-size: 0.95rem;
+    color: #94a3b8;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    min-height: 3em;
+}
+
+.difficulty-stats {
+    padding: 12px 16px;
+    background: rgba(15, 23, 42, 0.5);
+    border-radius: 12px;
+    margin-bottom: 20px;
+    font-size: 0.85rem;
+    color: #cbd5e1;
+    font-weight: 600;
+}
+
+.btn-select-difficulty {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid rgba(148, 163, 184, 0.3);
+    background: transparent;
+    color: #e2e8f0;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.difficulty-card.selected .btn-select-difficulty {
+    background: #a855f7;
+    border-color: #a855f7;
+    color: #fff;
+}
+
+.proctoring-info-box {
+    max-width: 800px;
+    margin: 40px auto;
+    background: rgba(69, 10, 10, 0.2);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    border-radius: 16px;
+    padding: 32px;
+    text-align: left;
+}
+
+.proctoring-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.proctoring-header h3 {
+    color: #fca5a5;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.proctoring-warning {
+    color: #fecaca;
+    margin-bottom: 24px;
+    font-size: 1.05rem;
+}
+
+.requirements-list h4 {
+    color: #ef4444;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.requirements-list ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 12px;
+}
+
+.requirements-list li {
+    color: #94a3b8;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.requirements-list li::before {
+    content: "•";
+    color: #ef4444;
+    font-weight: bold;
+}
+
+.btn-start-assessment {
+    background: linear-gradient(135deg, #6366f1, #a855f7) !important;
+    padding: 18px 64px !important;
+    font-size: 1.2rem !important;
+    font-weight: 800 !important;
+    border-radius: 50px !important;
+    transition: all .3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    box-shadow: 0 4px 24px rgba(99, 102, 241, 0.4) !important;
+}
+
+.btn-start-assessment:hover {
+    transform: translateY(-3px) scale(1.04) !important;
+    box-shadow: 0 12px 40px rgba(99, 102, 241, 0.6) !important;
+}

@@ -1,0 +1,581 @@
+{
+    "role": "Backend Developer",
+    "questions": [
+        {
+            "question": "What is the primary function of middleware in Express.js?",
+            "options": [
+                "To filter request and response objects",
+                "To connect to the database",
+                "To render HTML",
+                "To manage session storage"
+            ],
+            "correctAnswer": "To filter request and response objects",
+            "difficulty": "easy",
+            "topic": "Node.js"
+        },
+        {
+            "question": "Which HTTP method is idempotent and used for updating resources?",
+            "options": [
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+            ],
+            "correctAnswer": "PUT",
+            "difficulty": "easy",
+            "topic": "APIs"
+        },
+        {
+            "question": "What is SQL Injection?",
+            "options": [
+                "A database optimization technique",
+                "A code injection technique used to attack data-driven applications",
+                "Injecting data into a table",
+                "A way to backup databases"
+            ],
+            "correctAnswer": "A code injection technique used to attack data-driven applications",
+            "difficulty": "easy",
+            "topic": "Security"
+        },
+        {
+            "question": "Which of these is a NoSQL database?",
+            "options": [
+                "PostgreSQL",
+                "MySQL",
+                "MongoDB",
+                "SQLite"
+            ],
+            "correctAnswer": "MongoDB",
+            "difficulty": "easy",
+            "topic": "Databases"
+        },
+        {
+            "question": "What does REST stand for?",
+            "options": [
+                "Remote Execution State Transfer",
+                "Representational State Transfer",
+                "Reliable Server Technology",
+                "Real-time System Transfer"
+            ],
+            "correctAnswer": "Representational State Transfer",
+            "difficulty": "easy",
+            "topic": "APIs"
+        },
+        {
+            "question": "In Node.js, which module is used for file system operations?",
+            "options": [
+                "http",
+                "fs",
+                "path",
+                "os"
+            ],
+            "correctAnswer": "fs",
+            "difficulty": "easy",
+            "topic": "Node.js"
+        },
+        {
+            "question": "What is the difference between vertical and horizontal scaling?",
+            "options": [
+                "Adding power vs Adding machines",
+                "Adding machines vs Adding power",
+                "Software vs Hardware",
+                "Local vs Cloud"
+            ],
+            "correctAnswer": "Adding power vs Adding machines",
+            "difficulty": "easy",
+            "topic": "System Design"
+        },
+        {
+            "question": "What is JWT used for?",
+            "options": [
+                "Encryption",
+                "Authentication and Authorization",
+                "Database indexing",
+                "File compression"
+            ],
+            "correctAnswer": "Authentication and Authorization",
+            "difficulty": "easy",
+            "topic": "Authentication"
+        },
+        {
+            "question": "Which status code represents 'Internal Server Error'?",
+            "options": [
+                "404",
+                "500",
+                "200",
+                "403"
+            ],
+            "correctAnswer": "500",
+            "difficulty": "easy",
+            "topic": "APIs"
+        },
+        {
+            "question": "What is ACID in database transactions?",
+            "options": [
+                "Atomicity, Consistency, Isolation, Durability",
+                "Access, Control, ID, Data",
+                "Auto, Check, Index, Delete",
+                "Authorization, Credential, ID, Domain"
+            ],
+            "correctAnswer": "Atomicity, Consistency, Isolation, Durability",
+            "difficulty": "easy",
+            "topic": "Databases"
+        },
+        {
+            "question": "Which command installs a package in Node.js?",
+            "options": [
+                "node install",
+                "npm install",
+                "install package",
+                "npm get"
+            ],
+            "correctAnswer": "npm install",
+            "difficulty": "easy",
+            "topic": "Node.js"
+        },
+        {
+            "question": "What is the purpose of CORS?",
+            "options": [
+                "To allow servers to specify who can access their assets",
+                "To compress responses",
+                "To encrypt connections",
+                "To route requests"
+            ],
+            "correctAnswer": "To allow servers to specify who can access their assets",
+            "difficulty": "easy",
+            "topic": "Security"
+        },
+        {
+            "question": "Which header contains the authentication token typically?",
+            "options": [
+                "Authorization",
+                "Authentication",
+                "Token",
+                "Cookie"
+            ],
+            "correctAnswer": "Authorization",
+            "difficulty": "easy",
+            "topic": "Authentication"
+        },
+        {
+            "question": "What is the default port for MongoDB?",
+            "options": [
+                "3306",
+                "5432",
+                "27017",
+                "8080"
+            ],
+            "correctAnswer": "27017",
+            "difficulty": "easy",
+            "topic": "Databases"
+        },
+        {
+            "question": "What is the event loop in Node.js?",
+            "options": [
+                "It handles asynchronous callbacks",
+                "It renders the UI",
+                "It connects to the database",
+                "It compiles code"
+            ],
+            "correctAnswer": "It handles asynchronous callbacks",
+            "difficulty": "easy",
+            "topic": "Node.js"
+        },
+        {
+            "question": "Explain the concept of 'Sharding' in databases.",
+            "options": [
+                "Replicating data",
+                "Partitioning data across multiple machines",
+                "Encrypting data",
+                "Backing up data"
+            ],
+            "correctAnswer": "Partitioning data across multiple machines",
+            "difficulty": "medium",
+            "topic": "System Design"
+        },
+        {
+            "question": "What is the difference between specificy of ID selector vs Class selector?",
+            "options": [
+                "Class is higher",
+                "ID is higher",
+                "They are equal",
+                "Depends on order"
+            ],
+            "correctAnswer": "ID is higher",
+            "difficulty": "medium",
+            "topic": "CSS"
+        },
+        {
+            "question": "What is 'Connection Pooling'?",
+            "options": [
+                "Opening a new connection for every request",
+                "Maintaining a cache of database connections",
+                "Pooling money for servers",
+                "Connecting to multiple databases at once"
+            ],
+            "correctAnswer": "Maintaining a cache of database connections",
+            "difficulty": "medium",
+            "topic": "Databases"
+        },
+        {
+            "question": "Which Hashing algorithm is commonly used for passwords?",
+            "options": [
+                "MD5",
+                "SHA-1",
+                "Bcrypt",
+                "CRC32"
+            ],
+            "correctAnswer": "Bcrypt",
+            "difficulty": "medium",
+            "topic": "Security"
+        },
+        {
+            "question": "What is a 'deadlock' in a database?",
+            "options": [
+                "When the server crashes",
+                "When two transactions wait for each other to release locks",
+                "When the disk is full",
+                "When a query is too slow"
+            ],
+            "correctAnswer": "When two transactions wait for each other to release locks",
+            "difficulty": "medium",
+            "topic": "Databases"
+        },
+        {
+            "question": "What is the difference between process.nextTick() and setImmediate()?",
+            "options": [
+                "nextTick runs before IO events, setImmediate runs after",
+                "They are the same",
+                "setImmediate is faster",
+                "nextTick is deprecated"
+            ],
+            "correctAnswer": "nextTick runs before IO events, setImmediate runs after",
+            "difficulty": "medium",
+            "topic": "Node.js"
+        },
+        {
+            "question": "What is 'Normalization' in SQL?",
+            "options": [
+                "Optimizing query speed",
+                "Organizing data to minimize redundancy",
+                "Formatting dates",
+                "Creating indexes"
+            ],
+            "correctAnswer": "Organizing data to minimize redundancy",
+            "difficulty": "medium",
+            "topic": "Databases"
+        },
+        {
+            "question": "Which of these is a Message Queue?",
+            "options": [
+                "Redis",
+                "RabbitMQ",
+                "Memcached",
+                "Elasticsearch"
+            ],
+            "correctAnswer": "RabbitMQ",
+            "difficulty": "medium",
+            "topic": "System Design"
+        },
+        {
+            "question": "What is the purpose of 'rate limiting'?",
+            "options": [
+                "To speed up the server",
+                "To prevent abuse by limiting requests from a client",
+                "To limit database size",
+                "To limit code lines"
+            ],
+            "correctAnswer": "To prevent abuse by limiting requests from a client",
+            "difficulty": "medium",
+            "topic": "Security"
+        },
+        {
+            "question": "What is a 'Webhook'?",
+            "options": [
+                "A hook for fishing",
+                "A way for an app to provide other applications with real-time information",
+                "A database query",
+                "A type of firewall"
+            ],
+            "correctAnswer": "A way for an app to provide other applications with real-time information",
+            "difficulty": "medium",
+            "topic": "APIs"
+        },
+        {
+            "question": "What is 'Idempotency' in REST APIs?",
+            "options": [
+                "Making multiple identical requests has the same effect as making a single request",
+                "Requests must be authenticated",
+                "API is fast",
+                "API is secure"
+            ],
+            "correctAnswer": "Making multiple identical requests has the same effect as making a single request",
+            "difficulty": "medium",
+            "topic": "APIs"
+        },
+        {
+            "question": "Which status code means 'Unauthorized' (Unauthenticated)?",
+            "options": [
+                "401",
+                "403",
+                "400",
+                "500"
+            ],
+            "correctAnswer": "401",
+            "difficulty": "medium",
+            "topic": "Authentication"
+        },
+        {
+            "question": "What is the CAP theorem?",
+            "options": [
+                "Consistency, Availability, Partition Tolerance",
+                "Consistency, Accuracy, Performance",
+                "Capacity, Availability, Performance",
+                "Compute, Analyze, Process"
+            ],
+            "correctAnswer": "Consistency, Availability, Partition Tolerance",
+            "difficulty": "medium",
+            "topic": "System Design"
+        },
+        {
+            "question": "What is an ORM?",
+            "options": [
+                "Object Relational Mapping",
+                "Object Reference Model",
+                "Operational Resource Management",
+                "Ordered Row Model"
+            ],
+            "correctAnswer": "Object Relational Mapping",
+            "difficulty": "medium",
+            "topic": "Databases"
+        },
+        {
+            "question": "In GraphQL, what is a Schema?",
+            "options": [
+                "The structure of the database",
+                "A definition of the data types and relationships in the API",
+                "A query language",
+                "A resolver function"
+            ],
+            "correctAnswer": "A definition of the data types and relationships in the API",
+            "difficulty": "medium",
+            "topic": "APIs"
+        },
+        {
+            "question": "What is the purpose of a Reverse Proxy?",
+            "options": [
+                "To forward client requests to backend servers",
+                "To browse anonymously",
+                "To reverse the order of packets",
+                "To block all traffic"
+            ],
+            "correctAnswer": "To forward client requests to backend servers",
+            "difficulty": "medium",
+            "topic": "System Design"
+        },
+        {
+            "question": "Which of these is NOT a valid HTTP verb?",
+            "options": [
+                "GET",
+                "POST",
+                "FETCH",
+                "Head"
+            ],
+            "correctAnswer": "FETCH",
+            "difficulty": "medium",
+            "topic": "APIs"
+        },
+        {
+            "question": "What is a 'Microservices' architecture?",
+            "options": [
+                "A single large application",
+                "Structuring an application as a collection of loosely coupled services",
+                "Small code usage",
+                "Using microcontrollers"
+            ],
+            "correctAnswer": "Structuring an application as a collection of loosely coupled services",
+            "difficulty": "medium",
+            "topic": "System Design"
+        },
+        {
+            "question": "What is the role of the 'Cluster' module in Node.js?",
+            "options": [
+                "To group database records",
+                "To enable multi-core systems usage by creating child processes",
+                "To cluster unrelated files",
+                "To manage AWS clusters"
+            ],
+            "correctAnswer": "To enable multi-core systems usage by creating child processes",
+            "difficulty": "hard",
+            "topic": "Node.js"
+        },
+        {
+            "question": "Explain 'Event Sourcing'.",
+            "options": [
+                "Storing state as a sequence of events",
+                "Sourcing events from the browser",
+                "Triggering events manually",
+                "Managing event listeners"
+            ],
+            "correctAnswer": "Storing state as a sequence of events",
+            "difficulty": "hard",
+            "topic": "System Design"
+        },
+        {
+            "question": "What is 'Database Indexing' trade-off?",
+            "options": [
+                "Faster creates, slower reads",
+                "Faster reads, slower writes/updates",
+                "No trade-off",
+                "Slower reads and writes"
+            ],
+            "correctAnswer": "Faster reads, slower writes/updates",
+            "difficulty": "hard",
+            "topic": "Databases"
+        },
+        {
+            "question": "What is the difference between 'Optimistic' and 'Pessimistic' Locking?",
+            "options": [
+                "Optimistic forbids access, Pessimistic allows it",
+                "Pessimistic locks the record immediately, Optimistic checks version on save",
+                "Optimistic is faster always",
+                "No difference"
+            ],
+            "correctAnswer": "Pessimistic locks the record immediately, Optimistic checks version on save",
+            "difficulty": "hard",
+            "topic": "Databases"
+        },
+        {
+            "question": "How does HTTPS establish a secure connection?",
+            "options": [
+                "Using only HTTP",
+                "Using an SSL/TLS Handshake",
+                "Using a VPN",
+                "Using a password"
+            ],
+            "correctAnswer": "Using an SSL/TLS Handshake",
+            "difficulty": "hard",
+            "topic": "Security"
+        },
+        {
+            "question": "What is 'gRPC'?",
+            "options": [
+                "Google Remote Procedure Call",
+                "Global REST Protocol Code",
+                "Generic Request Protocol",
+                "Git Remote Pull Command"
+            ],
+            "correctAnswer": "Google Remote Procedure Call",
+            "difficulty": "hard",
+            "topic": "APIs"
+        },
+        {
+            "question": "What is a 'Circuit Breaker' pattern?",
+            "options": [
+                "Detecting failures and preventing the application from trying to perform the action",
+                "Breaking the circuit board",
+                "Stopping electricity",
+                "A loop in code"
+            ],
+            "correctAnswer": "Detecting failures and preventing the application from trying to perform the action",
+            "difficulty": "hard",
+            "topic": "System Design"
+        },
+        {
+            "question": "What is the N+1 problem in ORMs?",
+            "options": [
+                "Executing 1 query for parent and N queries for children",
+                "Adding 1 to N variables",
+                "An algebra problem",
+                "A loop error"
+            ],
+            "correctAnswer": "Executing 1 query for parent and N queries for children",
+            "difficulty": "hard",
+            "topic": "Databases"
+        },
+        {
+            "question": "Which isolation level prevents 'Dirty Reads'?",
+            "options": [
+                "Read Uncommitted",
+                "Read Committed",
+                "Serializable",
+                "Repeatable Read"
+            ],
+            "correctAnswer": "Read Committed",
+            "difficulty": "hard",
+            "topic": "Databases"
+        },
+        {
+            "question": "What does 'Consistent Hashing' solve?",
+            "options": [
+                "Minimizing reorganization of keys when a node is added/removed in distributed systems",
+                "Generating consistent passwords",
+                "Hashing files consistently",
+                "Sorting hash maps"
+            ],
+            "correctAnswer": "Minimizing reorganization of keys when a node is added/removed in distributed systems",
+            "difficulty": "hard",
+            "topic": "System Design"
+        },
+        {
+            "question": "What is 'Backpressure' in streams?",
+            "options": [
+                "Pressure on the back of the server",
+                "Handling data buildup when the consumer is slower than the producer",
+                "Network latency",
+                "Database overload"
+            ],
+            "correctAnswer": "Handling data buildup when the consumer is slower than the producer",
+            "difficulty": "hard",
+            "topic": "Node.js"
+        },
+        {
+            "question": "What is the purpose of a 'Bloom Filter'?",
+            "options": [
+                "To filter images",
+                "Probabilistic data structure to test if an element is in a set",
+                "To clean database",
+                "To sort arrays"
+            ],
+            "correctAnswer": "Probabilistic data structure to test if an element is in a set",
+            "difficulty": "hard",
+            "topic": "System Design"
+        },
+        {
+            "question": "How do you mitigate CSRF attacks?",
+            "options": [
+                "Using Anti-CSRF tokens",
+                "Using HTTPS",
+                "Using strong passwords",
+                "Using GET requests"
+            ],
+            "correctAnswer": "Using Anti-CSRF tokens",
+            "difficulty": "hard",
+            "topic": "Security"
+        },
+        {
+            "question": "What is 'Polyglot Persistence'?",
+            "options": [
+                "Using multiple programming languages",
+                "Using different data storage technologies to handle different data storage needs",
+                "Persisting data in multiple locations",
+                "Speaking multiple languages"
+            ],
+            "correctAnswer": "Using different data storage technologies to handle different data storage needs",
+            "difficulty": "hard",
+            "topic": "System Design"
+        },
+        {
+            "question": "What is the difference between TCP and UDP?",
+            "options": [
+                "TCP is connection-oriented and reliable, UDP is connectionless and faster",
+                "UDP is reliable, TCP is fast",
+                "TCP is for video, UDP is for text",
+                "No difference"
+            ],
+            "correctAnswer": "TCP is connection-oriented and reliable, UDP is connectionless and faster",
+            "difficulty": "hard",
+            "topic": "System Design"
+        }
+    ]
+}

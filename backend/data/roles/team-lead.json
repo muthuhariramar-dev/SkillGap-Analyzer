@@ -1,0 +1,485 @@
+{
+    "role": "Team Lead",
+    "questions": [
+        {
+            "question": "What is the primary responsibility of a Team Lead?",
+            "options": [
+                "Writing all the code",
+                "Guiding the team to deliver high-quality software on time",
+                "Firing people",
+                "Designing logos"
+            ],
+            "correctAnswer": "Guiding the team to deliver high-quality software on time",
+            "difficulty": "easy",
+            "topic": "Leadership"
+        },
+        {
+            "question": "Which of these is a key soft skill for a Team Lead?",
+            "options": [
+                "Typing speed",
+                "Empathy",
+                "Knowing all shortcuts",
+                "Memorizing syntax"
+            ],
+            "correctAnswer": "Empathy",
+            "difficulty": "easy",
+            "topic": "Mentoring"
+        },
+        {
+            "question": "How often should you hold one-on-one meetings with team members?",
+            "options": [
+                "Once a year",
+                "Never",
+                "Regularly (e.g., weekly or bi-weekly)",
+                "Only when they are in trouble"
+            ],
+            "correctAnswer": "Regularly (e.g., weekly or bi-weekly)",
+            "difficulty": "easy",
+            "topic": "Management"
+        },
+        {
+            "question": "What is the purpose of a Code Review?",
+            "options": [
+                "To find faults and blame developers",
+                "To ensure code quality, share knowledge, and find bugs",
+                "To slow down development",
+                "To prove you are smart"
+            ],
+            "correctAnswer": "To ensure code quality, share knowledge, and find bugs",
+            "difficulty": "easy",
+            "topic": "Development Process"
+        },
+        {
+            "question": "What is 'Servant Leadership'?",
+            "options": [
+                "The leader serves the team by removing blockers and supporting them",
+                "The team serves the leader",
+                "The leader does everything",
+                "The leader acts like a servant"
+            ],
+            "correctAnswer": "The leader serves the team by removing blockers and supporting them",
+            "difficulty": "easy",
+            "topic": "Leadership"
+        },
+        {
+            "question": "What is a 'Daily Stand-up'?",
+            "options": [
+                "A 15-minute meeting to sync on progress and blockers",
+                "A meeting where everyone stands up",
+                "A long status report meeting",
+                "A disciplinary meeting"
+            ],
+            "correctAnswer": "A 15-minute meeting to sync on progress and blockers",
+            "difficulty": "easy",
+            "topic": "Agile"
+        },
+        {
+            "question": "How should a Team Lead handle a conflict between two developers?",
+            "options": [
+                "Ignore it",
+                "Listen to both sides and facilitate a constructive resolution",
+                "Pick a favorite",
+                "Fire one of them"
+            ],
+            "correctAnswer": "Listen to both sides and facilitate a constructive resolution",
+            "difficulty": "easy",
+            "topic": "Conflict Resolution"
+        },
+        {
+            "question": "What is 'Psychological Safety'?",
+            "options": [
+                "A belief that you won't be punished for making a mistake",
+                "Safety goggles",
+                "Mental health training",
+                "A secure password"
+            ],
+            "correctAnswer": "A belief that you won't be punished for making a mistake",
+            "difficulty": "easy",
+            "topic": "Team Culture"
+        },
+        {
+            "question": "What is the goal of a Retrospective?",
+            "options": [
+                "To discuss what went well, what went wrong, and how to improve",
+                "To assign blame",
+                "To plan the next sprint",
+                "To celebrate"
+            ],
+            "correctAnswer": "To discuss what went well, what went wrong, and how to improve",
+            "difficulty": "easy",
+            "topic": "Agile"
+        },
+        {
+            "question": "What is 'Delegation'?",
+            "options": [
+                "Assigning responsibility for a task to another person",
+                "Doing it yourself",
+                "Ignoring detailed work",
+                "Asking for help"
+            ],
+            "correctAnswer": "Assigning responsibility for a task to another person",
+            "difficulty": "easy",
+            "topic": "Management"
+        },
+        {
+            "question": "What is the 'Bus Factor'?",
+            "options": [
+                "The risk to a project if key team members are hit by a bus (leave)",
+                "Transport cost",
+                "Bus schedule",
+                "A coding pattern"
+            ],
+            "correctAnswer": "The risk to a project if key team members are hit by a bus (leave)",
+            "difficulty": "medium",
+            "topic": "Risk Management"
+        },
+        {
+            "question": "How do you handle a low-performing team member?",
+            "options": [
+                "Publicly shame them",
+                "Provide clear feedback, support, and a performance improvement plan",
+                "Do their work for them",
+                "Wait for them to quit"
+            ],
+            "correctAnswer": "Provide clear feedback, support, and a performance improvement plan",
+            "difficulty": "medium",
+            "topic": "Management"
+        },
+        {
+            "question": "What is a 'Post-Mortem'?",
+            "options": [
+                "A meeting after an incident to analyze root cause and prevent recurrence",
+                "A medical exam",
+                "A funeral for code",
+                "Closing a project"
+            ],
+            "correctAnswer": "A meeting after an incident to analyze root cause and prevent recurrence",
+            "difficulty": "medium",
+            "topic": "Process"
+        },
+        {
+            "question": "What is 'Technical Debt' management?",
+            "options": [
+                "Balancing new feature development with refactoring and paying down debt",
+                "Ignoring debt",
+                "Only refactoring",
+                "Borrowing money"
+            ],
+            "correctAnswer": "Balancing new feature development with refactoring and paying down debt",
+            "difficulty": "medium",
+            "topic": "Technical Strategy"
+        },
+        {
+            "question": "What is 'Micromanagement'?",
+            "options": [
+                "Excessive control and monitoring of subordinates",
+                "Managing small teams",
+                "Managing microbes",
+                "Detailed documentation"
+            ],
+            "correctAnswer": "Excessive control and monitoring of subordinates",
+            "difficulty": "medium",
+            "topic": "Management Styles"
+        },
+        {
+            "question": "How to motivate a team?",
+            "options": [
+                "Autonomy, Mastery, Purpose",
+                "Money only",
+                "Pizza parties only",
+                "Fear"
+            ],
+            "correctAnswer": "Autonomy, Mastery, Purpose",
+            "difficulty": "medium",
+            "topic": "Leadership"
+        },
+        {
+            "question": "What is the 'Stages of Team Development' (Tuckman)?",
+            "options": [
+                "Forming, Storming, Norming, Performing",
+                "Start, Middle, End",
+                "Plan, Code, Test, Deploy",
+                "Hiring, Working, Firing"
+            ],
+            "correctAnswer": "Forming, Storming, Norming, Performing",
+            "difficulty": "medium",
+            "topic": "Team Dynamics"
+        },
+        {
+            "question": "What is 'Stakeholder Management'?",
+            "options": [
+                "Managing expectations and communication with those interested in the project",
+                "Managing shares",
+                "Holding steaks",
+                "Project funding"
+            ],
+            "correctAnswer": "Managing expectations and communication with those interested in the project",
+            "difficulty": "medium",
+            "topic": "Project Management"
+        },
+        {
+            "question": "How to estimate tasks effectively?",
+            "options": [
+                "Using Story Points or T-shirt sizing with the team",
+                "Guessing alone",
+                "Asking the CEO",
+                "Using random numbers"
+            ],
+            "correctAnswer": "Using Story Points or T-shirt sizing with the team",
+            "difficulty": "medium",
+            "topic": "Agile"
+        },
+        {
+            "question": "What is 'Onboarding'?",
+            "options": [
+                "The process of integrating a new employee into the organization",
+                "Boarding a plane",
+                "Starting a server",
+                "Writing documentation"
+            ],
+            "correctAnswer": "The process of integrating a new employee into the organization",
+            "difficulty": "medium",
+            "topic": "HR"
+        },
+        {
+            "question": "What is 'Scope Creep'?",
+            "options": [
+                "Uncontrolled changes or continuous growth in a project's scope",
+                "A scary scope",
+                "Expanding horizons",
+                "Reducing work"
+            ],
+            "correctAnswer": "Uncontrolled changes or continuous growth in a project's scope",
+            "difficulty": "medium",
+            "topic": "Project Management"
+        },
+        {
+            "question": "What is the role of a 'Tech Lead' vs 'Team Lead'?",
+            "options": [
+                "Tech Lead focuses on technical direction, Team Lead focuses on people/process (though overlaps exist)",
+                "They are exactly the same",
+                "Tech Lead is the boss",
+                "Team Lead codes more"
+            ],
+            "correctAnswer": "Tech Lead focuses on technical direction, Team Lead focuses on people/process (though overlaps exist)",
+            "difficulty": "medium",
+            "topic": "Role Definition"
+        },
+        {
+            "question": "What is 'Pair Programming' benefits?",
+            "options": [
+                "Knowledge sharing and fewer defects",
+                "Twice the code speed",
+                "Half the cost",
+                "Double salary"
+            ],
+            "correctAnswer": "Knowledge sharing and fewer defects",
+            "difficulty": "medium",
+            "topic": "Development Process"
+        },
+        {
+            "question": "How to handle 'Burnout' in a team?",
+            "options": [
+                "Encourage time off, check workload, and redistribute tasks",
+                "Tell them to work harder",
+                "Ignore it",
+                "Buy them coffee"
+            ],
+            "correctAnswer": "Encourage time off, check workload, and redistribute tasks",
+            "difficulty": "medium",
+            "topic": "Health & Safety"
+        },
+        {
+            "question": "What is 'KPI'?",
+            "options": [
+                "Key Performance Indicator",
+                "Key Person Indicator",
+                "Keep People Interested",
+                "Know Process Inside"
+            ],
+            "correctAnswer": "Key Performance Indicator",
+            "difficulty": "medium",
+            "topic": "Metrics"
+        },
+        {
+            "question": "What is 'Situational Leadership'?",
+            "options": [
+                "Adapting leadership style to the task and maturity of the individual",
+                "Leading in specific situations",
+                "Always being bossy",
+                "Always being democratic"
+            ],
+            "correctAnswer": "Adapting leadership style to the task and maturity of the individual",
+            "difficulty": "hard",
+            "topic": "Leadership"
+        },
+        {
+            "question": "How do you calculate 'Velocity'?",
+            "options": [
+                "Sum of story points completed in a sprint",
+                "Lines of code written",
+                "Hours worked",
+                "Bugs fixed"
+            ],
+            "correctAnswer": "Sum of story points completed in a sprint",
+            "difficulty": "hard",
+            "topic": "Agile"
+        },
+        {
+            "question": "What is the 'Eisenhower Matrix'?",
+            "options": [
+                "A tool for prioritizing tasks by urgency and importance",
+                "A coding matrix",
+                "A leadership theory",
+                "A negotiation tactic"
+            ],
+            "correctAnswer": "A tool for prioritizing tasks by urgency and importance",
+            "difficulty": "hard",
+            "topic": "Productivity"
+        },
+        {
+            "question": "What is 'Radical Candor'?",
+            "options": [
+                "Caring personally while challenging directly",
+                "Being mean",
+                "Being overly nice",
+                "Avoiding conflict"
+            ],
+            "correctAnswer": "Caring personally while challenging directly",
+            "difficulty": "hard",
+            "topic": "Communication"
+        },
+        {
+            "question": "What is 'Brooks's Law'?",
+            "options": [
+                "Adding manpower to a late software project makes it later",
+                "More people = faster work",
+                "Software is free",
+                "Managers are unnecessary"
+            ],
+            "correctAnswer": "Adding manpower to a late software project makes it later",
+            "difficulty": "hard",
+            "topic": "Management Theory"
+        },
+        {
+            "question": "What is 'Imposter Syndrome'?",
+            "options": [
+                "Doubting your abilities and feeling like a fraud",
+                "Being an imposter",
+                "A security vulnerability",
+                "A virus"
+            ],
+            "correctAnswer": "Doubting your abilities and feeling like a fraud",
+            "difficulty": "hard",
+            "topic": "Psychology"
+        },
+        {
+            "question": "What is 'OKR'?",
+            "options": [
+                "Objectives and Key Results",
+                "Okay Result",
+                "Operational Key Repair",
+                "Official Key Role"
+            ],
+            "correctAnswer": "Objectives and Key Results",
+            "difficulty": "hard",
+            "topic": "Goal Setting"
+        },
+        {
+            "question": "What is 'Conway's Law'?",
+            "options": [
+                "Organizations design systems that mirror their own communication structure",
+                "Code is law",
+                "Teams should be small",
+                "Managers code best"
+            ],
+            "correctAnswer": "Organizations design systems that mirror their own communication structure",
+            "difficulty": "hard",
+            "topic": "Organizational Theory"
+        },
+        {
+            "question": "What is 'SPOF'?",
+            "options": [
+                "Single Point of Failure",
+                "Special Point of Focus",
+                "Speed of Failure",
+                "Secure Point of File"
+            ],
+            "correctAnswer": "Single Point of Failure",
+            "difficulty": "hard",
+            "topic": "Risk Management"
+        },
+        {
+            "question": "What is 'Root Cause Analysis' technique?",
+            "options": [
+                "5 Whys",
+                "5 Hows",
+                "Guessing",
+                "Blaming"
+            ],
+            "correctAnswer": "5 Whys",
+            "difficulty": "hard",
+            "topic": "Problem Solving"
+        },
+        {
+            "question": "What is 'Leading vs Lagging Indicators'?",
+            "options": [
+                "Leading predicts future, Lagging confirms past",
+                "Leading is better",
+                "Lagging is better",
+                "They are same"
+            ],
+            "correctAnswer": "Leading predicts future, Lagging confirms past",
+            "difficulty": "hard",
+            "topic": "Metrics"
+        },
+        {
+            "question": "What is 'Peter Principle'?",
+            "options": [
+                "People are promoted to their level of incompetence",
+                "Peter is the boss",
+                "Coding is easy",
+                "Management is hard"
+            ],
+            "correctAnswer": "People are promoted to their level of incompetence",
+            "difficulty": "hard",
+            "topic": "Management Theory"
+        },
+        {
+            "question": "What is 'Groupthink'?",
+            "options": [
+                "The practice of making decisions as a group in a way that discourages creativity or individual responsibility",
+                "Thinking together",
+                "Brainstorming",
+                "Agile consensus"
+            ],
+            "correctAnswer": "The practice of making decisions as a group in a way that discourages creativity or individual responsibility",
+            "difficulty": "hard",
+            "topic": "Team Dynamics"
+        },
+        {
+            "question": "What is 'Pareto Principle' (80/20 Rule)?",
+            "options": [
+                "80% of effects come from 20% of causes",
+                "80% work, 20% rest",
+                "80 developers, 20 managers",
+                "80 bugs, 20 features"
+            ],
+            "correctAnswer": "80% of effects come from 20% of causes",
+            "difficulty": "hard",
+            "topic": "Productivity"
+        },
+        {
+            "question": "What is 'Manage Up'?",
+            "options": [
+                "Developing a good working relationship with your manager and stakeholders",
+                "Promoting yourself",
+                "Managing ceiling",
+                "Managing time"
+            ],
+            "correctAnswer": "Developing a good working relationship with your manager and stakeholders",
+            "difficulty": "hard",
+            "topic": "Career Development"
+        }
+    ]
+}

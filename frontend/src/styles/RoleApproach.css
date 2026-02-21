@@ -1,0 +1,181 @@
+/* src/styles/RoleApproach.css */
+
+.role-approach-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle at center, rgba(15, 23, 42, 0.9) 0%, rgba(2, 6, 23, 0.98) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    padding: 2rem;
+    backdrop-filter: blur(20px);
+}
+
+.approach-card {
+    background: rgba(10, 15, 30, 0.75);
+    backdrop-filter: blur(40px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 24px;
+    width: 100%;
+    max-width: 950px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow:
+        0 0 0 1px rgba(255, 255, 255, 0.05),
+        0 20px 50px rgba(0, 0, 0, 0.8),
+        inset 0 0 100px rgba(59, 130, 246, 0.05);
+    display: flex;
+    flex-direction: column;
+    animation: entranceFade 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    position: relative;
+}
+
+@keyframes entranceFade {
+    from {
+        opacity: 0;
+        transform: translateY(30px) scale(0.98);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.approach-header {
+    background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+    padding: 3rem;
+    color: white;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.role-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.role-preview svg {
+    font-size: 3.5rem;
+    filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.6));
+    margin-bottom: 0.5rem;
+}
+
+.role-preview h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: -0.02em;
+}
+
+.approach-intro {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.approach-content {
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 2.5rem;
+    background: rgba(15, 23, 42, 0.4);
+}
+
+.approach-steps,
+.study-guide {
+    background: rgba(30, 41, 59, 0.5);
+    padding: 2rem;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+}
+
+.approach-steps {
+    grid-column: span 2;
+}
+
+.approach-steps h3,
+.study-guide h3 {
+    font-size: 1.25rem;
+    color: #f1f5f9;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.approach-steps h3 svg {
+    color: #f59e0b;
+}
+
+.study-guide h3 svg {
+    color: #3b82f6;
+}
+
+.approach-steps ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.approach-steps li {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 8px;
+    border-left: 3px solid #f59e0b;
+}
+
+.step-num {
+    background: #f59e0b;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.approach-steps li p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #cbd5e1;
+}
+
+.guide-box {
+    padding: 1.25rem;
+    background: rgba(59, 130, 246, 0.1);
+    border-radius: 12px;
+    font-size: 0.95rem;
+    color: #93c5fd;
+    line-height: 1.6;
+    border: 1px dashed rgba(59, 130, 246, 0.3);
+}
+
+@media (max-width: 900px) {
+    .approach-content {
+        grid-template-columns: 1fr;
+    }
+
+    .approach-steps {
+        grid-column: span 1;
+    }
+}

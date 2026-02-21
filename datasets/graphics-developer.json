@@ -1,0 +1,605 @@
+{
+    "role": "Graphics Developer",
+    "questions": [
+        {
+            "question": "What is 'OpenGL'?",
+            "options": [
+                "Open Graphics Library (API for rendering 2D/3D vector graphics)",
+                "Open Game Level",
+                "Operating Graphics Language",
+                "Optimum Game Loop"
+            ],
+            "correctAnswer": "Open Graphics Library (API for rendering 2D/3D vector graphics)",
+            "difficulty": "easy",
+            "topic": "APIs"
+        },
+        {
+            "question": "What is 'DirectX'?",
+            "options": [
+                "A collection of APIs by Microsoft for handling multimedia tasks",
+                "Direct X-ray",
+                "Directional X axis",
+                "Drawing tool"
+            ],
+            "correctAnswer": "A collection of APIs by Microsoft for handling multimedia tasks",
+            "difficulty": "easy",
+            "topic": "APIs"
+        },
+        {
+            "question": "What is a 'Pixel'?",
+            "options": [
+                "Smallest addressable element in an all points addressable display device",
+                "A picture",
+                "A color",
+                "A dot"
+            ],
+            "correctAnswer": "Smallest addressable element in an all points addressable display device",
+            "difficulty": "easy",
+            "topic": "Fundamentals"
+        },
+        {
+            "question": "What is 'RGB'?",
+            "options": [
+                "Red Green Blue",
+                "Real Good Boy",
+                "Red Gold Black",
+                "Random Green Blue"
+            ],
+            "correctAnswer": "Red Green Blue",
+            "difficulty": "easy",
+            "topic": "Color"
+        },
+        {
+            "question": "What is 'Vulkan'?",
+            "options": [
+                "A low-overhead, cross-platform 3D graphics and computing API",
+                "A planet",
+                "A game",
+                "A card"
+            ],
+            "correctAnswer": "A low-overhead, cross-platform 3D graphics and computing API",
+            "difficulty": "easy",
+            "topic": "APIs"
+        },
+        {
+            "question": "What is a 'Vertex'?",
+            "options": [
+                "A data structure that describes a point in space (position, color, etc.)",
+                "A corner",
+                "A vector",
+                "A texture"
+            ],
+            "correctAnswer": "A data structure that describes a point in space (position, color, etc.)",
+            "difficulty": "easy",
+            "topic": "3D Geometry"
+        },
+        {
+            "question": "What is a 'Triangle' in 3D graphics?",
+            "options": [
+                "The fundamental primitive used to render 3D models",
+                "A shape",
+                "Pyramid",
+                "Three lines"
+            ],
+            "correctAnswer": "The fundamental primitive used to render 3D models",
+            "difficulty": "easy",
+            "topic": "3D Geometry"
+        },
+        {
+            "question": "What is 'Rasterization'?",
+            "options": [
+                "Taking an image described in a vector graphics format and converting it into a raster image (pixels)",
+                "Vectorization",
+                "Drawing lines",
+                "Filling colors"
+            ],
+            "correctAnswer": "Taking an image described in a vector graphics format and converting it into a raster image (pixels)",
+            "difficulty": "easy",
+            "topic": "Rendering"
+        },
+        {
+            "question": "What is 'Ray Tracing'?",
+            "options": [
+                "A rendering technique for generating an image by tracing the path of light",
+                "Tracing paper",
+                "X-ray",
+                "Drawing rays"
+            ],
+            "correctAnswer": "A rendering technique for generating an image by tracing the path of light",
+            "difficulty": "easy",
+            "topic": "Rendering"
+        },
+        {
+            "question": "What is 'GPU'?",
+            "options": [
+                "Graphics Processing Unit",
+                "General Processing Unit",
+                "Game Playing Unit",
+                "Global Position Unit"
+            ],
+            "correctAnswer": "Graphics Processing Unit",
+            "difficulty": "easy",
+            "topic": "Hardware"
+        },
+        {
+            "question": "What is 'Shader'?",
+            "options": [
+                "A type of computer program that was originally used to do shading",
+                "A shadow",
+                "A shade",
+                "A light"
+            ],
+            "correctAnswer": "A type of computer program that was originally used to do shading",
+            "difficulty": "medium",
+            "topic": "Shaders"
+        },
+        {
+            "question": "What is 'GLSL'?",
+            "options": [
+                "OpenGL Shading Language",
+                "Graphics Library System Language",
+                "Great Language for Shaders",
+                "Global Shader Language"
+            ],
+            "correctAnswer": "OpenGL Shading Language",
+            "difficulty": "medium",
+            "topic": "Shaders"
+        },
+        {
+            "question": "What is 'HLSL'?",
+            "options": [
+                "High-Level Shading Language (DirectX)",
+                "High Light System Level",
+                "Hardware Level Shader Language",
+                "High Level Script Language"
+            ],
+            "correctAnswer": "High-Level Shading Language (DirectX)",
+            "difficulty": "medium",
+            "topic": "Shaders"
+        },
+        {
+            "question": "What is 'Texture Mapping'?",
+            "options": [
+                "A method for defining high frequency detail, surface texture, or color information on a computer-generated graphic or 3D model",
+                "Drawing textures",
+                "Mapping world",
+                "Painting map"
+            ],
+            "correctAnswer": "A method for defining high frequency detail, surface texture, or color information on a computer-generated graphic or 3D model",
+            "difficulty": "medium",
+            "topic": "Texturing"
+        },
+        {
+            "question": "What is 'UV Mapping'?",
+            "options": [
+                "Process of projecting a 2D image to a 3D model's surface",
+                "Ultra Violet Mapping",
+                "Universal Mapping",
+                "Understanding Vectors"
+            ],
+            "correctAnswer": "Process of projecting a 2D image to a 3D model's surface",
+            "difficulty": "medium",
+            "topic": "Texturing"
+        },
+        {
+            "question": "What is 'Z-Buffering' (Depth Buffering)?",
+            "options": [
+                "Management of image depth coordinates in 3D graphics",
+                "Sleep buffer",
+                "Zero buffer",
+                "Zoom buffer"
+            ],
+            "correctAnswer": "Management of image depth coordinates in 3D graphics",
+            "difficulty": "medium",
+            "topic": "Rendering"
+        },
+        {
+            "question": "What is 'Double Buffering'?",
+            "options": [
+                "Using two buffers to hold data to prevent screen tearing/flickering",
+                "Double speed",
+                "Two screens",
+                "Copying buffer"
+            ],
+            "correctAnswer": "Using two buffers to hold data to prevent screen tearing/flickering",
+            "difficulty": "medium",
+            "topic": "Performance"
+        },
+        {
+            "question": "What is 'VSync'?",
+            "options": [
+                "Vertical Synchronization (syncing frame rate to monitor refresh rate)",
+                "Video Sync",
+                "Virtual Sync",
+                "Very Sync"
+            ],
+            "correctAnswer": "Vertical Synchronization (syncing frame rate to monitor refresh rate)",
+            "difficulty": "medium",
+            "topic": "Performance"
+        },
+        {
+            "question": "What is 'Antialiasing'?",
+            "options": [
+                "Technique used to smooth jagged edges",
+                "Removing alias",
+                "Sharpening",
+                "Blurring"
+            ],
+            "correctAnswer": "Technique used to smooth jagged edges",
+            "difficulty": "medium",
+            "topic": "Qualtiy"
+        },
+        {
+            "question": "What is 'Ambient Occlusion'?",
+            "options": [
+                "Shading method to approximate how exposed each point in a scene is to ambient lighting",
+                "Ambient song",
+                "Closing eyes",
+                "Background light"
+            ],
+            "correctAnswer": "Shading method to approximate how exposed each point in a scene is to ambient lighting",
+            "difficulty": "medium",
+            "topic": "Lighting"
+        },
+        {
+            "question": "What is 'Normal Mapping'?",
+            "options": [
+                "Technique used for faking the lighting of bumps and dents",
+                "Mapping normal",
+                "Standard map",
+                "Zero map"
+            ],
+            "correctAnswer": "Technique used for faking the lighting of bumps and dents",
+            "difficulty": "medium",
+            "topic": "Texturing"
+        },
+        {
+            "question": "What is 'Phong Reflection Model'?",
+            "options": [
+                "Empirical model of local illumination",
+                "A mirror",
+                "A phone",
+                "A pong game"
+            ],
+            "correctAnswer": "Empirical model of local illumination",
+            "difficulty": "medium",
+            "topic": "Lighting"
+        },
+        {
+            "question": "What is 'Frame Rate'?",
+            "options": [
+                "Frequency at which consecutive images are called frames appear on a display",
+                "Photo rate",
+                "Picture speed",
+                "Time rate"
+            ],
+            "correctAnswer": "Frequency at which consecutive images are called frames appear on a display",
+            "difficulty": "medium",
+            "topic": "Performance"
+        },
+        {
+            "question": "What is 'Projection Matrix'?",
+            "options": [
+                "Matrix used to project 3D coordinates onto a 2D screen",
+                "Movie projector",
+                "Math problem",
+                "Network matrix"
+            ],
+            "correctAnswer": "Matrix used to project 3D coordinates onto a 2D screen",
+            "difficulty": "medium",
+            "topic": "Math"
+        },
+        {
+            "question": "What is 'Model Matrix'?",
+            "options": [
+                "Transforms vertices from model space to world space",
+                "Fashion model",
+                "Model car",
+                " Matrix movie"
+            ],
+            "correctAnswer": "Transforms vertices from model space to world space",
+            "difficulty": "medium",
+            "topic": "Math"
+        },
+        {
+            "question": "What is 'Global Illumination'?",
+            "options": [
+                "Algorithms used to add more realistic lighting (direct + indirect light)",
+                "Global warming",
+                "World light",
+                "Bright screen"
+            ],
+            "correctAnswer": "Algorithms used to add more realistic lighting (direct + indirect light)",
+            "difficulty": "medium",
+            "topic": "Lighting"
+        },
+        {
+            "question": "What is 'WebGL'?",
+            "options": [
+                "JavaScript API for rendering interactive 2D and 3D graphics within any compatible web browser",
+                "Web Graph Library",
+                "Website Graphics language",
+                "Net GL"
+            ],
+            "correctAnswer": "JavaScript API for rendering interactive 2D and 3D graphics within any compatible web browser",
+            "difficulty": "medium",
+            "topic": "Web"
+        },
+        {
+            "question": "What is 'Tessellation'?",
+            "options": [
+                "Breaking a polygon into smaller polygons",
+                "Tile pattern",
+                "Mosaic",
+                "Puzzle"
+            ],
+            "correctAnswer": "Breaking a polygon into smaller polygons",
+            "difficulty": "hard",
+            "topic": "Geometry"
+        },
+        {
+            "question": "What is 'Compute Shader'?",
+            "options": [
+                "Shader stage that is used for computing arbitrary information (not just graphics)",
+                "Calculator",
+                "Math shader",
+                "CPU shader"
+            ],
+            "correctAnswer": "Shader stage that is used for computing arbitrary information (not just graphics)",
+            "difficulty": "hard",
+            "topic": "Shaders"
+        },
+        {
+            "question": "What is 'Deferred Shading'?",
+            "options": [
+                "Shading is performed in a second pass on pixels, not vertices",
+                "Late shading",
+                "Lazy shading",
+                "Postponed shading"
+            ],
+            "correctAnswer": "Shading is performed in a second pass on pixels, not vertices",
+            "difficulty": "hard",
+            "topic": "Rendering"
+        },
+        {
+            "question": "What is 'Forward Rendering'?",
+            "options": [
+                "Standard rendering where each object creates a draw call",
+                "Fast rendering",
+                "Simple rendering",
+                "Moving forward"
+            ],
+            "correctAnswer": "Standard rendering where each object creates a draw call",
+            "difficulty": "hard",
+            "topic": "Rendering"
+        },
+        {
+            "question": "What is 'Bloom' effect?",
+            "options": [
+                "Optical effect where light from a bright source appears to leak into surrounding objects",
+                "Flower",
+                "Explosion",
+                "Spring"
+            ],
+            "correctAnswer": "Optical effect where light from a bright source appears to leak into surrounding objects",
+            "difficulty": "hard",
+            "topic": "Post-Processing"
+        },
+        {
+            "question": "What is 'Frustum Culling'?",
+            "options": [
+                "Removing objects that are not inside the view frustum (camera view)",
+                "Cutting fruit",
+                "Zooming",
+                "Hiding"
+            ],
+            "correctAnswer": "Removing objects that are not inside the view frustum (camera view)",
+            "difficulty": "hard",
+            "topic": "Optimization"
+        },
+        {
+            "question": "What is 'Anisotropic Filtering'?",
+            "options": [
+                "Method of enhancing the image quality of textures on surfaces that are at oblique viewing angles",
+                "Anti filtering",
+                "Blurring",
+                "Sharpening"
+            ],
+            "correctAnswer": "Method of enhancing the image quality of textures on surfaces that are at oblique viewing angles",
+            "difficulty": "hard",
+            "topic": "Texture"
+        },
+        {
+            "question": "What is 'PBR' (Physically Based Rendering)?",
+            "options": [
+                "Method of shading/rendering that provides a more accurate representation of how light interacts with surfaces",
+                "Peanut Butter",
+                "Physics Book",
+                "Point Based"
+            ],
+            "correctAnswer": "Method of shading/rendering that provides a more accurate representation of how light interacts with surfaces",
+            "difficulty": "hard",
+            "topic": "Rendering"
+        },
+        {
+            "question": "What is 'BRDF'?",
+            "options": [
+                "Bidirectional Reflectance Distribution Function",
+                "Big Red Dog Friend",
+                "Binary Read Data Format",
+                "Basic Render Definition File"
+            ],
+            "correctAnswer": "Bidirectional Reflectance Distribution Function",
+            "difficulty": "hard",
+            "topic": "Math"
+        },
+        {
+            "question": "What is 'Render Pipeline'?",
+            "options": [
+                "Sequence of steps that OpenGL/DirectX takes to render an image",
+                "A pipe",
+                "Oil pipeline",
+                "Water pipe"
+            ],
+            "correctAnswer": "Sequence of steps that OpenGL/DirectX takes to render an image",
+            "difficulty": "hard",
+            "topic": "Pipeline"
+        },
+        {
+            "question": "What is 'Draw Call Batching'?",
+            "options": [
+                "Combining, or batching, multiple draw calls into one",
+                "Drawing together",
+                "Batch cooking",
+                "Group drawing"
+            ],
+            "correctAnswer": "Combining, or batching, multiple draw calls into one",
+            "difficulty": "hard",
+            "topic": "Optimization"
+        },
+        {
+            "question": "What is 'Instancing'?",
+            "options": [
+                "Technique used to render multiple copies of the same mesh in a single draw call",
+                "Copy paste",
+                " cloning",
+                "New instance"
+            ],
+            "correctAnswer": "Technique used to render multiple copies of the same mesh in a single draw call",
+            "difficulty": "hard",
+            "topic": "Optimization"
+        },
+        {
+            "question": "What is 'G-Buffer' (Geometry Buffer)?",
+            "options": [
+                "Screen space representation of geometry and material information (used in deferred shading)",
+                "Green buffer",
+                "Good buffer",
+                "Graphics buffer"
+            ],
+            "correctAnswer": "Screen space representation of geometry and material information (used in deferred shading)",
+            "difficulty": "hard",
+            "topic": "Rendering"
+        },
+        {
+            "question": "What is 'SSAO'?",
+            "options": [
+                "Screen Space Ambient Occlusion",
+                "Super Saiyan All Out",
+                "Screen Saver Always On",
+                "Simple Shader AO"
+            ],
+            "correctAnswer": "Screen Space Ambient Occlusion",
+            "difficulty": "hard",
+            "topic": "Post-Processing"
+        },
+        {
+            "question": "What is 'HDR'?",
+            "options": [
+                "High Dynamic Range",
+                "High Definition Resolution",
+                "Hard Drive Ready",
+                "High Data Rate"
+            ],
+            "correctAnswer": "High Dynamic Range",
+            "difficulty": "hard",
+            "topic": "Lighting"
+        },
+        {
+            "question": "What is 'Tone Mapping'?",
+            "options": [
+                "Mapping one set of colors to another to approximate the appearance of high dynamic range images",
+                "Changing tone",
+                "Color grading",
+                "Auto tune"
+            ],
+            "correctAnswer": "Mapping one set of colors to another to approximate the appearance of high dynamic range images",
+            "difficulty": "hard",
+            "topic": "Post-Processing"
+        },
+        {
+            "question": "What is 'Quaternion'?",
+            "options": [
+                "Number system used to represent rotations in 3D space",
+                "Four numbers",
+                "A quarter",
+                "A coin"
+            ],
+            "correctAnswer": "Number system used to represent rotations in 3D space",
+            "difficulty": "hard",
+            "topic": "Math"
+        },
+        {
+            "question": "What is 'Gimbal Lock'?",
+            "options": [
+                "Loss of one degree of freedom in a three-dimensional, three-gimbal mechanism",
+                "Locked door",
+                "Broken camera",
+                "Stuck rotation"
+            ],
+            "correctAnswer": "Loss of one degree of freedom in a three-dimensional, three-gimbal mechanism",
+            "difficulty": "hard",
+            "topic": "Math"
+        },
+        {
+            "question": "What is 'Volumetric Lighting'?",
+            "options": [
+                "Technique used to add lighting effects to a rendered scene (e.g., God rays)",
+                "Volume control",
+                "Loud light",
+                "Big light"
+            ],
+            "correctAnswer": "Technique used to add lighting effects to a rendered scene (e.g., God rays)",
+            "difficulty": "hard",
+            "topic": "Lighting"
+        },
+        {
+            "question": "What is 'Parallax Mapping'?",
+            "options": [
+                "Enhancement of normal mapping to provide more depth",
+                "Parallel lines",
+                "Space map",
+                "Star map"
+            ],
+            "correctAnswer": "Enhancement of normal mapping to provide more depth",
+            "difficulty": "hard",
+            "topic": "Texturing"
+        },
+        {
+            "question": "What is 'LOD'?",
+            "options": [
+                "Level of Detail",
+                "Load on Demand",
+                "Left or Dead",
+                "List of Data"
+            ],
+            "correctAnswer": "Level of Detail",
+            "difficulty": "hard",
+            "topic": "Optimization"
+        },
+        {
+            "question": "What is 'Depth of Field'?",
+            "options": [
+                "Distance between the nearest and the farthest objects that are in acceptably sharp focus",
+                "Deep field",
+                "Blurry background",
+                "Camera focus"
+            ],
+            "correctAnswer": "Distance between the nearest and the farthest objects that are in acceptably sharp focus",
+            "difficulty": "hard",
+            "topic": "Effect"
+        },
+        {
+            "question": "What is 'Motion Blur'?",
+            "options": [
+                "Apparent streaking of moving objects in a photograph or a sequence of frames",
+                "Blurry vision",
+                "Fast motion",
+                "Speed effect"
+            ],
+            "correctAnswer": "Apparent streaking of moving objects in a photograph or a sequence of frames",
+            "difficulty": "hard",
+            "topic": "Effect"
+        }
+    ]
+}

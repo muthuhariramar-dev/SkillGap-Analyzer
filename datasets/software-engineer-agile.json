@@ -1,0 +1,605 @@
+{
+    "role": "Software Engineer[AGILE]",
+    "questions": [
+        {
+            "question": "What is the Agile Manifesto's view on documentation?",
+            "options": [
+                "Working software over comprehensive documentation",
+                "No documentation needed",
+                "Documentation is the most important",
+                "Document everything before coding"
+            ],
+            "correctAnswer": "Working software over comprehensive documentation",
+            "difficulty": "easy",
+            "topic": "Agile Manifesto"
+        },
+        {
+            "question": "What is a 'Sprint'?",
+            "options": [
+                "A time-boxed period to complete a set amount of work",
+                "Running fast",
+                "A long marathon of coding",
+                "A quick meeting"
+            ],
+            "correctAnswer": "A time-boxed period to complete a set amount of work",
+            "difficulty": "easy",
+            "topic": "Scrum"
+        },
+        {
+            "question": "Who owns the Product Backlog?",
+            "options": [
+                "Product Owner",
+                "Scrum Master",
+                "Development Team",
+                "CEO"
+            ],
+            "correctAnswer": "Product Owner",
+            "difficulty": "easy",
+            "topic": "Scrum Roles"
+        },
+        {
+            "question": "What is the purpose of the 'Daily Scrum'?",
+            "options": [
+                "To synchronize activities and create a plan for the next 24 hours",
+                "To report to management",
+                "To complain",
+                "To write code"
+            ],
+            "correctAnswer": "To synchronize activities and create a plan for the next 24 hours",
+            "difficulty": "easy",
+            "topic": "Scrum Events"
+        },
+        {
+            "question": "What represents the amount of work remaining in a Sprint?",
+            "options": [
+                "Burndown Chart",
+                "Burnup Chart",
+                "Gantt Chart",
+                "Pie Chart"
+            ],
+            "correctAnswer": "Burndown Chart",
+            "difficulty": "easy",
+            "topic": "Artifacts"
+        },
+        {
+            "question": "What is a 'User Story'?",
+            "options": [
+                "A description of a feature from an end-user perspective",
+                "A bedtime story",
+                "A specification document",
+                "A bug report"
+            ],
+            "correctAnswer": "A description of a feature from an end-user perspective",
+            "difficulty": "easy",
+            "topic": "Requirements"
+        },
+        {
+            "question": "What does 'Kanban' emphasize?",
+            "options": [
+                "Visualizing work, limiting work in progress, and maximizing flow",
+                "Sprints",
+                "Roles",
+                "None of the above"
+            ],
+            "correctAnswer": "Visualizing work, limiting work in progress, and maximizing flow",
+            "difficulty": "easy",
+            "topic": "Kanban"
+        },
+        {
+            "question": "What is a 'Retrospective'?",
+            "options": [
+                "A meeting to inspect the past Sprint and plan for improvements",
+                "A history lesson",
+                "A party",
+                "A planning meeting"
+            ],
+            "correctAnswer": "A meeting to inspect the past Sprint and plan for improvements",
+            "difficulty": "easy",
+            "topic": "Scrum Events"
+        },
+        {
+            "question": "What is 'Velocity'?",
+            "options": [
+                "A measure of the amount of work a Team can handle during a single Sprint",
+                "Speed of light",
+                "Code quality",
+                "Bug count"
+            ],
+            "correctAnswer": "A measure of the amount of work a Team can handle during a single Sprint",
+            "difficulty": "easy",
+            "topic": "Metrics"
+        },
+        {
+            "question": "Who facilitates the Scrum process?",
+            "options": [
+                "Scrum Master",
+                "Product Owner",
+                "Manager",
+                "Developer"
+            ],
+            "correctAnswer": "Scrum Master",
+            "difficulty": "easy",
+            "topic": "Scrum Roles"
+        },
+        {
+            "question": "What is 'Acceptance Criteria'?",
+            "options": [
+                "The conditions that a software product must satisfy to be accepted by a user",
+                "Login credentials",
+                "Testing tools",
+                "Code style"
+            ],
+            "correctAnswer": "The conditions that a software product must satisfy to be accepted by a user",
+            "difficulty": "medium",
+            "topic": "Requirements"
+        },
+        {
+            "question": "What is 'TDD'?",
+            "options": [
+                "Test Driven Development",
+                "Test During Development",
+                "Team Driven Development",
+                "Technical Design Document"
+            ],
+            "correctAnswer": "Test Driven Development",
+            "difficulty": "medium",
+            "topic": "Engineering Practices"
+        },
+        {
+            "question": "What is 'Pair Programming'?",
+            "options": [
+                "Two developers work together at one workstation",
+                "Programming in pairs of lines",
+                "Using two monitors",
+                "Programming twice as fast"
+            ],
+            "correctAnswer": "Two developers work together at one workstation",
+            "difficulty": "medium",
+            "topic": "XP"
+        },
+        {
+            "question": "What is 'Continuous Integration'?",
+            "options": [
+                "Integrating code into a shared repository frequently",
+                "Integrating regularly",
+                "Never integrating",
+                "Manual integration"
+            ],
+            "correctAnswer": "Integrating code into a shared repository frequently",
+            "difficulty": "medium",
+            "topic": "DevOps"
+        },
+        {
+            "question": "What is 'Refactoring'?",
+            "options": [
+                "Improving the internal structure of code without changing its external behavior",
+                "Rewriting code from scratch",
+                "Fixing bugs",
+                "Adding features"
+            ],
+            "correctAnswer": "Improving the internal structure of code without changing its external behavior",
+            "difficulty": "medium",
+            "topic": "Engineering Practices"
+        },
+        {
+            "question": "What is 'Technical Debt'?",
+            "options": [
+                "The cost of additional rework caused by choosing an easy solution now instead of a better approach",
+                "Financial debt",
+                "Bad hardware",
+                "Salary debt"
+            ],
+            "correctAnswer": "The cost of additional rework caused by choosing an easy solution now instead of a better approach",
+            "difficulty": "medium",
+            "topic": "Engineering Practices"
+        },
+        {
+            "question": "What is the 'Definition of Done' (DoD)?",
+            "options": [
+                "A shared understanding of what it means for work to be complete",
+                "When code compiles",
+                "When developer says so",
+                "When shift ends"
+            ],
+            "correctAnswer": "A shared understanding of what it means for work to be complete",
+            "difficulty": "medium",
+            "topic": "Scrum"
+        },
+        {
+            "question": "What is 'Planning Poker'?",
+            "options": [
+                "A consensus-based technique for estimating effort",
+                "Gambling",
+                "Card game",
+                "Planning meeting"
+            ],
+            "correctAnswer": "A consensus-based technique for estimating effort",
+            "difficulty": "medium",
+            "topic": "Estimation"
+        },
+        {
+            "question": "What is 'Time-boxing'?",
+            "options": [
+                "Setting a fixed amount of time for an activity",
+                "Boxing match",
+                "Working overtime",
+                "Timing code"
+            ],
+            "correctAnswer": "Setting a fixed amount of time for an activity",
+            "difficulty": "medium",
+            "topic": "Process"
+        },
+        {
+            "question": "What is a 'Spike'?",
+            "options": [
+                "A task aimed at answering a question or gathering information",
+                "A sharp object",
+                "A bug",
+                "A sudden increase in traffic"
+            ],
+            "correctAnswer": "A task aimed at answering a question or gathering information",
+            "difficulty": "medium",
+            "topic": "XP"
+        },
+        {
+            "question": "What is 'Mob Programming'?",
+            "options": [
+                "The whole team works on the same thing, at the same time, in the same space, and at the same computer",
+                "Mobile programming",
+                "Angry programming",
+                "Large team"
+            ],
+            "correctAnswer": "The whole team works on the same thing, at the same time, in the same space, and at the same computer",
+            "difficulty": "medium",
+            "topic": "XP"
+        },
+        {
+            "question": "What is 'Behavior Driven Development' (BDD)?",
+            "options": [
+                "A process that encourages collaboration via examples/scenarios",
+                "Bad Design Development",
+                "Bug Driven Development",
+                "Behavioral analysis"
+            ],
+            "correctAnswer": "A process that encourages collaboration via examples/scenarios",
+            "difficulty": "medium",
+            "topic": "Engineering Practices"
+        },
+        {
+            "question": "What is the difference between Scrum and Waterfall?",
+            "options": [
+                "Scrum is iterative/flexible, Waterfall is sequential/rigid",
+                "Scrum is wet",
+                "Waterfall is faster",
+                "No difference"
+            ],
+            "correctAnswer": "Scrum is iterative/flexible, Waterfall is sequential/rigid",
+            "difficulty": "medium",
+            "topic": "Process"
+        },
+        {
+            "question": "What is 'Scope Creep'?",
+            "options": [
+                "Uncontrolled growth of project scope",
+                "Scary scope",
+                "Expanding team",
+                "Reducing features"
+            ],
+            "correctAnswer": "Uncontrolled growth of project scope",
+            "difficulty": "medium",
+            "topic": "Project Management"
+        },
+        {
+            "question": "What is 'MVP'?",
+            "options": [
+                "Minimum Viable Product",
+                "Most Valuable Player",
+                "Minimum Value Protocol",
+                "Maximum Viable Product"
+            ],
+            "correctAnswer": "Minimum Viable Product",
+            "difficulty": "medium",
+            "topic": "Product Management"
+        },
+        {
+            "question": "What is 'Extreme Programming' (XP)?",
+            "options": [
+                "An agile software development framework that aims to produce higher quality software",
+                "Coding on mountaintops",
+                "Fast coding",
+                "Dangerous coding"
+            ],
+            "correctAnswer": "An agile software development framework that aims to produce higher quality software",
+            "difficulty": "hard",
+            "topic": "XP"
+        },
+        {
+            "question": "What is 'Cross-functional Team'?",
+            "options": [
+                "A team that has all the skills necessary to create value",
+                "A team that is angry",
+                "A management team",
+                "A team of specialists"
+            ],
+            "correctAnswer": "A team that has all the skills necessary to create value",
+            "difficulty": "hard",
+            "topic": "Team Structure"
+        },
+        {
+            "question": "What is 'Self-Managing Team'?",
+            "options": [
+                "Teams that manage their own work and decisions",
+                "Teams with no boss",
+                "Anarchy",
+                "Robot teams"
+            ],
+            "correctAnswer": "Teams that manage their own work and decisions",
+            "difficulty": "hard",
+            "topic": "Team Structure"
+        },
+        {
+            "question": "What is 'Cycle Time'?",
+            "options": [
+                "The time from start of work to delivery",
+                "Time to ride a bike",
+                "Time for loop",
+                "Sprint duration"
+            ],
+            "correctAnswer": "The time from start of work to delivery",
+            "difficulty": "hard",
+            "topic": "Metrics"
+        },
+        {
+            "question": "What is 'Lead Time'?",
+            "options": [
+                "The time from customer request to delivery",
+                "Time to lead",
+                "Processing time",
+                "Wait time"
+            ],
+            "correctAnswer": "The time from customer request to delivery",
+            "difficulty": "hard",
+            "topic": "Metrics"
+        },
+        {
+            "question": "What is 'Lean Software Development'?",
+            "options": [
+                "Eliminate waste, amplify learning, decide as late as possible, deliver as fast as possible",
+                "Diet coding",
+                "Cheap software",
+                "Fast coding"
+            ],
+            "correctAnswer": "Eliminate waste, amplify learning, decide as late as possible, deliver as fast as possible",
+            "difficulty": "hard",
+            "topic": "Lean"
+        },
+        {
+            "question": "What is 'Servant Leadership'?",
+            "options": [
+                "A philosophy where the leader's main goal is to serve",
+                "Master and servant",
+                "Leader does everything",
+                "Leader does nothing"
+            ],
+            "correctAnswer": "A philosophy where the leader's main goal is to serve",
+            "difficulty": "hard",
+            "topic": "Leadership"
+        },
+        {
+            "question": "What is 'Empiricism' in Scrum?",
+            "options": [
+                "Knowledge comes from experience and making decisions based on what is known",
+                "Guessing",
+                "Theory only",
+                "Following orders"
+            ],
+            "correctAnswer": "Knowledge comes from experience and making decisions based on what is known",
+            "difficulty": "hard",
+            "topic": "Scrum Theory"
+        },
+        {
+            "question": "What are the three pillars of Scrum?",
+            "options": [
+                "Transparency, Inspection, Adaptation",
+                "Code, Test, Deploy",
+                "People, Process, Tools",
+                "Fast, Cheap, Good"
+            ],
+            "correctAnswer": "Transparency, Inspection, Adaptation",
+            "difficulty": "hard",
+            "topic": "Scrum Theory"
+        },
+        {
+            "question": "What is 'Continuous Deployment'?",
+            "options": [
+                "Every change that passes all stages of your production pipeline is released to your customers",
+                "Deploying on weekends",
+                "Manual deployment",
+                "Deploying once a year"
+            ],
+            "correctAnswer": "Every change that passes all stages of your production pipeline is released to your customers",
+            "difficulty": "hard",
+            "topic": "DevOps"
+        },
+        {
+            "question": "What is 'Shift Left' testing?",
+            "options": [
+                "Testing early in the development lifecycle",
+                "Testing with left hand",
+                "Testing late",
+                "Not testing"
+            ],
+            "correctAnswer": "Testing early in the development lifecycle",
+            "difficulty": "hard",
+            "topic": "Testing"
+        },
+        {
+            "question": "What is 'Feature Toggle'?",
+            "options": [
+                "A technique to turn features on or off without deploying new code",
+                "A light switch",
+                "A bug",
+                "A standard"
+            ],
+            "correctAnswer": "A technique to turn features on or off without deploying new code",
+            "difficulty": "hard",
+            "topic": "DevOps"
+        },
+        {
+            "question": "What is 'Trunk Based Development'?",
+            "options": [
+                "Developers merge small, frequent updates to a core 'trunk' or main branch",
+                "Development on trees",
+                "Branching forever",
+                "Git flow"
+            ],
+            "correctAnswer": "Developers merge small, frequent updates to a core 'trunk' or main branch",
+            "difficulty": "hard",
+            "topic": "Version Control"
+        },
+        {
+            "question": "What is 'Kaizen'?",
+            "options": [
+                "Continuous Improvement",
+                "A Japanese car",
+                "A martial art",
+                "Fixing bugs"
+            ],
+            "correctAnswer": "Continuous Improvement",
+            "difficulty": "hard",
+            "topic": "Lean"
+        },
+        {
+            "question": "What is 'Value Stream Mapping'?",
+            "options": [
+                "Visualizing the flow of material and information required to bring a product to the customer",
+                "Mapping river streams",
+                "Mapping money",
+                "Mapping database"
+            ],
+            "correctAnswer": "Visualizing the flow of material and information required to bring a product to the customer",
+            "difficulty": "hard",
+            "topic": "Lean"
+        },
+        {
+            "question": "What is 'The Three Amigos'?",
+            "options": [
+                "Business Analyst, Developer, Tester",
+                "Three Friends",
+                "Three Managers",
+                "CEO, CTO, CFO"
+            ],
+            "correctAnswer": "Business Analyst, Developer, Tester",
+            "difficulty": "hard",
+            "topic": "Collaboration"
+        },
+        {
+            "question": "What is 'INVEST' in User Stories?",
+            "options": [
+                "Independent, Negotiable, Valuable, Estimable, Small, Testable",
+                "Investment strategy",
+                "Invest in stocks",
+                "None"
+            ],
+            "correctAnswer": "Independent, Negotiable, Valuable, Estimable, Small, Testable",
+            "difficulty": "hard",
+            "topic": "Requirements"
+        },
+        {
+            "question": "What is 'Dry' principle?",
+            "options": [
+                "Don't Repeat Yourself",
+                "Don't Run Yet",
+                "Do Repeat Yourself",
+                "Dry code"
+            ],
+            "correctAnswer": "Don't Repeat Yourself",
+            "difficulty": "easy",
+            "topic": "Principles"
+        },
+        {
+            "question": "What is 'KISS' principle?",
+            "options": [
+                "Keep It Simple, Stupid",
+                "Keep It Super Safe",
+                "Keep It Short Sweet",
+                "A band"
+            ],
+            "correctAnswer": "Keep It Simple, Stupid",
+            "difficulty": "easy",
+            "topic": "Principles"
+        },
+        {
+            "question": "What is 'YAGNI' principle?",
+            "options": [
+                "You Aren't Gonna Need It",
+                "You Are Good Now",
+                "Yellow And Green",
+                "Yes And Go"
+            ],
+            "correctAnswer": "You Aren't Gonna Need It",
+            "difficulty": "easy",
+            "topic": "Principles"
+        },
+        {
+            "question": "What is 'SOLID'?",
+            "options": [
+                "Five design principles for object-oriented programming",
+                "Hard code",
+                "Liquid code",
+                "A state of matter"
+            ],
+            "correctAnswer": "Five design principles for object-oriented programming",
+            "difficulty": "hard",
+            "topic": "Principles"
+        },
+        {
+            "question": "What is 'Cone of Uncertainty'?",
+            "options": [
+                "The evolution of the amount of uncertainty during a project",
+                "A traffic cone",
+                "A math problem",
+                "Unknown bug"
+            ],
+            "correctAnswer": "The evolution of the amount of uncertainty during a project",
+            "difficulty": "hard",
+            "topic": "Estimation"
+        },
+        {
+            "question": "What is 'Information Radiator'?",
+            "options": [
+                "A visual display used to convey information to the team/stakeholders (e.g., Kanban board)",
+                "A heater",
+                "A radio",
+                "A document"
+            ],
+            "correctAnswer": "A visual display used to convey information to the team/stakeholders (e.g., Kanban board)",
+            "difficulty": "hard",
+            "topic": "Communication"
+        },
+        {
+            "question": "What is 'Bus Factor'?",
+            "options": [
+                "The risk of losing key knowledge if team members disappear",
+                "Public transport",
+                "Bus speed",
+                "Number of buses"
+            ],
+            "correctAnswer": "The risk of losing key knowledge if team members disappear",
+            "difficulty": "hard",
+            "topic": "Risk"
+        },
+        {
+            "question": "What is 'Walking Skeleton'?",
+            "options": [
+                "A tiny implementation of the system that performs a small end-to-end function",
+                "A scary skeleton",
+                "Walking code",
+                "Dead code"
+            ],
+            "correctAnswer": "A tiny implementation of the system that performs a small end-to-end function",
+            "difficulty": "hard",
+            "topic": "Architecture"
+        }
+    ]
+}

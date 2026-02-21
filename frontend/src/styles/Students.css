@@ -1,0 +1,150 @@
+/* Reset any default margins that might cause overlap */
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 20px; /* height of fixed navbar */
+}
+
+.students-section {
+  padding: 2rem 0;
+  min-height: 100vh;
+  background-color: #f9fafb;
+  position: relative;
+  z-index: 1;
+}
+
+/* Ensure the header doesn't overlap content */
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Add padding to the top of the container to push content below the header */
+.container {
+  padding-top: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+h2 {
+  margin-top: 0;
+  padding-top: 2rem; /* Reduced from 5rem to 2rem */
+  text-align: center;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 2rem; /* Reduced from 3rem */
+  font-weight: 700;
+  position: relative;
+  z-index: 1;
+}
+
+/* Add this if you have a fixed navbar */
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  /* Add your navbar styles here */
+}
+
+/* Keep all your existing styles below */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  color: #4a90e2;
+  margin-bottom: 1.5rem;
+}
+
+.feature-card h3 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.feature-card p {
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #4a90e2;
+  color: #4a90e2;
+  width: 100%;
+  margin-top: auto;
+}
+
+.btn-outline:hover {
+  background: #4a90e2;
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .students-section {
+    padding: 4rem 1rem 2rem; /* Further reduced padding for mobile */
+    min-height: auto;
+    margin-top: 3.5rem; /* Smaller margin for mobile */
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin: 1rem 0 2rem;
+    padding-top: 0;
+  }
+  
+  .container {
+    padding: 0 1rem;
+  }
+}

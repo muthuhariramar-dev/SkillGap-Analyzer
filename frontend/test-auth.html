@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Auth Test</title>
+</head>
+<body>
+    <h1>Authentication Test</h1>
+    
+    <h2>Login Test</h2>
+    <button onclick="testLogin()">Test Login</button>
+    <div id="loginResult"></div>
+    
+    <h2>Register Test</h2>
+    <button onclick="testRegister()">Test Register</button>
+    <div id="registerResult"></div>
+    
+    <script>
+        async function testLogin() {
+            try {
+                const response = await fetch('http://localhost:8000/api/auth/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        email: 'test@example.com',
+                        password: 'Test123!'
+                    })
+                });
+                
+                const data = await response.json();
+                document.getElementById('loginResult').innerHTML = `
+                    <h3>Login Result:</h3>
+                    <p>Status: ${response.status}</p>
+                    <pre>${JSON.stringify(data, null, 2)}</pre>
+                `;
+            } catch (error) {
+                document.getElementById('loginResult').innerHTML = `
+                    <h3>Login Error:</h3>
+                    <p>${error.message}</p>
+                `;
+            }
+        }
+        
+        async function testRegister() {
+            try {
+                const formData = new FormData();
+                formData.append('fullName', 'Test User');
+                formData.append('email', 'test2@example.com');
+                formData.append('password', 'Test123!');
+                formData.append('userType', 'student');
+                
+                const response = await fetch('http://localhost:8000/api/auth/register', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                document.getElementById('registerResult').innerHTML = `
+                    <h3>Register Result:</h3>
+                    <p>Status: ${response.status}</p>
+                    <pre>${JSON.stringify(data, null, 2)}</pre>
+                `;
+            } catch (error) {
+                document.getElementById('registerResult').innerHTML = `
+                    <h3>Register Error:</h3>
+                    <p>${error.message}</p>
+                `;
+            }
+        }
+    </script>
+</body>
+</html>

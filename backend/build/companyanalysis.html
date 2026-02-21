@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Analysis - Placement Preparation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* =========================
+   GLOBAL RESET & BASE
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding-left: 1.2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+}
+
+/* =========================
+   HEADER & NAVBAR
+========================= */
+.header {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.nav-menu a {
+    margin-left: 1.5rem;
+    font-weight: 500;
+    transition: opacity 0.3s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active {
+    opacity: 0.8;
+    text-decoration: underline;
+    background: rgba(255,255,255,0.1);
+}
+
+.back-btn {
+    background: rgba(255,255,255,0.2);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #fff;
+    transition: background 0.3s ease;
+}
+
+.back-btn:hover {
+    background: rgba(255,255,255,0.3);
+}
+
+/* =========================
+   HERO SECTIONS
+========================= */
+.hero,
+.hero-section {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 3rem;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    margin: 2rem auto;
+}
+
+.hero-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.hero-icon {
+    font-size: 3rem;
+    color: #667eea;
+    margin-bottom: 1rem;
+}
+
+.hero h1,
+.hero-section h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.hero p,
+.hero-section p,
+.hero-description {
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 1rem;
+    line-height: 1.8;
+}
+
+/* =========================
+   SECTION COMMON
+========================= */
+.section {
+    padding: 3.5rem 0;
+}
+
+.section-alt {
+    background: #ffffff;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.section-header h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.section-header p {
+    color: #666;
+    margin-top: 0.5rem;
+    font-size: 1.05rem;
+}
+
+/* =========================
+   GRID & CARD SYSTEM
+========================= */
+.analysis-grid,
+.companies-grid,
+.sectors-grid,
+.criteria-grid,
+.structure-grid,
+.cultural-factors,
+.strategy-grid,
+.salary-benefits,
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+.analysis-card,
+.company-card,
+.sector-card,
+.criteria-item,
+.structure-item,
+.factor-card,
+.strategy-item,
+.benefit-card,
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.analysis-card:hover,
+.company-card:hover,
+.sector-card:hover,
+.factor-card:hover,
+.benefit-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+}
+
+.analysis-card h3,
+.company-card h3,
+.sector-card h3,
+.factor-card h3,
+.benefit-card h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.analysis-card p,
+.sector-card p,
+.factor-card p,
+.benefit-card p {
+    color: #666;
+    line-height: 1.7;
+}
+
+/* =========================
+   ICONS
+========================= */
+.card-icon,
+.sector-icon,
+.factor-icon,
+.benefit-icon {
+    font-size: 2rem;
+    color: #667eea;
+    margin-bottom: 1rem;
+}
+
+/* =========================
+   COMPANY CARDS
+========================= */
+.company-info {
+    margin: 1rem 0;
+}
+
+.company-info p {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 0.4rem;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.75rem;
+    border-radius: 4px;
+    margin-right: 0.4rem;
+    margin-top: 0.5rem;
+    font-weight: 500;
+}
+
+.badge.hiring {
+    background: #28a745;
+    color: #fff;
+}
+
+.badge.top-tier {
+    background: #ffc107;
+    color: #212529;
+}
+
+/* =========================
+   INTRO SECTIONS
+========================= */
+.companies-intro,
+.salary-intro,
+.culture-intro,
+.process-intro {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    color: #555;
+    margin-bottom: 2rem;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+/* =========================
+   INTERVIEW PROCESS
+========================= */
+.process-stages {
+    max-width: 900px;
+    margin: auto;
+}
+
+.stage-card {
+    display: flex;
+    gap: 1.5rem;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.stage-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #764ba2;
+    min-width: 3rem;
+}
+
+.stage-content h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.stage-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.8rem;
+    margin-top: 0.8rem;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.detail-item i {
+    color: #667eea;
+}
+
+/* =========================
+   ASSESSMENT CRITERIA
+========================= */
+.assessment-criteria {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.assessment-criteria h3 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.criteria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.criteria-item {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 1rem;
+    background: #f8f9fa;
+}
+
+.criteria-item i {
+    color: #667eea;
+    font-size: 1.5rem;
+}
+
+.criteria-item span {
+    color: #555;
+}
+
+/* =========================
+   SALARY SECTION
+========================= */
+.salary-structure {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.salary-structure h3 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.structure-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.structure-item {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.structure-item i {
+    color: #667eea;
+    font-size: 1.5rem;
+}
+
+.structure-item span {
+    color: #555;
+}
+
+/* =========================
+   LIST STYLING
+========================= */
+.placement-cell-info,
+.evaluation-factors,
+.self-assessment {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.placement-cell-info h3,
+.evaluation-factors h3,
+.self-assessment h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.placement-cell-info p,
+.evaluation-factors p,
+.self-assessment p {
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.placement-cell-info ul,
+.evaluation-factors ul,
+.self-assessment ul {
+    margin-top: 1rem;
+}
+
+.placement-cell-info li,
+.evaluation-factors li,
+.self-assessment li {
+    margin-bottom: 0.5rem;
+    color: #555;
+    line-height: 1.7;
+}
+
+/* =========================
+   CULTURE FIT SECTION
+========================= */
+.culture-benefits {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.culture-benefits h3 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.benefits-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.benefit-item {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.benefit-item i {
+    color: #667eea;
+    font-size: 1.5rem;
+}
+
+.benefit-item span {
+    color: #555;
+}
+
+/* =========================
+   IMPORTANCE SECTION
+========================= */
+.importance-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.importance-content > p {
+    text-align: center;
+    color: #555;
+    margin-bottom: 2rem;
+    font-size: 1.05rem;
+}
+
+.strategy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.strategy-item {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.strategy-item i {
+    color: #667eea;
+    font-size: 1.5rem;
+}
+
+.strategy-item span {
+    color: #555;
+}
+
+.placement-cell-role {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.placement-cell-role h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.placement-cell-role p {
+    color: #555;
+    line-height: 1.7;
+}
+
+/* =========================
+   CONCLUSION & CTA
+========================= */
+.conclusion-section {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #ffffff;
+    text-align: center;
+}
+
+.conclusion-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.conclusion-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.conclusion-section p {
+    max-width: 900px;
+    margin: 1rem auto;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.final-message {
+    margin: 2rem 0;
+}
+
+.final-message p {
+    font-weight: 500;
+    font-size: 1.15rem;
+}
+
+.cta-buttons {
+    margin-top: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 500;
+    margin: 0.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.cta-button i {
+    margin-right: 0.5rem;
+}
+
+.cta-button.primary {
+    background: #ffffff;
+    color: #667eea;
+}
+
+.cta-button.secondary {
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.cta-button.secondary:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+/* =========================
+   FOOTER
+========================= */
+.footer {
+    background: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+}
+
+.footer-content p {
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+}
+
+.footer-content p:first-child {
+    font-weight: 500;
+}
+
+.footer-content p:last-child {
+    color: #bdc3c7;
+    font-size: 0.9rem;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-menu a {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .hero h1,
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero p,
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    .stage-card {
+        flex-direction: column;
+    }
+
+    .section-header h2 {
+        font-size: 1.7rem;
+    }
+
+    .conclusion-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    .analysis-grid,
+    .companies-grid,
+    .sectors-grid,
+    .salary-benefits {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1,
+    .hero-section h1 {
+        font-size: 1.6rem;
+    }
+
+    .section-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .stage-number {
+        font-size: 1.5rem;
+    }
+
+    .cta-button {
+        display: block;
+        margin: 0.5rem auto;
+    }
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-building"></i>
+                    <span>Company Analysis</span>
+                </div>
+                <a href="/placements" class="back-btn">
+                    <i class="fas fa-arrow-left"></i> Back to Placements
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="hero">
+            <h1>Company Analysis Dashboard</h1>
+            <p>Discover top companies, their hiring patterns, and placement insights</p>
+        </div>
+
+        <div class="companies-grid">
+            <div class="company-card">
+                <h3>Tech Mahindra</h3>
+                <div class="company-info">
+                    <p><strong>Industry:</strong> IT Services & Consulting</p>
+                    <p><strong>Headquarters:</strong> Pune, India</p>
+                    <p><strong>Employees:</strong> 125,000+</p>
+                    <p><strong>Founded:</strong> 1986</p>
+                </div>
+                <div>
+                    <span class="badge hiring">Actively Hiring</span>
+                    <span class="badge top-tier">Top Tier</span>
+                </div>
+            </div>
+
+            <div class="company-card">
+                <h3>Infosys</h3>
+                <div class="company-info">
+                    <p><strong>Industry:</strong> IT Services & Consulting</p>
+                    <p><strong>Headquarters:</strong> Bangalore, India</p>
+                    <p><strong>Employees:</strong> 280,000+</p>
+                    <p><strong>Founded:</strong> 1981</p>
+                </div>
+                <div>
+                    <span class="badge hiring">Actively Hiring</span>
+                    <span class="badge top-tier">Top Tier</span>
+                </div>
+            </div>
+
+            <div class="company-card">
+                <h3>Wipro</h3>
+                <div class="company-info">
+                    <p><strong>Industry:</strong> IT Services & Consulting</p>
+                    <p><strong>Headquarters:</strong> Bangalore, India</p>
+                    <p><strong>Employees:</strong> 200,000+</p>
+                    <p><strong>Founded:</strong> 1945</p>
+                </div>
+                <div>
+                    <span class="badge hiring">Actively Hiring</span>
+                    <span class="badge top-tier">Top Tier</span>
+                </div>
+            </div>
+
+            <div class="company-card">
+                <h3>HCL Technologies</h3>
+                <div class="company-info">
+                    <p><strong>Industry:</strong> IT Services & Consulting</p>
+                    <p><strong>Headquarters:</strong> Noida, India</p>
+                    <p><strong>Employees:</strong> 150,000+</p>
+                    <p><strong>Founded:</strong> 1976</p>
+                </div>
+                <div>
+                    <span class="badge hiring">Actively Hiring</span>
+                    <span class="badge top-tier">Top Tier</span>
+                </div>
+            </div>
+
+            <div class="company-card">
+                <h3>TCS (Tata Consultancy Services)</h3>
+                <div class="company-info">
+                    <p><strong>Industry:</strong> IT Services & Consulting</p>
+                    <p><strong>Headquarters:</strong> Mumbai, India</p>
+                    <p><strong>Employees:</strong> 500,000+</p>
+                    <p><strong>Founded:</strong> 1968</p>
+                </div>
+                <div>
+                    <span class="badge hiring">Actively Hiring</span>
+                    <span class="badge top-tier">Top Tier</span>
+                </div>
+            </div>
+
+            <div class="company-card">
+                <h3>Accenture</h3>
+                <div class="company-info">
+                    <p><strong>Industry:</strong> IT Services & Consulting</p>
+                    <p><strong>Headquarters:</strong> Dublin, Ireland</p>
+                    <p><strong>Employees:</strong> 700,000+</p>
+                    <p><strong>Founded:</strong> 1989</p>
+                </div>
+                <div>
+                    <span class="badge hiring">Actively Hiring</span>
+                    <span class="badge top-tier">Top Tier</span>
+                </div>
+            </div>
+        </div>
+    </div>
+                </div>
+                <div class="nav-menu">
+                    <a href="#overview" class="nav-link">Overview</a>
+                    <a href="#top-companies" class="nav-link">Top Companies</a>
+                    <a href="#interview-process" class="nav-link">Interview Process</a>
+                    <a href="#salary-benchmarks" class="nav-link">Salary</a>
+                    <a href="#culture-fit" class="nav-link">Culture Fit</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="hero-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h1>📘 COMPANY ANALYSIS</h1>
+                <p class="hero-description">
+                    Company analysis plays a crucial role in preparing students for successful participation in campus placement and recruitment drives. 
+                    It enables students to develop a comprehensive understanding of organizations before applying, thereby reducing uncertainty and improving decision-making.
+                </p>
+            </div>
+        </section>
+
+        <!-- Overview Section -->
+        <section id="overview" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Understanding Company Analysis</h2>
+                    <p>Comprehensive insights into organizational structure and expectations</p>
+                </div>
+
+                <div class="analysis-grid">
+                    <div class="analysis-card">
+                        <div class="card-icon">
+                            <i class="fas fa-sitemap"></i>
+                        </div>
+                        <h3>Organizational Structure</h3>
+                        <p>Understanding the company's hierarchy, departments, leadership structure, and core business functions helps students identify where their skills may fit best.</p>
+                    </div>
+
+                    <div class="analysis-card">
+                        <div class="card-icon">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                        <h3>Industry Relevance</h3>
+                        <p>Students learn how the company competes within its industry, its major competitors, and its contribution to the market.</p>
+                    </div>
+
+                    <div class="analysis-card">
+                        <div class="card-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Technologies & Skills</h3>
+                        <p>Awareness of commonly used tools, programming languages, platforms, and methodologies enables students to focus their preparation on relevant skills.</p>
+                    </div>
+
+                    <div class="analysis-card">
+                        <div class="card-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3>Job Roles & Responsibilities</h3>
+                        <p>Students understand entry-level roles, responsibilities, training programs, and expectations for fresh graduates.</p>
+                    </div>
+
+                    <div class="analysis-card">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Career Progression</h3>
+                        <p>Insights into promotions, certifications, mentorship programs, and internal mobility help students plan long-term career growth.</p>
+                    </div>
+
+                    <div class="analysis-card">
+                        <div class="card-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3>Benefits of Analysis</h3>
+                        <p>A strong understanding of company profiles empowers students to customize resumes, demonstrate genuine interest, and choose organizations aligned with career goals.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Top Hiring Companies Section -->
+        <section id="top-companies" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2>🏢 TOP HIRING COMPANIES</h2>
+                    <p>Organizations that consistently recruit graduates through campus placement programs</p>
+                </div>
+
+                <div class="companies-intro">
+                    <p>Top hiring companies are organizations that consistently recruit graduates through campus placement programs, pooled drives, and off-campus recruitment initiatives. These companies represent a wide range of industries and offer diverse career opportunities for students from different academic backgrounds.</p>
+                </div>
+
+                <div class="sectors-grid">
+                    <div class="sector-card">
+                        <div class="sector-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Information Technology</h3>
+                        <p>Software Services & IT Consulting</p>
+                    </div>
+
+                    <div class="sector-card">
+                        <div class="sector-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Product-Based Tech</h3>
+                        <p>Technology Companies & Product Development</p>
+                    </div>
+
+                    <div class="sector-card">
+                        <div class="sector-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>Core Engineering</h3>
+                        <p>Manufacturing & Industrial Engineering</p>
+                    </div>
+
+                    <div class="sector-card">
+                        <div class="sector-icon">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <h3>Banking & Finance</h3>
+                        <p>Financial Services & Insurance</p>
+                    </div>
+
+                    <div class="sector-card">
+                        <div class="sector-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Consulting</h3>
+                        <p>Business Consulting & Analytics</p>
+                    </div>
+
+                    <div class="sector-card">
+                        <div class="sector-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Startups</h3>
+                        <p>Emerging Enterprises & Innovation</p>
+                    </div>
+                </div>
+
+                <div class="placement-cell-info">
+                    <h3>Placement Cell Support</h3>
+                    <p>The placement cell provides students with detailed insights such as:</p>
+                    <ul>
+                        <li>Frequently visiting recruiters and historical hiring patterns</li>
+                        <li>Eligibility criteria, including academic performance, skill requirements, and certifications</li>
+                        <li>Selection process, including test formats and interview rounds</li>
+                        <li>Job roles and responsibilities</li>
+                        <li>Current employment trends and industry demand</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interview Process Section -->
+        <section id="interview-process" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>🧠 INTERVIEW PROCESS INSIGHTS</h2>
+                    <p>Understanding the structured recruitment process for better preparation</p>
+                </div>
+
+                <div class="process-intro">
+                    <p>Understanding the interview process is a critical component of placement preparation. Most organizations follow a structured and multi-stage recruitment process designed to evaluate a candidate's knowledge, problem-solving ability, communication skills, and professional attitude.</p>
+                </div>
+
+                <div class="process-stages">
+                    <div class="stage-card">
+                        <div class="stage-number">1</div>
+                        <div class="stage-content">
+                            <h3>Online Assessment / Written Test</h3>
+                            <div class="stage-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-calculator"></i>
+                                    <span>Quantitative aptitude</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-brain"></i>
+                                    <span>Logical reasoning</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-comment"></i>
+                                    <span>Verbal ability</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-code"></i>
+                                    <span>Technical or coding assessments</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stage-card">
+                        <div class="stage-number">2</div>
+                        <div class="stage-content">
+                            <h3>Technical Interview Rounds</h3>
+                            <div class="stage-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-book"></i>
+                                    <span>Core subject knowledge</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-terminal"></i>
+                                    <span>Programming fundamentals</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-puzzle-piece"></i>
+                                    <span>Practical problem-solving</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-cogs"></i>
+                                    <span>Domain-specific questions</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stage-card">
+                        <div class="stage-number">3</div>
+                        <div class="stage-content">
+                            <h3>Managerial and HR Interviews</h3>
+                            <div class="stage-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-comments"></i>
+                                    <span>Communication and interpersonal skills</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-smile"></i>
+                                    <span>Attitude, ethics, and teamwork</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-bullseye"></i>
+                                    <span>Career goals and adaptability</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-question-circle"></i>
+                                    <span>Situational and behavioral questions</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="assessment-criteria">
+                    <h3>Interview Assessment Criteria</h3>
+                    <div class="criteria-grid">
+                        <div class="criteria-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Clarity of thought</span>
+                        </div>
+                        <div class="criteria-item">
+                            <i class="fas fa-heart"></i>
+                            <span>Confidence and honesty</span>
+                        </div>
+                        <div class="criteria-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Ability to learn and adapt</span>
+                        </div>
+                        <div class="criteria-item">
+                            <i class="fas fa-handshake"></i>
+                            <span>Professional behavior</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Salary Benchmarks Section -->
+        <section id="salary-benchmarks" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2>💰 SALARY BENCHMARKS</h2>
+                    <p>Understanding compensation trends across industries and roles</p>
+                </div>
+
+                <div class="salary-intro">
+                    <p>Salary benchmarks provide students with valuable insights into compensation trends across industries, companies, and job roles. These benchmarks vary based on factors such as organization type, market demand, skill level, and location.</p>
+                </div>
+
+                <div class="salary-benefits">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>Set Realistic Expectations</h3>
+                        <p>Understanding salary benchmarks enables students to set realistic salary expectations and compare multiple job offers objectively.</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <h3>Evaluate Compensation</h3>
+                        <p>Students learn to evaluate compensation beyond initial pay, including benefits, growth opportunities, and work-life balance.</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Career Planning</h3>
+                        <p>A well-informed salary decision supports both financial stability and professional development.</p>
+                    </div>
+                </div>
+
+                <div class="salary-structure">
+                    <h3>Salary Structure Components</h3>
+                    <div class="structure-grid">
+                        <div class="structure-item">
+                            <i class="fas fa-money-bill-wave"></i>
+                            <span>Basic pay</span>
+                        </div>
+                        <div class="structure-item">
+                            <i class="fas fa-gift"></i>
+                            <span>Allowances and bonuses</span>
+                        </div>
+                        <div class="structure-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>Performance incentives</span>
+                        </div>
+                        <div class="structure-item">
+                            <i class="fas fa-chart-pie"></i>
+                            <span>Stock options or benefits</span>
+                        </div>
+                        <div class="structure-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Insurance and welfare benefits</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="evaluation-factors">
+                    <h3>Additional Evaluation Factors</h3>
+                    <p>Students are encouraged to assess salary offers in combination with:</p>
+                    <ul>
+                        <li>Role responsibilities</li>
+                        <li>Learning opportunities</li>
+                        <li>Work-life balance</li>
+                        <li>Long-term career growth</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Culture Fit Section -->
+        <section id="culture-fit" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>🌱 CULTURE FIT ASSESSMENT</h2>
+                    <p>Finding organizations that align with your values and work preferences</p>
+                </div>
+
+                <div class="culture-intro">
+                    <p>Culture fit assessment is essential in determining whether a company's work environment aligns with a student's personal values, work preferences, and long-term aspirations. Organizational culture significantly influences employee satisfaction, productivity, and retention.</p>
+                </div>
+
+                <div class="cultural-factors">
+                    <div class="factor-card">
+                        <div class="factor-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Work-Life Balance</h3>
+                        <p>Flexibility in working hours and personal time management</p>
+                    </div>
+
+                    <div class="factor-card">
+                        <div class="factor-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Team Collaboration</h3>
+                        <p>Communication styles and teamwork approaches</p>
+                    </div>
+
+                    <div class="factor-card">
+                        <div class="factor-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h3>Management Style</h3>
+                        <p>Leadership approach and organizational hierarchy</p>
+                    </div>
+
+                    <div class="factor-card">
+                        <div class="factor-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Learning & Innovation</h3>
+                        <p>Training support and opportunities for growth</p>
+                    </div>
+
+                    <div class="factor-card">
+                        <div class="factor-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <h3>Ethical Practices</h3>
+                        <p>Company values and inclusivity initiatives</p>
+                    </div>
+                </div>
+
+                <div class="self-assessment">
+                    <h3>Self-Assessment Questions</h3>
+                    <p>Students are encouraged to evaluate:</p>
+                    <ul>
+                        <li>Whether they prefer structured or flexible work environments</li>
+                        <li>Their comfort level with fast-paced or high-pressure roles</li>
+                        <li>Alignment with company values and ethics</li>
+                    </ul>
+                </div>
+
+                <div class="culture-benefits">
+                    <h3>Benefits of Good Culture Fit</h3>
+                    <div class="benefits-list">
+                        <div class="benefit-item">
+                            <i class="fas fa-smile"></i>
+                            <span>Greater job satisfaction</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Improved performance</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-infinity"></i>
+                            <span>Long-term career stability</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Importance Section -->
+        <section class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2>🎯 IMPORTANCE OF PLACEMENT PREPAREDNESS</h2>
+                    <p>Comprehensive approach to successful career transitions</p>
+                </div>
+
+                <div class="importance-content">
+                    <p>Placement preparation extends beyond academic knowledge. A successful placement strategy includes:</p>
+                    
+                    <div class="strategy-grid">
+                        <div class="strategy-item">
+                            <i class="fas fa-building"></i>
+                            <span>Understanding companies thoroughly</span>
+                        </div>
+                        <div class="strategy-item">
+                            <i class="fas fa-microphone"></i>
+                            <span>Preparing strategically for interviews</span>
+                        </div>
+                        <div class="strategy-item">
+                            <i class="fas fa-money-bill-wave"></i>
+                            <span>Evaluating compensation and growth opportunities</span>
+                        </div>
+                        <div class="strategy-item">
+                            <i class="fas fa-bullseye"></i>
+                            <span>Choosing organizations aligned with personal goals</span>
+                        </div>
+                    </div>
+
+                    <div class="placement-cell-role">
+                        <h3>Role of Placement Cell</h3>
+                        <p>The placement cell plays a vital role in guiding students through this process by providing timely information, training support, and career guidance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conclusion Section -->
+        <section class="section conclusion-section">
+            <div class="container">
+                <div class="conclusion-content">
+                    <h2>📌 CONCLUSION</h2>
+                    <p>A structured and informed approach to placements enables students to transition confidently from academic life to professional careers. Through company analysis, awareness of top hiring organizations, interview process understanding, salary benchmarking, and culture fit assessment, students are better equipped to make meaningful career choices.</p>
+                    
+                    <div class="final-message">
+                        <p>This comprehensive placement support system ensures that students are not only employable but also prepared for sustainable and fulfilling professional growth.</p>
+                    </div>
+
+                    <div class="cta-buttons">
+                        <a href="#top-companies" class="cta-button primary">
+                            <i class="fas fa-building"></i>
+                            Explore Companies
+                        </a>
+                        <a href="#interview-process" class="cta-button secondary">
+                            <i class="fas fa-microphone"></i>
+                            Prepare for Interviews
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Company Analysis Portal. All rights reserved.</p>
+                <p>Empowering students for successful placement journeys</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Active navigation highlighting
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').slice(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

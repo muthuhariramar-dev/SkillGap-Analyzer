@@ -1,0 +1,605 @@
+{
+    "role": "Data Scientist",
+    "questions": [
+        {
+            "question": "What is 'Supervised Learning'?",
+            "options": [
+                "Learning from labeled data (input-output pairs)",
+                "Learning without labels",
+                "Learning by trial and error",
+                "Deep learning"
+            ],
+            "correctAnswer": "Learning from labeled data (input-output pairs)",
+            "difficulty": "easy",
+            "topic": "Machine Learning"
+        },
+        {
+            "question": "What is 'Unsupervised Learning'?",
+            "options": [
+                "Learning patterns from unlabeled data",
+                "Learning with teacher",
+                "Memorizing data",
+                "Linear regression"
+            ],
+            "correctAnswer": "Learning patterns from unlabeled data",
+            "difficulty": "easy",
+            "topic": "Machine Learning"
+        },
+        {
+            "question": "What is 'Overfitting'?",
+            "options": [
+                "When a model learns the training data too well, capturing noise and failing to generalize",
+                "When model is too big",
+                "When model is too fast",
+                "Underfitting"
+            ],
+            "correctAnswer": "When a model learns the training data too well, capturing noise and failing to generalize",
+            "difficulty": "easy",
+            "topic": "Model Evaluation"
+        },
+        {
+            "question": "What is a 'Confusion Matrix'?",
+            "options": [
+                "A table used to describe the performance of a classification model",
+                "A confusing puzzle",
+                "A movie",
+                "A database"
+            ],
+            "correctAnswer": "A table used to describe the performance of a classification model",
+            "difficulty": "easy",
+            "topic": "Model Evaluation"
+        },
+        {
+            "question": "What is 'Pandas' library used for?",
+            "options": [
+                "Data manipulation and analysis in Python",
+                "Drawing bears",
+                "Web scraping",
+                "Game development"
+            ],
+            "correctAnswer": "Data manipulation and analysis in Python",
+            "difficulty": "easy",
+            "topic": "Tools"
+        },
+        {
+            "question": "What is 'NumPy'?",
+            "options": [
+                "Fundamental package for scientific computing with Python (arrays, matrices)",
+                "Number Python",
+                "Database",
+                "Web server"
+            ],
+            "correctAnswer": "Fundamental package for scientific computing with Python (arrays, matrices)",
+            "difficulty": "easy",
+            "topic": "Tools"
+        },
+        {
+            "question": "What is 'Regression'?",
+            "options": [
+                "Predicting a continuous value (e.g., price)",
+                "Predicting a category",
+                "Moving backwards",
+                "Deleting data"
+            ],
+            "correctAnswer": "Predicting a continuous value (e.g., price)",
+            "difficulty": "easy",
+            "topic": "Statistics"
+        },
+        {
+            "question": "What is 'Classification'?",
+            "options": [
+                "Predicting a category/class (e.g., spam or not spam)",
+                "Sorting files",
+                "Grouping people",
+                "Ranking"
+            ],
+            "correctAnswer": "Predicting a category/class (e.g., spam or not spam)",
+            "difficulty": "easy",
+            "topic": "Statistics"
+        },
+        {
+            "question": "What is 'Feature Engineering'?",
+            "options": [
+                "Process of using domain knowledge to extract features from raw data",
+                "Building products",
+                "Designing UI",
+                "Cleaning data"
+            ],
+            "correctAnswer": "Process of using domain knowledge to extract features from raw data",
+            "difficulty": "medium",
+            "topic": "Data Prep"
+        },
+        {
+            "question": "What is 'Bias-Variance Tradeoff'?",
+            "options": [
+                "The property of a model that the variance of the parameter estimated across samples can be reduced by increasing the bias in the estimated parameters",
+                "Trading stocks",
+                "Biased news",
+                "Variance analysis"
+            ],
+            "correctAnswer": "The property of a model that the variance of the parameter estimated across samples can be reduced by increasing the bias in the estimated parameters",
+            "difficulty": "medium",
+            "topic": "Model Evaluation"
+        },
+        {
+            "question": "What is 'Cross-Validation'?",
+            "options": [
+                "Resampling procedure used to evaluate machine learning models on a limited data sample",
+                "Crossing data",
+                "Validating twice",
+                "Checking for bugs"
+            ],
+            "correctAnswer": "Resampling procedure used to evaluate machine learning models on a limited data sample",
+            "difficulty": "medium",
+            "topic": "Model Evaluation"
+        },
+        {
+            "question": "What is 'Normal Distribution'?",
+            "options": [
+                "A probability distribution that is symmetric about the mean (Bell curve)",
+                "Random distribution",
+                "Uniform distribution",
+                "Skewed distribution"
+            ],
+            "correctAnswer": "A probability distribution that is symmetric about the mean (Bell curve)",
+            "difficulty": "medium",
+            "topic": "Statistics"
+        },
+        {
+            "question": "What is 'P-value'?",
+            "options": [
+                "The probability of obtaining test results at least as extreme as the results actually observed, under the assumption that the null hypothesis is correct",
+                "Probability of winning",
+                "Percentage value",
+                "Positive value"
+            ],
+            "correctAnswer": "The probability of obtaining test results at least as extreme as the results actually observed, under the assumption that the null hypothesis is correct",
+            "difficulty": "medium",
+            "topic": "Statistics"
+        },
+        {
+            "question": "What is 'Random Forest'?",
+            "options": [
+                "An ensemble learning method for classification/regression that operates by constructing a multitude of decision trees",
+                "A forest",
+                "Random numbers",
+                "Single tree"
+            ],
+            "correctAnswer": "An ensemble learning method for classification/regression that operates by constructing a multitude of decision trees",
+            "difficulty": "medium",
+            "topic": "Algorithms"
+        },
+        {
+            "question": "What is 'K-Means Clustering'?",
+            "options": [
+                "A method of vector quantization, meant to partition n observations into k clusters",
+                "A mean calculation",
+                "A sorting algorithm",
+                "A graph"
+            ],
+            "correctAnswer": "A method of vector quantization, meant to partition n observations into k clusters",
+            "difficulty": "medium",
+            "topic": "Algorithms"
+        },
+        {
+            "question": "What is 'Deep Learning'?",
+            "options": [
+                "A subset of machine learning based on artificial neural networks with representation learning",
+                "Learning hard things",
+                "Deep thinking",
+                "Reading books"
+            ],
+            "correctAnswer": "A subset of machine learning based on artificial neural networks with representation learning",
+            "difficulty": "medium",
+            "topic": "Deep Learning"
+        },
+        {
+            "question": "What is 'TensorFlow'?",
+            "options": [
+                "An end-to-end open source platform for machine learning",
+                "A physics engine",
+                "A game",
+                "A flow chart"
+            ],
+            "correctAnswer": "An end-to-end open source platform for machine learning",
+            "difficulty": "medium",
+            "topic": "Tools"
+        },
+        {
+            "question": "What is 'NLP'?",
+            "options": [
+                "Natural Language Processing",
+                "Non Linear Programming",
+                "New Learning Process",
+                "Neural Language Path"
+            ],
+            "correctAnswer": "Natural Language Processing",
+            "difficulty": "medium",
+            "topic": "NLP"
+        },
+        {
+            "question": "What is 'A/B Testing'?",
+            "options": [
+                "Controlled experiment with two variants",
+                "Alphabet testing",
+                "Testing bugs",
+                "Testing blood"
+            ],
+            "correctAnswer": "Controlled experiment with two variants",
+            "difficulty": "medium",
+            "topic": "Experimentation"
+        },
+        {
+            "question": "What is 'Gradient Descent'?",
+            "options": [
+                "An iterative optimization algorithm for finding a local minimum of a differentiable function",
+                "Going downhill",
+                "Color gradient",
+                "Descending order"
+            ],
+            "correctAnswer": "An iterative optimization algorithm for finding a local minimum of a differentiable function",
+            "difficulty": "medium",
+            "topic": "Optimization"
+        },
+        {
+            "question": "What is 'One-Hot Encoding'?",
+            "options": [
+                "Converting categorical data to numerical data (binary vectors)",
+                "Hot code",
+                "Encoding video",
+                "Password hashing"
+            ],
+            "correctAnswer": "Converting categorical data to numerical data (binary vectors)",
+            "difficulty": "medium",
+            "topic": "Data Prep"
+        },
+        {
+            "question": "What is 'Regularization' (L1/L2)?",
+            "options": [
+                "Technique used to prevent overfitting by adding a penalty term to the loss function",
+                "Regular updates",
+                "Normalizing data",
+                "Formatting code"
+            ],
+            "correctAnswer": "Technique used to prevent overfitting by adding a penalty term to the loss function",
+            "difficulty": "medium",
+            "topic": "Optimization"
+        },
+        {
+            "question": "What is 'Reinforcement Learning'?",
+            "options": [
+                "Learning by interacting with an environment (rewards/penalties)",
+                "Learning by reading",
+                "Learning by force",
+                "Supervised learning"
+            ],
+            "correctAnswer": "Learning by interacting with an environment (rewards/penalties)",
+            "difficulty": "medium",
+            "topic": "Reinforcement Learning"
+        },
+        {
+            "question": "What is 'ROC Curve'?",
+            "options": [
+                "Receiver Operating Characteristic curve (plot of TPR vs FPR)",
+                "Rock music",
+                "Rolling curve",
+                "Rate of Change"
+            ],
+            "correctAnswer": "Receiver Operating Characteristic curve (plot of TPR vs FPR)",
+            "difficulty": "medium",
+            "topic": "Model Evaluation"
+        },
+        {
+            "question": "What is 'Precision'?",
+            "options": [
+                "True Positives / (True Positives + False Positives)",
+                "Accuracy",
+                "Recall",
+                "Sensitivity"
+            ],
+            "correctAnswer": "True Positives / (True Positives + False Positives)",
+            "difficulty": "medium",
+            "topic": "Metrics"
+        },
+        {
+            "question": "What is 'Recall' (Sensitivity)?",
+            "options": [
+                "True Positives / (True Positives + False Negatives)",
+                "Memory",
+                "Speed",
+                "Precision"
+            ],
+            "correctAnswer": "True Positives / (True Positives + False Negatives)",
+            "difficulty": "medium",
+            "topic": "Metrics"
+        },
+        {
+            "question": "What is 'F1 Score'?",
+            "options": [
+                "Harmonic mean of Precision and Recall",
+                "Average score",
+                "Formula 1",
+                "Fast score"
+            ],
+            "correctAnswer": "Harmonic mean of Precision and Recall",
+            "difficulty": "hard",
+            "topic": "Metrics"
+        },
+        {
+            "question": "What is 'Ensemble Learning'?",
+            "options": [
+                "Using multiple learning algorithms to obtain better predictive performance",
+                "Learning together",
+                "Learning music",
+                "Single model"
+            ],
+            "correctAnswer": "Using multiple learning algorithms to obtain better predictive performance",
+            "difficulty": "hard",
+            "topic": "Algorithms"
+        },
+        {
+            "question": "What is 'PCA'?",
+            "options": [
+                "Principal Component Analysis (Dimensionality reduction)",
+                "Personal Computer",
+                "Project Cost Analysis",
+                "Primary Code Area"
+            ],
+            "correctAnswer": "Principal Component Analysis (Dimensionality reduction)",
+            "difficulty": "hard",
+            "topic": "Algorithms"
+        },
+        {
+            "question": "What is 'Bagging'?",
+            "options": [
+                "Bootstrap Aggregating (e.g., Random Forest)",
+                "Shopping",
+                "Packing",
+                "Deleting"
+            ],
+            "correctAnswer": "Bootstrap Aggregating (e.g., Random Forest)",
+            "difficulty": "hard",
+            "topic": "Ensemble"
+        },
+        {
+            "question": "What is 'Boosting'?",
+            "options": [
+                "Ensemble technique that converts weak learners to strong ones (e.g., XGBoost)",
+                "Incentive",
+                "Speed up",
+                "Volume up"
+            ],
+            "correctAnswer": "Ensemble technique that converts weak learners to strong ones (e.g., XGBoost)",
+            "difficulty": "hard",
+            "topic": "Ensemble"
+        },
+        {
+            "question": "What is 'Vanishing Gradient Problem'?",
+            "options": [
+                "Gradients become vanishingly small preventing weight updates in deep networks",
+                "Disappearing colors",
+                "Bug in code",
+                "Fast gradient"
+            ],
+            "correctAnswer": "Gradients become vanishingly small preventing weight updates in deep networks",
+            "difficulty": "hard",
+            "topic": "Deep Learning"
+        },
+        {
+            "question": "What is 'LSTM'?",
+            "options": [
+                "Long Short-Term Memory (RNN architecture)",
+                "Last System Time",
+                "List Memory",
+                "Low Speed Transmission"
+            ],
+            "correctAnswer": "Long Short-Term Memory (RNN architecture)",
+            "difficulty": "hard",
+            "topic": "Deep Learning"
+        },
+        {
+            "question": "What is 'CNN'?",
+            "options": [
+                "Convolutional Neural Network (Image processing)",
+                "News channel",
+                "Computer Network",
+                "Complex Neural Net"
+            ],
+            "correctAnswer": "Convolutional Neural Network (Image processing)",
+            "difficulty": "hard",
+            "topic": "Deep Learning"
+        },
+        {
+            "question": "What is 'Transfer Learning'?",
+            "options": [
+                "Storing knowledge gained while solving one problem and applying it to a different but related problem",
+                "Transferring files",
+                "Learning to transfer",
+                "Copying homework"
+            ],
+            "correctAnswer": "Storing knowledge gained while solving one problem and applying it to a different but related problem",
+            "difficulty": "hard",
+            "topic": "Deep Learning"
+        },
+        {
+            "question": "What is 'Imbalanced Dataset'?",
+            "options": [
+                "When the classes are not represented equally",
+                "Uneven numbers",
+                "Bad data",
+                "Corrupt file"
+            ],
+            "correctAnswer": "When the classes are not represented equally",
+            "difficulty": "hard",
+            "topic": "Data Prep"
+        },
+        {
+            "question": "What is 'SMOTE'?",
+            "options": [
+                "Synthetic Minority Over-sampling Technique",
+                "Smoke",
+                "Smart Note",
+                "Smooth"
+            ],
+            "correctAnswer": "Synthetic Minority Over-sampling Technique",
+            "difficulty": "hard",
+            "topic": "Data Prep"
+        },
+        {
+            "question": "What is 'Exploratory Data Analysis' (EDA)?",
+            "options": [
+                "Analyzing data sets to summarize their main characteristics, often with visual methods",
+                "Exploring map",
+                "Finding files",
+                "Deleting data"
+            ],
+            "correctAnswer": "Analyzing data sets to summarize their main characteristics, often with visual methods",
+            "difficulty": "hard",
+            "topic": "Process"
+        },
+        {
+            "question": "What is 'Feature Scaling'?",
+            "options": [
+                "Normalizing the range of independent variables or features of data",
+                "Scaling image",
+                "Zooming",
+                "Measuring weight"
+            ],
+            "correctAnswer": "Normalizing the range of independent variables or features of data",
+            "difficulty": "hard",
+            "topic": "Data Prep"
+        },
+        {
+            "question": "What is 'Hyperparameter Tuning'?",
+            "options": [
+                "Choosing a set of optimal hyperparameters for a learning algorithm",
+                "Tuning guitar",
+                "Speeding up",
+                "Fixing bugs"
+            ],
+            "correctAnswer": "Choosing a set of optimal hyperparameters for a learning algorithm",
+            "difficulty": "hard",
+            "topic": "Optimization"
+        },
+        {
+            "question": "What is 'TimeSeries Analysis'?",
+            "options": [
+                "Methods for analyzing time series data in order to extract meaningful statistics",
+                "Analyzing clocks",
+                "History class",
+                "Timing code"
+            ],
+            "correctAnswer": "Methods for analyzing time series data in order to extract meaningful statistics",
+            "difficulty": "hard",
+            "topic": "Analysis"
+        },
+        {
+            "question": "What is 'ARIMA'?",
+            "options": [
+                "AutoRegressive Integrated Moving Average (Time series model)",
+                "A name",
+                "Area estimation",
+                "Algorithm"
+            ],
+            "correctAnswer": "AutoRegressive Integrated Moving Average (Time series model)",
+            "difficulty": "hard",
+            "topic": "Analysis"
+        },
+        {
+            "question": "What is 'Null Hypothesis'?",
+            "options": [
+                "The hypothesis that there is no significant difference between specified populations",
+                "Zero hypothesis",
+                "Bad hypothesis",
+                "True hypothesis"
+            ],
+            "correctAnswer": "The hypothesis that there is no significant difference between specified populations",
+            "difficulty": "hard",
+            "topic": "Statistics"
+        },
+        {
+            "question": "What is 'Type I Error'?",
+            "options": [
+                "False Positive (Rejecting a true null hypothesis)",
+                "False Negative",
+                "Syntax Error",
+                "Runtime Error"
+            ],
+            "correctAnswer": "False Positive (Rejecting a true null hypothesis)",
+            "difficulty": "hard",
+            "topic": "Statistics"
+        },
+        {
+            "question": "What is 'Type II Error'?",
+            "options": [
+                "False Negative (Failing to reject a false null hypothesis)",
+                "False Positive",
+                "Logic Error",
+                "Hardware Error"
+            ],
+            "correctAnswer": "False Negative (Failing to reject a false null hypothesis)",
+            "difficulty": "hard",
+            "topic": "Statistics"
+        },
+        {
+            "question": "What is 'Bias' in ML?",
+            "options": [
+                "Simplified assumptions made by a model to make the target function easier to learn",
+                "Prejudice",
+                "Preference",
+                "Offset"
+            ],
+            "correctAnswer": "Simplified assumptions made by a model to make the target function easier to learn",
+            "difficulty": "hard",
+            "topic": "Theory"
+        },
+        {
+            "question": "What is 'Variance' in ML?",
+            "options": [
+                "The amount that the estimate of the target function will change if different training data was used",
+                "Difference",
+                "Standard deviation",
+                "Variety"
+            ],
+            "correctAnswer": "The amount that the estimate of the target function will change if different training data was used",
+            "difficulty": "hard",
+            "topic": "Theory"
+        },
+        {
+            "question": "What is 'Activation Function'?",
+            "options": [
+                "Function that defines the output of that node given an input or set of inputs (e.g., ReLU, Sigmoid)",
+                "Start button",
+                "Power switch",
+                "Trigger"
+            ],
+            "correctAnswer": "Function that defines the output of that node given an input or set of inputs (e.g., ReLU, Sigmoid)",
+            "difficulty": "medium",
+            "topic": "Deep Learning"
+        },
+        {
+            "question": "What is 'Dropout'?",
+            "options": [
+                "Regularization technique where randomly selected neurons are ignored during training",
+                "Quitting school",
+                "Connection loss",
+                "Deleting files"
+            ],
+            "correctAnswer": "Regularization technique where randomly selected neurons are ignored during training",
+            "difficulty": "hard",
+            "topic": "Deep Learning"
+        },
+        {
+            "question": "What is 'Tokenization'?",
+            "options": [
+                "Breaking a stream of text up into words, phrases, symbols, or other meaningful elements",
+                "Login token",
+                "Coin",
+                "Payment"
+            ],
+            "correctAnswer": "Breaking a stream of text up into words, phrases, symbols, or other meaningful elements",
+            "difficulty": "hard",
+            "topic": "NLP"
+        }
+    ]
+}

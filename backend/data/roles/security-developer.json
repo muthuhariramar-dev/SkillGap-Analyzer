@@ -1,0 +1,605 @@
+{
+    "role": "Security Developer",
+    "questions": [
+        {
+            "question": "What is the CIA Triad?",
+            "options": [
+                "Confidentiality, Integrity, Availability",
+                "Central Intelligence Agency",
+                "Code, Input, Audit",
+                "Computer Internet Access"
+            ],
+            "correctAnswer": "Confidentiality, Integrity, Availability",
+            "difficulty": "easy",
+            "topic": "Fundamentals"
+        },
+        {
+            "question": "What is 'SQL Injection'?",
+            "options": [
+                "Inserting malicious SQL statements into entry fields for execution",
+                "Medical injection",
+                "Updating database",
+                "Optimizing queries"
+            ],
+            "correctAnswer": "Inserting malicious SQL statements into entry fields for execution",
+            "difficulty": "easy",
+            "topic": "Vulnerabilities"
+        },
+        {
+            "question": "What is 'XSS'?",
+            "options": [
+                "Cross-Site Scripting",
+                "Cascading Style Sheets",
+                "Extra Super Speed",
+                "XML Site Source"
+            ],
+            "correctAnswer": "Cross-Site Scripting",
+            "difficulty": "easy",
+            "topic": "Vulnerabilities"
+        },
+        {
+            "question": "What is 'HTTPS'?",
+            "options": [
+                "Hypertext Transfer Protocol Secure",
+                "Hypertext Transfer Protocol Standard",
+                "High Tech Protocol System",
+                "HTML Pages Source"
+            ],
+            "correctAnswer": "Hypertext Transfer Protocol Secure",
+            "difficulty": "easy",
+            "topic": "Encryption"
+        },
+        {
+            "question": "What is 'Phishing'?",
+            "options": [
+                "Fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity",
+                "Fishing for fish",
+                "Testing connection",
+                "Network scan"
+            ],
+            "correctAnswer": "Fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity",
+            "difficulty": "easy",
+            "topic": "Social Engineering"
+        },
+        {
+            "question": "What is 'Encryption'?",
+            "options": [
+                "Encoding information so that only authorized parties can access it",
+                "Deleting data",
+                "Compressing files",
+                "Hiding files"
+            ],
+            "correctAnswer": "Encoding information so that only authorized parties can access it",
+            "difficulty": "easy",
+            "topic": "Cryptography"
+        },
+        {
+            "question": "What is a 'Firewall'?",
+            "options": [
+                "Network security system that monitors and controls incoming and outgoing network traffic",
+                "A wall of fire",
+                "Antivirus",
+                "A browser"
+            ],
+            "correctAnswer": "Network security system that monitors and controls incoming and outgoing network traffic",
+            "difficulty": "easy",
+            "topic": "Network Security"
+        },
+        {
+            "question": "What is a 'Hash Function'?",
+            "options": [
+                "Function that maps data of arbitrary size to fixed-size values",
+                "A potato dish",
+                "A random number",
+                "A key"
+            ],
+            "correctAnswer": "Function that maps data of arbitrary size to fixed-size values",
+            "difficulty": "easy",
+            "topic": "Cryptography"
+        },
+        {
+            "question": "What is '2FA'?",
+            "options": [
+                "Two-Factor Authentication",
+                "2 Fast apps",
+                "Secondary server",
+                "Double backup"
+            ],
+            "correctAnswer": "Two-Factor Authentication",
+            "difficulty": "easy",
+            "topic": "Authentication"
+        },
+        {
+            "question": "What is 'Malware'?",
+            "options": [
+                "Malicious Software",
+                "Male wear",
+                "Bad hardware",
+                "Broken code"
+            ],
+            "correctAnswer": "Malicious Software",
+            "difficulty": "easy",
+            "topic": "Threats"
+        },
+        {
+            "question": "What is 'Salt' in password hashing?",
+            "options": [
+                "Random data that is used as an additional input to a one-way function that hashes data",
+                "Table salt",
+                "Pepper",
+                "Sugar"
+            ],
+            "correctAnswer": "Random data that is used as an additional input to a one-way function that hashes data",
+            "difficulty": "medium",
+            "topic": "Cryptography"
+        },
+        {
+            "question": "What is 'CSRF'?",
+            "options": [
+                "Cross-Site Request Forgery",
+                "Customer Service Request Form",
+                "Common Server Runtime Failure",
+                "Code Source Reference File"
+            ],
+            "correctAnswer": "Cross-Site Request Forgery",
+            "difficulty": "medium",
+            "topic": "Vulnerabilities"
+        },
+        {
+            "question": "What is 'DDoS'?",
+            "options": [
+                "Distributed Denial of Service",
+                "Direct Disk Operating System",
+                "Double Data on System",
+                "Download Data on Server"
+            ],
+            "correctAnswer": "Distributed Denial of Service",
+            "difficulty": "medium",
+            "topic": "Attacks"
+        },
+        {
+            "question": "What is 'Penetration Testing'?",
+            "options": [
+                "Simulated cyberattack against your computer system to check for exploitable vulnerabilities",
+                "Testing pens",
+                "Hardware testing",
+                "Unit testing"
+            ],
+            "correctAnswer": "Simulated cyberattack against your computer system to check for exploitable vulnerabilities",
+            "difficulty": "medium",
+            "topic": "Testing"
+        },
+        {
+            "question": "What is 'Public Key Infrastructure' (PKI)?",
+            "options": [
+                "Roles, policies, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates",
+                "Public keys on github",
+                "Key to the city",
+                "Server infrastructure"
+            ],
+            "correctAnswer": "Roles, policies, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates",
+            "difficulty": "medium",
+            "topic": "Cryptography"
+        },
+        {
+            "question": "What is 'OWASP'?",
+            "options": [
+                "Open Web Application Security Project",
+                "Online Web App Server Provider",
+                "Only Web Apps Secure Protocol",
+                "Organization for Web Safety"
+            ],
+            "correctAnswer": "Open Web Application Security Project",
+            "difficulty": "medium",
+            "topic": "Standards"
+        },
+        {
+            "question": "What is 'Zero Day Exploit'?",
+            "options": [
+                "Attack that targets a publicly known but unpatched software vulnerability",
+                "Attack on day 0",
+                "First day of work",
+                "No exploit"
+            ],
+            "correctAnswer": "Attack that targets a publicly known but unpatched software vulnerability",
+            "difficulty": "medium",
+            "topic": "Attacks"
+        },
+        {
+            "question": "What is 'Man-in-the-Middle' attack?",
+            "options": [
+                "Attacker secretly relays and possibly alters the communication between two parties",
+                "Referee",
+                "Server in middle",
+                "Router"
+            ],
+            "correctAnswer": "Attacker secretly relays and possibly alters the communication between two parties",
+            "difficulty": "medium",
+            "topic": "Attacks"
+        },
+        {
+            "question": "What is 'Least Privilege' principle?",
+            "options": [
+                "Giving a user/process only those privileges which are essential to perform its intended function",
+                "No privileges",
+                "Full admin access",
+                "Guest access"
+            ],
+            "correctAnswer": "Giving a user/process only those privileges which are essential to perform its intended function",
+            "difficulty": "medium",
+            "topic": "Principles"
+        },
+        {
+            "question": "What is 'Ransomware'?",
+            "options": [
+                "Malware that employs encryption to hold a victim's information at ransom",
+                "Free software",
+                "Antivirus",
+                "Backup tool"
+            ],
+            "correctAnswer": "Malware that employs encryption to hold a victim's information at ransom",
+            "difficulty": "medium",
+            "topic": "Threats"
+        },
+        {
+            "question": "What is 'TLS'?",
+            "options": [
+                "Transport Layer Security (successor to SSL)",
+                "Total Loss System",
+                "Technical Layer Service",
+                "Time Limit Set"
+            ],
+            "correctAnswer": "Transport Layer Security (successor to SSL)",
+            "difficulty": "medium",
+            "topic": "Encryption"
+        },
+        {
+            "question": "What is 'Symmetric Encryption'?",
+            "options": [
+                "Same key is used for encryption and decryption",
+                "Different keys",
+                "No keys",
+                "Public key only"
+            ],
+            "correctAnswer": "Same key is used for encryption and decryption",
+            "difficulty": "medium",
+            "topic": "Cryptography"
+        },
+        {
+            "question": "What is 'Asymmetric Encryption'?",
+            "options": [
+                "Uses a pair of keys (public and private)",
+                "Same key",
+                "No keys",
+                "Private key only"
+            ],
+            "correctAnswer": "Uses a pair of keys (public and private)",
+            "difficulty": "medium",
+            "topic": "Cryptography"
+        },
+        {
+            "question": "What is 'VPN'?",
+            "options": [
+                "Virtual Private Network",
+                "Very Public Network",
+                "Visual Private Node",
+                "Virus Protection Network"
+            ],
+            "correctAnswer": "Virtual Private Network",
+            "difficulty": "medium",
+            "topic": "Privacy"
+        },
+        {
+            "question": "What is 'Input Sanitization' used for?",
+            "options": [
+                "Cleaning input to prevent injection attacks",
+                "Cleaning keyboard",
+                "Deleting input",
+                "Formatting text"
+            ],
+            "correctAnswer": "Cleaning input to prevent injection attacks",
+            "difficulty": "medium",
+            "topic": "Defense"
+        },
+        {
+            "question": "What is 'OAuth'?",
+            "options": [
+                "Open standard for access delegation (authorization)",
+                "Authentication only",
+                "Author name",
+                "Open Source"
+            ],
+            "correctAnswer": "Open standard for access delegation (authorization)",
+            "difficulty": "hard",
+            "topic": "Auth"
+        },
+        {
+            "question": "What is 'JWT'?",
+            "options": [
+                "JSON Web Token",
+                "Java Web Tool",
+                "JavaScript Web Technology",
+                "Just With Time"
+            ],
+            "correctAnswer": "JSON Web Token",
+            "difficulty": "medium",
+            "topic": "Auth"
+        },
+        {
+            "question": "What is 'Rainbow Table'?",
+            "options": [
+                "Precomputed table for reversing cryptographic hash functions",
+                "Colorful table",
+                "Color palette",
+                "Database table"
+            ],
+            "correctAnswer": "Precomputed table for reversing cryptographic hash functions",
+            "difficulty": "hard",
+            "topic": "Cryptography"
+        },
+        {
+            "question": "What is 'Defense in Depth'?",
+            "options": [
+                "Using coordinated use of multiple security countermeasures",
+                "Deep moat",
+                "One strong wall",
+                "Hiding in depth"
+            ],
+            "correctAnswer": "Using coordinated use of multiple security countermeasures",
+            "difficulty": "hard",
+            "topic": "Strategy"
+        },
+        {
+            "question": "What is 'Session Hijacking'?",
+            "options": [
+                "Exploitation of a valid computer session to gain unauthorized access",
+                "Stealing a laptop",
+                "Logging out",
+                "Session timeout"
+            ],
+            "correctAnswer": "Exploitation of a valid computer session to gain unauthorized access",
+            "difficulty": "hard",
+            "topic": "Attacks"
+        },
+        {
+            "question": "What is 'Rootkit'?",
+            "options": [
+                "Collection of computer software, typically malicious, designed to enable access to a computer or an area of its software that is not otherwise allowed",
+                "Admin tool",
+                "Root vegetable",
+                "Dev kit"
+            ],
+            "correctAnswer": "Collection of computer software, typically malicious, designed to enable access to a computer or an area of its software that is not otherwise allowed",
+            "difficulty": "hard",
+            "topic": "Malware"
+        },
+        {
+            "question": "What is 'Honey Pot'?",
+            "options": [
+                "A decoy system used to trap hackers",
+                "Sweet food",
+                "Money safe",
+                "Storage"
+            ],
+            "correctAnswer": "A decoy system used to trap hackers",
+            "difficulty": "hard",
+            "topic": "Defense"
+        },
+        {
+            "question": "What is 'Clickjacking'?",
+            "options": [
+                "Tricking a user into clicking on something different from what the user perceives",
+                "Stealing mouse",
+                "Fast clicking",
+                "Broken link"
+            ],
+            "correctAnswer": "Tricking a user into clicking on something different from what the user perceives",
+            "difficulty": "hard",
+            "topic": "Attacks"
+        },
+        {
+            "question": "What is 'Security thru Obscurity'?",
+            "options": [
+                "Relying on secrecy of design or implementation as the main method of providing security (bad practice)",
+                "Hiding server",
+                "Dark mode",
+                "Secure method"
+            ],
+            "correctAnswer": "Relying on secrecy of design or implementation as the main method of providing security (bad practice)",
+            "difficulty": "hard",
+            "topic": "Principles"
+        },
+        {
+            "question": "What is 'Diffie-Hellman'?",
+            "options": [
+                "Key exchange method used to securely exchange cryptographic keys",
+                "Two people",
+                "Password",
+                "Encryption algo"
+            ],
+            "correctAnswer": "Key exchange method used to securely exchange cryptographic keys",
+            "difficulty": "hard",
+            "topic": "Cryptography"
+        },
+        {
+            "question": "What is 'Logic Bomb'?",
+            "options": [
+                "Code intentionally inserted into a software system that will set off a malicious function when specified conditions are met",
+                "Logical argument",
+                "Explosive",
+                "Bug"
+            ],
+            "correctAnswer": "Code intentionally inserted into a software system that will set off a malicious function when specified conditions are met",
+            "difficulty": "hard",
+            "topic": "Malware"
+        },
+        {
+            "question": "What is 'Buffer Overflow'?",
+            "options": [
+                "Anomaly where a program, while writing data to a buffer, overruns the buffer's boundary and overwrites adjacent memory locations",
+                "Too much video",
+                "Slow internet",
+                "Full disk"
+            ],
+            "correctAnswer": "Anomaly where a program, while writing data to a buffer, overruns the buffer's boundary and overwrites adjacent memory locations",
+            "difficulty": "hard",
+            "topic": "Vulnerabilities"
+        },
+        {
+            "question": "What is 'CVE'?",
+            "options": [
+                "Common Vulnerabilities and Exposures",
+                "Computer Virus Encyclopedia",
+                "Cyber Value Estimation",
+                "Code Verify Error"
+            ],
+            "correctAnswer": "Common Vulnerabilities and Exposures",
+            "difficulty": "hard",
+            "topic": "Standards"
+        },
+        {
+            "question": "What is 'Air Gap'?",
+            "options": [
+                "Security measure to physically isolate a computer or network from unsecured networks (internet)",
+                "Space between desks",
+                "Ventilation",
+                "Wifi dead zone"
+            ],
+            "correctAnswer": "Security measure to physically isolate a computer or network from unsecured networks (internet)",
+            "difficulty": "hard",
+            "topic": "Defense"
+        },
+        {
+            "question": "What is 'SOC'?",
+            "options": [
+                "Security Operations Center",
+                "System On Chip",
+                "Social",
+                "Socket"
+            ],
+            "correctAnswer": "Security Operations Center",
+            "difficulty": "hard",
+            "topic": "Operations"
+        },
+        {
+            "question": "What is 'AES'?",
+            "options": [
+                "Advanced Encryption Standard",
+                "Apple Encryption System",
+                "Auto Enforce Security",
+                "All Encrypted Safe"
+            ],
+            "correctAnswer": "Advanced Encryption Standard",
+            "difficulty": "hard",
+            "topic": "Encryption"
+        },
+        {
+            "question": "What is 'RSA'?",
+            "options": [
+                "Rivest-Shamir-Adleman (public-key cryptosystem)",
+                "Really Secure App",
+                "Remote Server Access",
+                "Random String Algorithm"
+            ],
+            "correctAnswer": "Rivest-Shamir-Adleman (public-key cryptosystem)",
+            "difficulty": "hard",
+            "topic": "Encryption"
+        },
+        {
+            "question": "What is 'Non-repudiation'?",
+            "options": [
+                "Assurance that someone cannot deny something (e.g., sending a message)",
+                "Denial",
+                "Refusal",
+                "Agreement"
+            ],
+            "correctAnswer": "Assurance that someone cannot deny something (e.g., sending a message)",
+            "difficulty": "hard",
+            "topic": "Security Concepts"
+        },
+        {
+            "question": "What is 'WAF'?",
+            "options": [
+                "Web Application Firewall",
+                "Wifi Access Free",
+                "Wide Area File",
+                "Web Admin Form"
+            ],
+            "correctAnswer": "Web Application Firewall",
+            "difficulty": "hard",
+            "topic": "Defense"
+        },
+        {
+            "question": "What is 'Sandbox' escape?",
+            "options": [
+                "Exploit that breaks out of the sandbox environment",
+                "Leaving playground",
+                "Closing app",
+                "Deleting sandbox"
+            ],
+            "correctAnswer": "Exploit that breaks out of the sandbox environment",
+            "difficulty": "hard",
+            "topic": "Exploits"
+        },
+        {
+            "question": "What is 'SIEM'?",
+            "options": [
+                "Security Information and Event Management",
+                "Simple Information Event Management",
+                "System Integrity Error Monitor",
+                "Secure Instant Email Message"
+            ],
+            "correctAnswer": "Security Information and Event Management",
+            "difficulty": "hard",
+            "topic": "Tools"
+        },
+        {
+            "question": "What is 'Port Scanning'?",
+            "options": [
+                "Probing a server or host for open ports",
+                "Scanning documents",
+                "Checking USB",
+                "Shipping ports"
+            ],
+            "correctAnswer": "Probing a server or host for open ports",
+            "difficulty": "medium",
+            "topic": "Reconnaissance"
+        },
+        {
+            "question": "What is 'Shadow IT'?",
+            "options": [
+                "Use of IT systems without explicit approval",
+                "IT in dark",
+                "Night shift IT",
+                "Legal IT"
+            ],
+            "correctAnswer": "Use of IT systems without explicit approval",
+            "difficulty": "hard",
+            "topic": "Risk"
+        },
+        {
+            "question": "What is 'Social Engineering'?",
+            "options": [
+                "Psychological manipulation of people into performing actions or divulging confidential information",
+                "Building society",
+                "Social media",
+                "Networking"
+            ],
+            "correctAnswer": "Psychological manipulation of people into performing actions or divulging confidential information",
+            "difficulty": "easy",
+            "topic": "Attacks"
+        },
+        {
+            "question": "What is 'Keylogger'?",
+            "options": [
+                "Software that tracks keys struck on a keyboard",
+                "Logging keys",
+                "Key maker",
+                "Password manager"
+            ],
+            "correctAnswer": "Software that tracks keys struck on a keyboard",
+            "difficulty": "medium",
+            "topic": "Malware"
+        }
+    ]
+}
